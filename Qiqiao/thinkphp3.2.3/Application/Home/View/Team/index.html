@@ -1,0 +1,41 @@
+<!-- 导入头部文件 -->
+<include file="Public/header" />
+<!-- 导入css文件 -->
+<link href="__PUBLIC__/Home/css/team.css" rel="stylesheet">
+
+<!---------------内容----------------------  -->
+<div class="container">
+    <div class="row">
+        <div class="team-list col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div>
+            <volist name="tdata" id="vo">
+                <ul class="team-item col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <if condition="$vo.team_pic EQ null">
+                <li class="teamlist-pic col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="__PUBLIC__/Home/image/team/team-default.jpg"></li>
+                <else />
+                    <li class="teamlist-pic col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="__PUBLIC__/Home/image/team/{$vo.team_pic}"></li>
+                </if>
+
+                    <li class="teamlist-title col-lg-7  col-md-6 col-sm-6 col-xs-12"><a href="{:U('Team/excellentTeam',array('id'=>$vo['id']))}">{$vo.team_name}</a></li>
+                    <li class="teamlist-summary col-lg-7  col-md-6 col-sm-6 col-xs-12">
+                        <p>{$vo.team_summary}</p>
+                    </li>
+                    <li class="teamlist-btn col-lg-2  col-md-2 col-sm-1 col-xs-11"><a href="{:U('Team/excellentTeam',array('id'=>$vo['id']))}">查看详情</a></li>
+                </ul>
+               </volist>
+            </div>
+            <!-- 分页 -->
+                    <div class="infor-page paginList" style="padding: 20px 0px 0px 0px;margin: 20px 0px 0px 0px;">{$page}
+                    </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript   -->
+    <!-- 导航栏点击变颜色 -->
+    <script type="text/javascript">
+        $("#team").addClass('homepage');
+    </script>
+
+ <!-- -------------footer底部--------- -->
+<include file="Public/footer" />

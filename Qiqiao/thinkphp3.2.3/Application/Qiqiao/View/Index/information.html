@@ -1,0 +1,77 @@
+<extend name="Public/base"/>
+<block name="css">
+<style>
+.panel-head{border-bottom: 1px dashed #7A7676; height:35px;margin-bottom: 20px;}
+
+
+
+</style>
+</block>
+<block name="body">
+
+
+        <div class="line-big">
+
+        
+        <div class="row state-overview center-block" style="margin-top:50px;background:white;">
+            <div class="panel-head"><strong style="color:#7A7676;line-height:35px;">站点统计</strong></div>
+            <div class="col-md-3 col-xs-3 col-sm-3" style="margin-left:100px;">
+                <div class="panel purple">
+                    <div class="symbol">
+                        <i class="glyphicon glyphicon-facetime-video"></i>
+                    </div>
+                    <div class="state-value">
+                        <div class="value">{$info.movie}</div>
+                        <div class="title">影片</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-3 col-sm-3">
+                <div class="panel red">
+                    <div class="symbol">
+                        <i class="glyphicon glyphicon-edit"></i>
+                    </div>
+                    <div class="state-value">
+                        <div class="value">{$info.news}</div>
+                        <div class="title">文章</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-xs-3 col-sm-3">
+                <div class="panel blue">
+                    <div class="symbol">
+                        <i class="glyphicon glyphicon-user"></i>
+                    </div>
+                    <div class="state-value">
+                        <div class="value">{$info.users}</div>
+                        <div class="title"> 用户</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br />
+
+        <div class="panel">
+            <div class="panel-head"><strong style="color:#7A7676;line-height:35px;">系统信息</strong></div>
+            <table class="table" style="margin-left:100px;">
+                <tr><th colspan="2">服务器信息</th><th colspan="2">系统信息</th></tr>
+                <tr><td width="110" align="right">操作系统：</td><td>{$Think.const.PHP_OS}</td>
+                <td width="90" align="right">运行环境：</td><td>{$_SERVER['SERVER_SOFTWARE']}</td></tr>
+                <tr><td align="right">MYSQL版本：</td><php>
+                        $system_info_mysql = M()->query("select version() as v;");
+                    </php><td>{$system_info_mysql.0.v}</td>
+                <td align="right">上传限制：</td><td>{:ini_get('upload_max_filesize')}</td></tr>
+                <tr><td align="right">程序语言：</td><td>PHP</td>
+                <td align="right">官网：</td><td><a href="{:C('UPDATE_URL')}" target="_blank">{:C('UPDATE_URL')}</a></td></tr>
+                <tr><td align="right">数据库：</td><td>MySQL</td>
+                <td align="right">系统版本：</td><td>{:C('WEB_VERSION')}</td></tr>
+            </table>
+        </div>
+    </div>
+    </block>
+
+
+
+

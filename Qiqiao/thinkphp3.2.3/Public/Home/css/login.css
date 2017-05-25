@@ -1,0 +1,355 @@
+body {
+    /*    background: rgba(0,0,0,0.1);*/
+    background-image: url('../image/login-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-no-bg {
+    background: none;
+    border: none;
+}
+
+.collapsed {
+    border: 1px solid rgba(255, 255, 255, 1.0);
+}
+
+.navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 1.0);
+    /*    font-weight: 600;*/
+    font-size: 26px;
+    padding: 12px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Microsoft YaHei";
+}
+
+.li-social {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+.li-social a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    margin: 2px 4px 0px 4px;
+    padding: 4px 2px 2px 2px;
+    font-family: "Microsoft YaHei"
+}
+
+.li-social a:hover {
+    color: rgba(247, 132, 17, 1.0);
+    font-weight: 600;
+}
+.free-register,
+.tologin-btn,
+.reg-enter{
+    cursor: pointer; 
+}
+
+
+/*登陆表单*/
+
+.loginform-box {
+    background: rgba(238, 238, 238, 1.0);
+    padding: 20px 30px 6px 30px;
+}
+
+.loginform-box .form-group {
+    padding: 0px 0px 0px 0px;
+    margin-top: 20px;
+}
+
+.loginform-box .form-group input {
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+
+.loginform-box .remember {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+
+.loginform-box .remember .checkbox {
+    display: inline-block;
+    margin-right: 100px;
+    padding-left: 15px;
+}
+
+.loginform-box .remember .forget-psw {
+    display: inline-block;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.loginform-box .remember .forget-psw:hover {
+    color: rgba(247, 132, 17, 1.0);
+}
+
+.loginform-box .loginbtn {
+    margin: 8px 0px 8px 0px;
+}
+
+.loginform-box .loginbtn button {
+    margin: 0px 0px 10px 0px;
+    font-size: 18px;
+    color: white;
+    background: rgba(20, 160, 198, 1.0);
+    font-family: "Microsoft YaHei";
+}
+
+.loginform-box .loginbtn button:hover {
+    background: rgba(45, 186, 223, 1.0);
+}
+
+.loginform-box .toregister {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+.loginform-box .toregister .free-register{
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    margin: 8px 100px 6px 0px;
+}
+
+.loginform-box .toregister .free-register:hover {
+    color: rgba(247, 132, 17, 1.0);
+    text-decoration: underline;
+}
+
+.loginform-box .toregister a {
+    text-decoration: none;
+}
+
+.loginform-box .toregister .otherLogin {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 30px;
+}
+
+.loginform-box .toregister .otherLogin li {
+    display: inline-block;
+}
+
+.loginform-box .toregister .otherLogin li a {
+    display: inline-block;
+    padding: 8px 8px 8px 8px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 50%;
+}
+
+.loginform-box .toregister .otherLogin li i {
+    font-size: 20px;
+}
+
+.loginform-box .toregister .otherLogin li .qqlogin {
+    border: 1px solid rgba(20, 160, 198, 1.0);
+    background: rgba(20, 160, 198, 1.0);
+    color: white;
+}
+
+.loginform-box .toregister .otherLogin li .qqlogin:hover {
+    background: rgba(45, 186, 223, 1.0);
+    border: 1px solid rgba(45, 186, 223, 1.0);
+}
+
+.loginform-box .toregister .otherLogin li .wechatlogin {
+    border: 1px solid rgba(87, 179, 87, 1.0);
+    background: rgba(87, 179, 87, 1.0);
+    color: white;
+}
+
+.loginform-box .toregister .otherLogin li .wechatlogin:hover {
+    background: rgba(14, 205, 27, 1.0);
+    border: 1px solid rgba(14, 205, 27, 1.0);
+}
+
+.loginform-box .toregister .otherLogin li .weibologin {
+    border: 1px solid rgba(248, 96, 96, 1.0);
+    background: rgba(248, 96, 96, 1.0);
+    color: white;
+}
+
+.loginform-box .toregister .otherLogin li .weibologin:hover {
+    background: rgba(245, 45, 44, 1.0);
+    border: 1px solid rgba(245, 45, 44, 1.0);
+}
+
+
+/*注册表单*/
+
+.form-box {
+    background: rgba(238, 238, 238, 1.0);
+    padding: 20px 30px 6px 30px;
+}
+
+.form-box .form-top {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 18px 0px;
+}
+
+.form-box .form-top ul li {
+    padding: 0px 0px 0px 0px;
+}
+
+.form-box .form-top ul li a {
+    display: block;
+    padding: 6px 0px 4px 4px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(238, 238, 238, 1.0);
+}
+
+.form-box .form-top ul li a:hover {
+    background: rgba(255, 255, 255, 1.0);
+    border: none;
+    color: rgba(247, 132, 17, 1.0);
+    border-bottom: 1px solid rgba(247, 132, 17, 1.0);
+}
+
+.input-group .get-code {
+    background: rgba(20, 160, 198, 1.0);
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.input-group .get-code:hover {
+    background: rgba(45, 186, 223, 1.0);
+}
+
+.phone-form input,
+.email-form input {
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+
+.form-group {
+    margin-bottom: 2px;
+    margin-top: 12px;
+}
+
+.phone-form .agree,
+.email-form .agree {
+    margin: 0px;
+    padding: 0px;
+}
+
+.phone-form .agree .checkbox label,
+.email-form .agree .checkbox label {
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+}
+
+.phone-form .agree .checkbox label a:hover {
+    color: rgba(247, 132, 17, 1.0);
+}
+
+.regbtn button {
+    font-size: 18px;
+    background: rgba(20, 160, 198, 1.0);
+    color: white;
+    font-family: "Microsoft YaHei";
+    margin: 0px 0px 10px 0px;
+}
+
+.regbtn button:hover {
+    color: white;
+    background: rgba(45, 186, 223, 1.0);
+}
+
+.email-form .tologin,
+.phone-form .tologin {
+    margin: 12px 0px 6px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+
+.email-form .tologin p,
+.phone-form .tologin p {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.phone-form .tologin .tologin-btn {
+    color: rgba(20, 160, 198, 1.0);
+    text-decoration: none;
+}
+
+.phone-form .tologin .tologin-btn:hover {
+    color: rgba(247, 132, 17, 1.0);
+    text-decoration: underline;
+}
+
+.email-form .tologin .otherLogin,
+.phone-form .tologin .otherLogin {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 30px;
+}
+
+.email-form .tologin .otherLogin li,
+.phone-form .tologin .otherLogin li {
+    display: inline-block;
+}
+
+.email-form .tologin .otherLogin li a,
+.phone-form .tologin .otherLogin li a {
+    display: inline-block;
+    padding: 8px 8px 8px 8px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 50%;
+}
+
+.email-form .tologin .otherLogin li a i,
+.phone-form .tologin .otherLogin li a i {
+    font-size: 20px;
+}
+
+.email-form .tologin .otherLogin li .qqlogin,
+.phone-form .tologin .otherLogin li .qqlogin {
+    border: 1px solid rgba(20, 160, 198, 1.0);
+    background: rgba(20, 160, 198, 1.0);
+    color: white;
+}
+
+.email-form .tologin .otherLogin li .qqlogin:hover,
+.phone-form .tologin .otherLogin li .qqlogin:hover {
+    background: rgba(45, 186, 223, 1.0);
+    border: 1px solid rgba(45, 186, 223, 1.0);
+}
+
+.email-form .tologin .otherLogin li .wechatlogin,
+.phone-form .tologin .otherLogin li .wechatlogin {
+    border: 1px solid rgba(87, 179, 87, 1.0);
+    background: rgba(87, 179, 87, 1.0);
+    color: white;
+}
+
+.email-form .tologin .otherLogin li .wechatlogin:hover,
+.phone-form .tologin .otherLogin li .wechatlogin:hover {
+    background: rgba(14, 205, 27, 1.0);
+    border: 1px solid rgba(14, 205, 27, 1.0);
+}
+
+.email-form .tologin .otherLogin li .weibologin,
+.phone-form .tologin .otherLogin li .weibologin {
+    border: 1px solid rgba(248, 96, 96, 1.0);
+    background: rgba(248, 96, 96, 1.0);
+    color: white;
+}
+
+.email-form .tologin .otherLogin li .weibologin:hover,
+.phone-form .tologin .otherLogin li .weibologin:hover {
+    background: rgba(245, 45, 44, 1.0);
+    border: 1px solid rgba(245, 45, 44, 1.0);
+}

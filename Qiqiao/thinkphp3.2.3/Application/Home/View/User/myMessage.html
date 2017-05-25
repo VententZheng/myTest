@@ -1,0 +1,113 @@
+<!-- 导入个人中心左侧导航 -->
+<include file="User/index" />
+
+            <!--   我的消息  -->
+            <div class="mymessage col-lg-10 col-md-10 col-sm-9 col-xs-12">
+                <div class="mymessage-title">
+                    <h3>我的消息</h3>
+                </div>
+                <ul id="myTab" class="nav nav-tabs">
+                    <li class="active"><a href="#inform" data-toggle="tab"><i class="glyphicon glyphicon-bullhorn"></i>&nbsp;通知</a></li>
+                    <li>
+                        <a href="#privateLetter" data-toggle="tab">
+                            <i class="fa fa-envelope-o"></i>&nbsp;私信</a>
+                    </li>
+                    <!-- <li><a href="#comment" data-toggle="tab"><i class="glyphicon glyphicon-comment"></i>&nbsp;评论</a></li> -->
+                </ul>
+
+                <div id="myTabContent" class="tab-content">
+                <!-- 通知 -->
+                    <div class="tab-pane fade in active" id="inform">
+                    
+                       <dl class="col-lg-12 col-md-12">
+
+                        <volist name="message" id="v">
+                            <dd class="col-lg-12 col-md-12 message_{$v.id}">
+                                <span class="letcontent col-lg-7 col-md-7">{$v.content}</span>
+                                <a  onclick="set_message('{$v.id}')" class="col-lg-1 col-md-1">知道了</a>
+                            </dd>
+                            </volist>
+                        </dl>
+                        </div>
+                    
+                    <!-- 私信 -->
+                    <div class="tab-pane fade" id="privateLetter">
+                        <dl class="col-lg-12 col-md-12">
+
+                        <volist name="letter_data" id="levo">
+                            <dd class="col-lg-12 col-md-12 privateletter_{$levo.id}">
+                                <span class="letcontent col-lg-7 col-md-7">{$levo.lettercontent}</span>
+                                <span class="lettime col-lg-3 col-md-3">{$levo.letter_time|date="Y年m月d日 H:i:s",###}</span>
+                                <a  onclick="set_privateletter('{$levo.id}')" class="col-lg-2 col-md-2">知道了</a>
+                                
+                            </dd>
+                            </volist>
+                        </dl>
+                    </div>
+                    <!-- 评论 -->
+                    <div class="tab-pane fade" id="comment">
+                        <form class="form-horizontal" role="form">
+                            评论
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+    <!-- JavaScript   -->
+    <!--  点击保存  -->
+    <script>
+        $('.update-nikename').click(function () {
+            $('#nickname').attr("readonly", "readonly"); //设置为只读状态
+            $('.updatenick-btn').trigger('click');
+        });
+    </script>
+    <!-- 侧边导航点击变颜色 -->
+    <script type="text/javascript">
+        $("#mymessage").addClass('centerhome');
+    </script>
+    <!-- 点击查看私信 -->
+    <script type="text/javascript">
+        $('#checkLet').click(function(){
+            var letterid = $('.letter{$levo["id"]}').text();
+            alert(letterid);
+            // $.post(
+            //     '{:U("User/checkLetter")}',
+            //     {}
+            //     )
+        })
+    </script>
+
+    <script>
+        function set_message(element){
+           $.ajax({
+               url:'{:U('User/set_message')}',
+               type:'post',
+               dataType:'json',
+               data:{"id":element},
+               success:function(data){
+                  if(data>=1){
+                    $('.message_'+element).attr('style','display:none');
+                  }
+                }
+            }); 
+            }
+
+    </script>
+    <script>
+           function set_privateletter(element){
+           $.ajax({
+               url:'{:U('User/set_privateletter')}',
+               type:'post',
+               dataType:'json',
+               data:{"id":element},
+               success:function(data){
+                  if(data>=1){
+                    $('.privateletter_'+element).attr('style','display:none');
+                  }
+                }
+            }); 
+            }        
+    </script>
+
+ <!-- -------------footer底部--------- -->
+<include file="Public/footer" />

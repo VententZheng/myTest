@@ -1,0 +1,173 @@
+<include file="Public/header" />
+<link href="__PUBLIC__/Home/css/information.css" rel="stylesheet">
+<!-- 综艺资讯详细内容页面 -->
+<div class="container news">
+    <!-- -------综艺资讯头部---------- -->
+    <div class="row">
+        <div class="new-title col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1 col-xs-8 col-xs-offset-1">
+            <h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12">{$data.news_title}</h1>
+
+            <div class="new-infor col-lg-8 col-md-8 col-sm-7 col-xs-12">
+                <ul>
+                    <li><i class="fa fa-clock-o"> &nbsp;{$data.news_time}</i></li>
+                    <li><span>来源：</span><a href="{:U('Information/index')}">{$data.news_source}</a></li>
+                </ul>
+            </div>
+            <!-- <div class="new-share col-lg-4 col-md-4 col-sm-5 col-xs-12">
+                <ul>
+                    <li><a href="#"><i class="fa fa-qq" title="QQ分享"></i></a></li>
+                    <li><a href="#"><i class="fa fa-wechat" title="微信分享"></i></a></li>
+                    <li><a href="#"><i class="fa fa-weibo" title="微博分享"></i></a></li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- ----综艺资讯详细内容--------- -->
+    <div class="row">
+        <div class="new-content  col-lg-10 col-md-10 col-sm-10 col-xs-10">
+             <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-10 col-md-10 col-sm-10 col-xs-10" style="text-align:justify; white-space:pre-wrap;">{$data.news_content|html_entity_decode}
+             </div>
+        </div>
+        <div class="new-source col-lg-11 col-md-11 col-sm-11 col-xs-11">
+            <ul class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                <li><i><img src="__PUBLIC__/Home/image/source.png"></i><span> {$data.news_source}</span></li>
+                <li><span>责任编辑：{$data.author}</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 分割线 -->
+    <div class="row">
+        <hr class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1 col-xs-8 col-xs-offset-1" style="height:3px;border:none;border-top:2px solid rgba(55,55,55,0.5);"/>
+    </div>
+
+    <!-- -------综艺资讯评论---------- -->
+    <div class="row">
+        <div class="news-comment col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1 col-xs-8 col-xs-offset-1">
+            <!--  发表评论区begin -->
+            <div class="report-comment">
+                <if condition="$commoninfo.id eq 0">
+                    <div class="cominfor">
+                        <span>请登录后发表评论</span>
+                    </div>
+                    <else />
+                    <div class="cominfor">
+                        <img src="__PUBLIC__/Home/image/user_img/{$commoninfo.head_pic}">
+                        <span>{$commoninfo.username}：</span>
+                        <span class="total-com">总 {$totalcom}条</span>
+                    </div>
+                </if>
+                <form action="{:U('Information/addComment')}" method="post" role="form">
+                    <div class="input-group">
+                        <!-- 用户id -->
+                        <input type="hidden" class="input-group" name="userid" value="{$commoninfo.id}">
+                    </div>
+                    <!-- 上级评论id -->
+                    <div class="input-group">
+                        <input type="hidden" class=" input-group" placeholder="" name="pid" value="0">
+                    </div>
+                    <!-- 资讯id -->
+                    <div class="input-group">
+                        <input type="hidden" name="inforid" value="{$data.id}">
+                    </div>
+
+                    <if condition="$commoninfo.id eq 0">
+                        <div class="input-group combtn">
+                            <textarea class="form-control comment" id="content-text" name="comment" rows="3" placeholder="请登陆后输入评论内容"></textarea>
+                            <span class="input-group-btn">
+                            <button class="btn btn-default submit-btn" type="submit" style="height:74px;"><p><i class="fa fa-edit"></i></p><span>登录并发表评论</span></button>
+                            </span>
+                        </div>
+                        <else />
+                        <div class="input-group combtn">
+                            <textarea class="form-control comment" id="content-text" name="comment" rows="3" placeholder="请输入评论内容"></textarea>
+                            <span class="input-group-btn">
+                            <button class="btn btn-default submit-btn" type="submit" style="height:74px;"><p><i class="fa fa-edit"></i></p><span>马上发表</span></button>
+                            </span>
+                        </div>
+                        <p id="error-promt">您是不是忘了说点什么？</p>
+                    </if>
+                </form>
+            </div>
+        </div>
+        </div>
+    <!--  发表评论区end  -->
+
+    <!--  评论列表显示区begin  -->
+    <div class="row">
+        <div class="comment-show col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1 col-xs-8 col-xs-offset-1">
+            <h4>评论内容</h4>
+            <volist name="commentList" id="vo">
+                <eq name="vo.pid" value="0">
+                    <hr class="phr col-lg-12" style="height: 1px;border:none;border-top:1px solid rgba(55,55,55,0.2);" />
+                    <else />
+                    <hr class="chr col-lg-12" style="height: 1px;border:none;border-top:1px dashed rgba(55,55,55,0.2);" />
+                </eq>
+            <div class="comment-list col-lg-12" style="padding-left:{$vo['level']-1}cm">
+                    <!-- 第二个父元素parent().parent() -->
+                <div class="compic col-lg-1">
+                    <img src="__PUBLIC__/Home/image/user_img/{$vo.headPic}">
+                </div>
+                <div class="comcontent col-lg-11">
+                        <!-- 第一个父元素parent() -->
+                    <div class="user">{$vo.uname}</div>
+                    <div class="hftime" id="comtime">{$vo.com_time}</div>
+                    <div class="content">{$vo.com_content}</div>
+                    <div class="hf" id="{$vo.id}">回复</div>
+                </div>
+            </div>
+            </volist>
+        </div>
+    </div>
+    <!-- 评论列表显示区end -->
+
+</div>
+
+
+<!-- JavaScript   -->
+    <!-- 导航栏点击变颜色 -->
+    <script type="text/javascript">
+        $("#information").addClass('homepage');
+    </script>
+
+    <!-- 评论 -->
+
+    <script type="text/javascript">
+        $(function() {
+            $(".hf").click(//点击回复按钮事件
+                    function(e) {
+                        var $this = $(this);
+                        if ($this.parent().parent().next().hasClass('hftext')) {
+                            $this.parent().parent().next().remove();
+                        } else {
+                            $this.parent().parent().after('<div class="hftext"><form action="__CONTROLLER__/addComment" method="post" role="form"><div class="input-group"><input name="article_id" type="hidden" value="{$Article.id}" /></div><div class="input-group"><input name="article_id" type="hidden" value="{$Article.id}" /></div><div class="input-group"><input id="pid" type="hidden" name="pid" value="{$vo.id}" /></div><div class="input-group"><input type="hidden" name="inforid" value="{$data.id}"></div><div class="input-group"><input type="hidden" class="input-group" placeholder="用户id" name="userid" value="{$commoninfo.id}"></div><if condition="$commoninfo.id eq 0"><div class="input-group combtn"> <textarea class="form-control comment" id="content-text2" name="comment" rows="3" placeholder="请登陆后输入评论内容"></textarea><span class="input-group-btn"><button class="btn btn-default submit-btn" type="submit" style="height:74px;"><p><i class="fa fa-edit"></i></p><span>登录并发表评论</span></button></span></div><else /><div class="input-group combtn"><textarea class="form-control comment" id="content-text2" name="comment" rows="3" placeholder="请输入评论内容"></textarea><span class="input-group-btn"><button class="btn btn-default submit-btn" type="submit" style="height:74px;"><p><i class="fa fa-edit"></i></p><span>马上发表</span></button></span></div><p id="error-promtc">您是不是忘了说点什么？</p></if></form></div>');
+                            var v_id = $(e.target).attr('id');//获取元素id;
+                            $("#pid").val(v_id);
+                        }
+
+                        $(".submit-btn").click(function() {
+                            var $this = $(this);
+                            var content = $('#content-text2').val();
+                            if (content == "") {
+                                // alert("评论内容不能为空哦");
+                                $('#error-promtc').slideDown().show().fadeOut(5000);
+                                return false;
+                            }
+                        });
+                        
+                    });
+            $(".submit-btn").click(function() {
+                var $this = $(this);
+                var content = $('#content-text').val();
+                if (content == "") {
+                    $('#error-promt').slideDown().show().fadeOut(5000);
+                    return false;
+                }
+            });
+        });
+    </script>
+        
+    
+<!-- -------------footer底部--------- -->
+<include file="Public/footer" />

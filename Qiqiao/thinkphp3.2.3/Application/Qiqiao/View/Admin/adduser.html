@@ -1,0 +1,172 @@
+<extend name="Public/base"/>
+<block name="body">
+                
+        <div style="margin-left:20px;margin-top:10px;margin-bottom:40px;"><strong>增加管理员</strong></div>
+
+        <form method="post" action="{:U('Admin/handleadduser')}" style="margin:auto;width:600px" id="form">
+        <table class="table table-hover">
+            <tr>
+                <td align="right">用户帐号:</td>
+                <td>
+                    <input type="text" name="name" id="name" />
+                </td>
+            </tr>
+
+
+            <tr>
+                <td align="right">真实姓名:</td>
+                <td>
+                    <input type="text" name="real_name" id="real_name" />
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">性别:</td>
+                <td>
+                    <input type='radio' name="sex" value="1" checked="checked" style="margin-left:20px;"  />男性
+                    <input type='radio' name="sex" value="0" style="margin-left:20px;" />女性
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">年龄:</td>
+                <td>
+                    <input type='text' name="age"  id="age" />
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">电话:</td>
+                <td>
+                    <input type='text' name="tel" id="tel" />
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">身份证:</td>
+                <td>
+                    <input type='text' name="id_card" id="id_card" />
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">邮箱:</td>
+                <td>
+                    <input type='text' name="mail" id="mail" />
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">密码:</td>
+                <td>
+                    <input type="password" name="password" id="password" />
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">所属角色:</td>
+                <td>
+                    <select name="role_id" style="width:150px;text-align:center;" id="role_id">
+                        <option value="" >选择角色</option>
+                        <foreach name='role' item='v'>
+                            <option value="{$v['id']}">{$v.title}</option>
+                        </foreach>
+                    </select>
+                    
+                            
+                </td>
+            </tr>
+            <tr id="last"> 
+            <td colspan="2" align="center">
+                <buttom class="btn btn-info" id="sub">保存添加</buttom>
+            </td>
+            </tr>
+
+            
+            <tr><p class="warn bg-warning" style="display:none;width:300px;float:right;"></p></tr>
+        </table>
+        </form>
+
+        
+
+</block>
+
+
+
+<block name="script">
+<script type="text/javascript">
+
+$("#sub").click(function(){
+
+  var reg_id_card = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+  var reg_tel=/^1[3|4|5|8][0-9]\d{4,8}$/;
+  var reg_age=/^[0-9]*[1-9][0-9]*$/;
+  var reg_mail=/^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/;
+  var name      =$("#name").val();
+  var real_name =$("#real_name").val();
+  var age       =$("#age").val();
+  var tel       =$("#tel").val();
+  var id_card   =$("#id_card").val();
+  var mail      =$("#mail").val();
+  var password  =$("#password").val();
+  var role_id   =$("#role_id").val();
+
+  if(name!='' && real_name!='' && age!='' && tel!='' && id_card!='' && mail!='' && password!='' && role_id!=''){
+      if(!reg_id_card.test(id_card)){
+        str='检查id格式是否正确';   
+      $('.warn').html(str);
+      $('.warn').css('display','inline-block');
+      setTimeout($('.warn').hide(5000),2000);
+      return;
+      }
+      if(!reg_tel.test(tel)){
+        str='检查电话格式是否正确';
+        $('.warn').html(str);
+        $('.warn').css('display','inline-block');
+        setTimeout($('.warn').hide(5000),2000);
+        return;
+      }
+      if(!reg_age.test(age)){
+        str='检查年龄是否正确';
+        $('.warn').html(str);
+        $('.warn').css('display','inline-block');
+        setTimeout($('.warn').hide(5000),2000);
+        return;
+      }
+      if(!reg_mail.test(mail)){
+        str='检查邮箱格式是否正确';
+        $('.warn').html(str);
+        $('.warn').css('display','inline-block');
+        setTimeout($('.warn').hide(5000),2000);
+        return;
+      }
+      $("#form").submit();
+  }
+  else{
+    str='请输入完整信息再进行提交';
+    $('.warn').html(str);
+    $('.warn').css('display','inline-block');
+    setTimeout($('.warn').hide(5000),2000);
+  }
+
+
+
+
+
+
+});
+
+
+
+
+
+</script>
+</block>
+
+
+
+
+
+
+
+

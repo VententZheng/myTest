@@ -1,0 +1,259 @@
+/*图片适应*/
+.container img{
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: all .5s ease;
+    /* Safari and Chrome */
+    -moz-transition: all .5s ease;
+    /* Firefox */
+    -ms-transition: all .5s ease;
+    /* IE 9 */
+    -o-transition: all .5s ease;
+    /* Opera */
+    transition: all .5s ease;
+}
+/*视频播放页面*/
+.video-cont{
+    background: rgba(244,247,248,0.7);
+}
+.video-cont .container{
+    padding: 40px 0px 0px 0px;
+}
+.video-cont .container .player-title{
+    margin: 0px 0px 0px 0px;
+}
+.video-cont .container .player-title h3{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.video-cont .container .player-share{
+    padding: 0px 0px 2px 0px;
+}
+.video-cont .container .player-share ul{
+    list-style: none;
+}
+.video-cont .container .player-share ul li{
+    display: inline-block;
+    font-size: 22px;
+    margin: 0px 10px 5px 0px;
+}
+.video-cont .container .player-share ul li .fa-thumbs-up{
+    padding: 7px 8px 7px 8px;
+    color: rgba(55,55,55,0.7);
+    border-radius: 50%;
+    border: 1px solid rgba(55,55,55,0.7);
+}
+.video-cont .container .player-share ul li .fa-thumbs-up:hover{
+    color: rgba(37,187,76,1.0);
+    border: 1px solid rgba(37,187,76,1.0);
+}
+.video-cont .container .player-share ul li .fa-folder-open{
+    padding: 7px 5px 7px 9px;
+    border-radius: 50%;
+    color: rgba(55,55,55,0.7);
+    border: 1px solid rgba(55,55,55,0.7);
+}
+.video-cont .container .player-share ul li .fa-folder-open:hover{
+    color: rgba(239,179,18,1.0);
+    border: 1px solid rgba(239,179,18,1.0);
+}
+.video-cont .container .player-share ul li .fa-qq{
+    padding: 7px 7px 7px 7px;
+    border-radius: 50%;
+    color: rgba(55,55,55,0.7);
+    border: 1px solid rgba(55,55,55,0.7);
+}
+.video-cont .container .player-share ul li .fa-qq:hover{
+    color: rgba(86,138,216,1.0);
+    border: 1px solid rgba(86,138,216,1.0);
+}
+.video-cont .container .player-share ul li .fa-wechat{
+    padding: 7px 7px 7px 7px;
+    border-radius: 50%;
+    color: rgba(55,55,55,0.7);
+    border: 1px solid rgba(55,55,55,0.7);
+}
+.video-cont .container .player-share ul li .fa-wechat:hover{
+    color: rgba(37,187,76,1.0);
+    border: 1px solid rgba(37,187,76,1.0);
+}
+.video-cont .container .player-share ul li .fa-weibo{
+    padding: 7px 7px 7px 7px;
+    border-radius: 50%;
+    color: rgba(55,55,55,0.7);
+    border: 1px solid rgba(55,55,55,0.7);
+}
+.video-cont .container .player-share ul li .fa-weibo:hover{
+    color: rgba(224,82,44,1.0);
+    border: 1px solid rgba(224,82,44,1.0);
+}
+/*视频播放*/
+.video-cont .container .video-player{
+    padding: 0px 0px 0px 0px;
+}
+.video-cont .container .player-list{
+    color: white;
+}
+/*视频作者*/
+.video-cont .container .player-author{
+    padding: 10px 0px 10px 5px;
+    margin: 15px 0px 10px 0px;
+    background: white;
+}
+.video-cont .container .player-author img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.video-cont .container .player-author .player-user{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+    vertical-align: middle;
+}
+.video-cont .container .player-author .player-user .player-username{
+    text-decoration: none;
+    color: rgba(67,67,67,1.0);
+    font-size: 14px;
+    padding: 0px 0px 0px 5px;
+    margin: 0px 0px 5px 0px;
+}
+.video-cont .container .player-author .player-user a{
+    text-decoration: none;
+}
+.video-cont .container .player-author .player-user a:hover{
+    color: rgba(255,102,0,1.0);
+}
+.video-cont .container .player-author .player-user span{
+    font-size: 12px;
+    padding: 3px 10px 3px 10px;
+    margin: 0px 8px 0px 0px;
+    border-radius: 3px;
+}
+.video-cont .container .player-author .player-user span:hover{
+    color: rgba(255,102,0,1.0);
+}
+.video-cont .container .player-author .player-user .follow{
+    color: rgba(110,159,233,1.0);
+    border: 1px solid rgba(110,159,233,1.0);
+}
+.video-cont .container .player-author .player-user .private-letter{
+    color: rgba(114,215,114,1.0);
+    border: 1px solid rgba(114,215,114,1.0);
+}
+.video-cont .container .player-author .player-people{
+    float: left;
+    border-right: 1px solid rgba(221,221,221,1.0);
+}
+.video-cont .container .player-content{
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 40px;
+}
+.video-cont .container .player-content p{
+    padding: 5px 0px 0px 0px;
+    color: rgba(67,67,67,1.0);
+    line-height:170%
+}
+.video-cont .container .player-comment{
+    margin: 40px 0px 30px 0px;
+}
+.video-cont .container .player-comment .com-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.video-cont .container .player-comment .com-content{
+    padding: 0px 0px 0px 0px;
+/*    border: 1px solid rgba(7,167,228,1.0);*/
+/*    border-radius: 4px;*/
+}
+.video-cont .container .player-comment .com-content button{
+    background: rgba(7,167,228,1.0);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.video-cont .container .player-comment .com-content button:hover{
+    background: rgba(6,153,227,1.0);
+}
+.video-cont .container .player-comment .player-com-con{
+    margin: 40px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.video-cont .container .player-comment .player-com-title{
+    border-bottom: 1px solid rgba(67,67,67,0.2);
+}
+.video-cont .container .player-comment .player-com-title p{
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 600;
+}
+.video-cont .container .player-comment .player-com-con .item{
+/*    border-top: 1px solid rgba(67,67,67,0.3);*/
+    border-bottom: 1px solid rgba(67,67,67,0.1);
+    padding: 15px 0px 15px 0px;
+    margin: 0px 0px 15px 0px;
+}
+.video-cont .container .player-comment .player-com-con .item img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.video-cont .container .player-comment .player-com-con .item .comment-infor{
+    display: inline-block;
+    padding: 2px 0px 0px 20px;
+    vertical-align: middle;
+}
+.video-cont .container .player-comment .player-com-con .item .comment-infor p{
+    padding: 2px 0px 2px 0px;
+    margin: 2px 0px 2px 0px;
+    font-size: 12px;
+}
+.video-cont .container .player-comment .player-com-con .item .comment-infor.comment-time{
+    
+}
+.video-cont .container .player-comment .player-com-con .item .comment-infor p a{
+    font-size: 14px;
+    text-decoration: none;
+/*    color: rgba(67,67,67,1.0);*/
+}
+.video-cont .container .player-comment .player-com-con .item .comment-infor p a:hover{
+    color: rgba(255,102,0,1.0);
+}
+.video-cont .container .copyright-infor{
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid rgba(67,67,67,0.1);
+}
+.video-cont .container .copyright-infor p{
+    color: rgba(67,67,67,0.6);
+    text-align: center;
+    font-size: 16px;
+}
+.video-cont .container .player-auto{
+    margin: 15px 0px 0px 0px;
+}
+.video-cont .container .player-auto .player-item{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
+}
+.video-cont .container .player-auto .player-item .player-item-infor{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.video-cont .container .player-auto .player-item .player-item-infor p{
+    margin: 3px 0px 3px 0px;
+    font-size: 14px;
+} 
+.video-cont .container .player-auto .player-item .player-item-infor p a{
+    text-decoration: none;
+}
+.video-cont .container .player-auto .player-item .player-item-infor p a:hover{
+    color: rgba(255,102,0,1.0);
+}

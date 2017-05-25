@@ -1,0 +1,105 @@
+<extend name="Public/base"/>
+<block name="css">
+<style>
+.panel-head,.padding{margin:10px;}
+.num,.current,.prev,.next,.first,.end{color:#337AB7;border:1px solid #AA939B; margin-left:5px;width:30px;height:30px;display: inline-block;line-height: 30px}
+.num:hover,.current:hover,.prev:hover,.next:hover,.first:hover,.end:hover{text-decoration:none;background:#EAEAEC;}
+.padding{float: left}
+.prev,.next{width:50px;}
+
+
+
+</style>
+</block>
+<block name="body">
+    <div class="panel admin-panel" style="height:600px">
+        <div class="panel-head"><strong>日志管理</strong></div>
+        <div class="padding">
+            <div class="button-group button-group-small">
+             <button class="btn btn-primary" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> 清空（保留一周日志）</button>
+             </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6 form-inline pull-right">
+                <form class= style="padding:8px 0 " action="{:U('Index/log',array('p'=>1),'')}" method="post" id="user_form">
+                    <button type="submit" class="btn btn-primary pull-right" id="sub" style="margin:5px 3px">搜索</button>
+                    <input type="text" name="user" class="form-control pull-right" style="margin:5px 3px" placeholder="请输入执行者" id="content" />
+                </form>
+            </div>
+        </div>
+        <table class="table table-hover text-center">
+            <tr>
+                <th class="text-center">行为名称</th>
+                <th class="text-center">执行者</th>
+                <th class="text-center">执行时间</th>
+                <th class="text-center">执行IP</th>
+                <th class="text-center">日志</th>
+            </tr>
+            <notempty name="list">
+            <volist name="list" id="vo">
+            <tr>
+                <td>{$vo.name}</td>
+                <td>{$vo.user}</td>
+                <td>{$vo.time}</td>
+                <td>{$vo.ip}</td>
+                <td style=" width:400px;word-break:break-all;">{$vo.action}</td>
+            </tr>
+            </volist>
+
+            <else/>
+            <td colspan="5"> aOh! 暂时还没有内容! </td>
+            </notempty>
+
+        </table>
+         <div class="text-center" style="margin-top:50px">
+            <div class="page">{$page}</div>
+        </div>
+    </div>
+
+
+
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="width:450px">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        清空日志
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    清空后只能保留一周日志
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                    </button>
+                    <button type="button" id="sure" class="btn btn-primary">
+                        确定
+                    </button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+    </block>
+    <block name="script">
+  <script type="text/javascript">
+  $("#sub").click(function(){
+    var content=$("#content").val();
+    if(content==''){
+        location.href = "{:U('Index/log',array('p'=>1),'')}";
+    }
+    else{
+        console.log(content);
+        $("#user_form").submit();
+        console.log($("#user_form"));
+    }
+  });
+
+  $("#sure").click(function(){
+    location.href = "{:U('clear_log')}";
+  });
+  </script>
+  </block>

@@ -1,0 +1,2953 @@
+[ 2017-03-30T16:22:24+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Index/restore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:22:24+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:22:25+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Public/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-30T16:22:25+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:22:38+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qiq_admin` [ RunTime:0.1850s ]
+SQL: SELECT * FROM `qiq_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `qiq_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qiq_log` [ RunTime:0.0410s ]
+SQL: INSERT INTO `qiq_log` (`user`,`name`,`time`,`ip`,`action`) VALUES ('陈荣辉','登录','2017-03-30 16:22:38','127.0.0.1','陈荣辉登录后台系统') [ RunTime:0.0540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.327018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.323018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.327018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:22:39+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `qiq_video_attributes` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video_attributes` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_user` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: select version() as v; [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:22:40+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qiq_video_attributes` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video_attributes` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_user` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: select version() as v; [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:22:43+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Plan/planmanage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\81977b5a0d827fe6c449d77f4f3475a2.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:22:44+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Plan/planmanage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\81977b5a0d827fe6c449d77f4f3475a2.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:22:45+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Information/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\b9411c11b05935fe50fb0a8d956e5973.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:22:45+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Information/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\b9411c11b05935fe50fb0a8d956e5973.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:22:46+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Information/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0000s ]
+SQL: select info.id,blo.blockname,info.news_title,info.news_time,info.is_send from qiq_information info , qiq_block blo where info.blockid=blo.id order by info.id desc limit 0,3 [ RunTime:0.0840s ]
+SQL: select count(*) as count from qiq_information info , qiq_block blo where info.blockid=blo.id [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\8c782af64238d1987092f4c375758104.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:22:46+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Information/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0000s ]
+SQL: select info.id,blo.blockname,info.news_title,info.news_time,info.is_send from qiq_information info , qiq_block blo where info.blockid=blo.id order by info.id desc limit 0,3 [ RunTime:0.0010s ]
+SQL: select count(*) as count from qiq_information info , qiq_block blo where info.blockid=blo.id [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\8c782af64238d1987092f4c375758104.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:22:50+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:22:50+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:25:17+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-30T16:25:18+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:25:48+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:25:49+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:26:03+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:26:03+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:26:19+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:26:47+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:26:47+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:27:58+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:27:58+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:28:14+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:28:14+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:28:29+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:28:30+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:28:48+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:28:49+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:29:50+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:29:50+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:30:12+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:30:13+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:30:42+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T21:30:42+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:30:50+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:30:51+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:30:54+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0020s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: attributes E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 88 行.
+NOTIC: [2] mkdir(): Invalid argument E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 90 行.
+
+[ 2017-03-30T21:30:54+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:31:49+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:31:50+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:31:53+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: attributes E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 88 行.
+NOTIC: [2] mkdir(): Invalid argument E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 90 行.
+
+[ 2017-03-30T21:31:53+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:33:57+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:34:25+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T21:34:26+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T21:34:29+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: attributes E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 88 行.
+NOTIC: [2] mkdir(): Invalid argument E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 90 行.
+
+[ 2017-03-30T21:34:29+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:34:42+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T21:34:42+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T21:34:45+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: attributes E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 88 行.
+NOTIC: [2] mkdir(): Invalid argument E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 90 行.
+
+[ 2017-03-30T21:34:46+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:35:13+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:35:13+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:35:16+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0020s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: attributes E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 88 行.
+NOTIC: [2] mkdir(): Invalid argument E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 90 行.
+
+[ 2017-03-30T21:35:16+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:36:36+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:36:37+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:36:41+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] mkdir(): No such file or directory E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 90 行.
+
+[ 2017-03-30T21:36:41+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:44:50+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:44:51+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-03-30T21:44:54+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T21:44:54+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:56:55+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T21:56:55+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:08:55+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T22:08:55+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:08:55+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:08:55+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\c130c61bc227b4b789cd23acea52a71b.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:08:55+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\c130c61bc227b4b789cd23acea52a71b.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:08:55+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:09:02+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:09:20+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:09:21+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:09:22+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:09:22+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:09:24+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Admin/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.status,a.id,a.real_name,a.sex,a.age,a.tel,a.id_card,a.mail,a.name,a.create_time,ag.title,ag.id as roleid from qiq_admin a,qiq_auth_group_access ga,qiq_auth_group ag where  a.id=ga.uid and ga.group_id=ag.id limit 0,3 [ RunTime:0.0280s ]
+SQL: select count(*) as count from qiq_admin a,qiq_auth_group_access ga,qiq_auth_group ag where  a.id=ga.uid and ga.group_id=ag.id [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT `title`,`id` FROM `qiq_auth_group`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\db6dc91b3fed18a90de503204d0cc995.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:09:24+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Admin/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.status,a.id,a.real_name,a.sex,a.age,a.tel,a.id_card,a.mail,a.name,a.create_time,ag.title,ag.id as roleid from qiq_admin a,qiq_auth_group_access ga,qiq_auth_group ag where  a.id=ga.uid and ga.group_id=ag.id limit 0,3 [ RunTime:0.0000s ]
+SQL: select count(*) as count from qiq_admin a,qiq_auth_group_access ga,qiq_auth_group ag where  a.id=ga.uid and ga.group_id=ag.id [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`id` FROM `qiq_auth_group`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\db6dc91b3fed18a90de503204d0cc995.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T22:09:25+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:09:26+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:10:48+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:10:49+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:12:27+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T22:12:27+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:12:27+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:12:27+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:12:27+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0020s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:12:27+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:12:27+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:12:27+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0020s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T22:12:27+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T22:12:33+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:12:45+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T22:12:54+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T22:12:54+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T22:14:16+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:14:16+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T22:14:16+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T22:14:16+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0020s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:14:16+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:14:16+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0020s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:14:16+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:14:16+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:14:20+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:14:31+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T22:14:53+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T22:15:12+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T22:15:29+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T22:15:30+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T22:15:30+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:12:47+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:12:47+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T23:13:46+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0050s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:13:46+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:13:46+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0050s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:13:46+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T23:13:46+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:13:46+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:13:47+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0050s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:13:49+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T23:19:16+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T23:19:40+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:19:41+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:19:44+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] file_put_contents(E:/xampp/htdocs/317/thinkphp3.2.3/Public/Home/upload/Video/2017-03-29/58db29cc5a00a/index.bat): failed to open stream: Permission denied E:\xampp\htdocs\317\thinkphp3.2.3\Application\Qiqiao\Controller\VideoController.class.php 第 99 行.
+
+[ 2017-03-30T23:19:44+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T23:19:57+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T23:20:08+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T23:20:20+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T23:20:31+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T23:20:42+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:20:53+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0050s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:21:05+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0050s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:21:18+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:21:32+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0060s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T23:21:35+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:21:36+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T23:24:02+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:24:03+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T23:24:05+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T23:24:06+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:24:19+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:24:36+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:24:51+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0040s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:24:53+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:24:53+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T23:26:03+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:26:03+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-30T23:26:07+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0050s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T23:26:07+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T23:26:20+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:26:31+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0050s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:28:51+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0050s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T23:29:05+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0050s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T23:29:06+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T23:29:07+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:45:37+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:45:38+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T23:45:40+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0050s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T23:45:40+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:45:53+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/change_run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0030s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-30T23:45:54+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T23:45:54+08:00 ] 127.0.0.1 /317/thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\317\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

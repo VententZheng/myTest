@@ -1,0 +1,314 @@
+<extend name="Public/base"/>
+<block name="css">
+<link rel="stylesheet" type="text/css" href="__DITOR__/themes/default/css/ueditor.css">
+</block>
+<block name="body">
+	<div class="row" style="width:1000px;margin-left:50px;margin-top:50px;">
+                <div class="col-md-12">
+                    <div class="square-widget">
+                        <div class="widget-container">
+                            <div class="stepy-tab">
+                            </div>
+                            <form id="default" action="{:U('Plan/modify_Plan')}"  enctype="multipart/form-data"  method="post" class="form-horizontal">
+                                <fieldset title="————">
+                                    <legend>简介亮点</legend>
+                                     <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">资讯简介</label>
+                                    <div class="col-md-6 col-sm-6">
+                                    <textarea  rows="11" cols="80" name="summary">{$res.plan_summary}</textarea>
+                                    </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 col-sm-2 control-label">节目亮点</label>
+                                        <div class="key">
+
+
+                                        <gt name="num" value="0">
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2">
+                                            <input type="text" placeholder="亮点一"  class="form-control" name="key0" id="key0" value='{$array[0]}'>
+                                        </div>
+                                        <else />
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2">
+                                            <input type="text" placeholder="亮点一"  class="form-control" name="key0" id="key0" value=''>
+                                        </div>
+                                        </gt>
+
+
+                                        <gt name="num" value="1">
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2">
+                                            <input type="text" placeholder="亮点二" class="form-control" name="key1" id="key1" value='{$array[1]}'>
+                                        </div>
+                                        <else />
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2" style="display:none;">
+                                            <input type="text" placeholder="亮点二" class="form-control" name="key1" id="key1" value=''>
+                                        </div>
+                                        </gt>
+
+                                        <gt name="num" value="2">
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2">
+                                            <input type="text" placeholder="亮点三" class="form-control" name="key2" id="key2" value='{$array[2]}'>
+                                        </div>
+                                        <else />
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2" style="display:none;">
+                                            <input type="text" placeholder="亮点三" class="form-control" name="key2" id="key2" value=''>
+                                        </div>
+                                        </gt>
+                
+                                        <gt name="num" value="3">
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2">
+                                            <input type="text" placeholder="亮点四" class="form-control" name="key3" id="key3" value='{$array[3]}'>
+                                        </div>
+                                        <else />
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2" style="display:none;">
+                                            <input type="text" placeholder="亮点四" class="form-control" name="key3" id="key3" value=''>
+                                        </div>
+                                        </gt>
+
+                                        <gt name="num" value="4">
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2">
+                                            <input type="text" placeholder="亮点五" class="form-control" name="key4" id="key4" value='{$array[4]}'>
+                                        </div>
+                                        <else />
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2" style="display:none;">
+                                            <input type="text" placeholder="亮点五" class="form-control" name="key4" id="key4" value=''>
+                                        </div>
+                                        </gt>
+
+
+                                        <gt name="num" value="5">
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2">
+                                            <input type="text" placeholder="亮点六" class="form-control" name="key5" id="key5" value='{$array[5]}'>
+                                        </div>
+                                        <else />
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2" style="display:none;">
+                                            <input type="text" placeholder="亮点六" class="form-control" name="key5" id="key5" value=''>
+                                        </div>
+                                        </gt>
+
+
+                                        <gt name="num" value="6">
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2">
+                                            <input type="text" placeholder="亮点七" class="form-control" name="key6" id="key6" value='{$array[6]}'>
+                                        </div>
+                                        <else />
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2" style="display:none;">
+                                            <input type="text" placeholder="亮点七" class="form-control" name="key6" id="key6" value=''>
+                                        </div>
+                                        </gt>
+
+                                        <gt name="num" value="7">
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2">
+                                            <input type="text" placeholder="亮点八" class="form-control" name="key7" id="key7" value='{$array[7]}'>
+                                        </div>
+                                        <else />
+                                        <div class="col-md-9 col-sm-9 col-md-offset-2 col-sm-offset-2" style="display:none;">
+                                            <input type="text" placeholder="亮点八" class="form-control" name="key7" id="key7" value=''>
+                                        </div>
+                                        </gt>
+
+
+                                        </div>
+                                        <div class="col-md-1 col-sm-1">
+                                            <img src="__IMG__/add.png" id="img" />
+                                        </div>
+
+
+
+                                    </div>
+                                </fieldset>
+                                <fieldset title="———">
+                                    <legend>封面阶段</legend>
+                                    
+
+                                    <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">缩略图</label>
+                                    <input type="hidden" name="id" value="{$id}" />
+                                    <div class="col-md-6 col-sm-6">
+                                    <!--img src="__PUBLIC__/information_img/{$res.news_img}" width='124px' height='70px'/-->
+                                    <input type="file" id="input-file-now" name="img" class="dropify"  data-default-file="__PUBLIC__/Home/image/{$res.plan_cover}"/>
+                                    <input type='hidden' name='last_img' value='{$res.plan_cover}' />
+                                    <!--input type="file" name="img" id="img" style='float:right;margin-top:20px;'/-->
+                                    </div>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">所处阶段</label>
+                                    <div class="col-md-6 col-sm-6">
+                                    <div class="col-md-6 col-sm-6">
+                                            <div class="dropdown">
+                                              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width:150px;"  val="{res.plan_stage}">
+                                                {$res.name}
+                                                <span class="caret"></span>
+                                              </button>
+                                              <input name="blockid" type="hidden" value="{$res.plan_stage}" id="hide"></input>
+
+                                              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                <foreach name="block"  item="vv">
+                                                        <li class="block" value="{$vv.id}"><a href="#">{$vv.name}</a></li>
+                                                </foreach>
+                                              </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+
+
+                                    
+                                </fieldset>
+                                <fieldset title="———">
+                                    <legend>方案规则</legend>
+
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 col-sm-2 control-label">规则内容</label>
+                                        <div class="col-md-6 col-sm-6">
+                                            <textarea name="content" id="Editorld">{$res.plan_rule}</textarea>
+                                        </div>
+                                    </div>                                    
+                                </fieldset>
+                                <fieldset title="——">
+                                    <legend>操作</legend>
+                                    <div class="form-group">
+                                        <div class="col-md-12">
+                                            <p>确保你已经编辑以上信息</p>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <span class="btn btn-info finish" id='sub'>
+                                    保存 </span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+</block>
+
+<block name="script">
+<script type="text/javascript" src="__JS__/jquery.stepy.js"></script>
+<script type="text/javascript" src="__DITOR__/ueditor.config.js"></script>
+<script type="text/javascript" src="__DITOR__/ueditor.all.js"></script>
+<script type="text/javascript" charset="utf-8" src="__DITOR__/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" src="__PUBLIC__/dist/js/dropify.js"></script>
+
+
+
+<script>
+        $(document).ready(function(){
+        // Basic
+        $('.dropify').dropify();
+
+        // Translated
+        $('.dropify-fr').dropify({
+            messages: {
+                default: '点我上传图片',
+                replace: '点我更换图片',
+                remove:  '移除',
+                error:   '哦哦，出错了。'
+            }
+        });
+
+        // Used events
+        var drEvent = $('#input-file-events').dropify();
+
+        drEvent.on('dropify.beforeClear', function(event, element){
+            return confirm("你想要删除 \"" + element.file.name + "\" ?");
+        });
+
+        drEvent.on('dropify.afterClear', function(event, element){
+            alert('文件删除');
+        });
+
+        drEvent.on('dropify.errors', function(event, element){
+            console.log('出现错误');
+        });
+
+        var drDestroy = $('#input-file-to-destroy').dropify();
+        drDestroy = drDestroy.data('dropify')
+        $('#toggleDropify').on('click', function(e){
+            e.preventDefault();
+            if (drDestroy.isDropified()) {
+                drDestroy.destroy();
+            } else {
+                drDestroy.init();
+            }
+        })
+    });
+
+
+    $(function(){
+        window.UEDITOR_HOME_URL='__DITOR__/';
+        window.onload=function(){
+            window.UEDITOR_CONFIG.initialFrameWidth=800;  //初始化编辑器宽度,默认800
+            window.UEDITOR_CONFIG.initialFrameHeight=500;
+
+            var editor = new UE.ui.Editor({
+                imageUrl:'__DITOR__/uploadImage',
+                fileUrl:'__DITOR__/uploadFile',
+                imagePath : '', 
+                filePath : '', 
+                imageManagerUrl:'__DITOR__/imageManage', //图片在线管理的处理地址 
+            });
+             editor.render("Editorld"); 
+        }
+
+    });
+
+    /*=====STEPY WIZARD====*/
+    $(function() {
+        $('#default').stepy({
+            backLabel: '返回',
+            block: true,
+            nextLabel: '继续',
+            titleClick: true,
+            titleTarget: '.stepy-tab'
+        });
+    });
+    /*=====STEPY WIZARD WITH VALIDATION====*/
+    $(function() {
+        $('#stepy_form').stepy({
+            backLabel: '返回',
+            nextLabel: '继续',
+            errorImage: true,
+            block: true,
+            description: true,
+            legend: false,
+            titleClick: true,
+            titleTarget: '#top_tabby',
+            validate: true
+        });
+        
+    });
+
+    $("#img").click(function(){
+            $('.key').children('div').each(function(){
+                if($(this).css('display')=='none'){
+                    $(this).css('display','block');
+                    return false;
+                }
+                if($('.key').children('div:last').css('display')!='none'){
+                    alert('最多八大亮点');
+                    return false;
+                }
+            });
+    });
+
+
+    $('.block').click(function(){
+        var val=$(this).attr('value');
+        var str=$(this).children('a').text()+'<span class="caret" style="float:right;margin-top:8px;"></span>';
+        $("#hide").attr('value',val);
+        $('#dropdownMenu1').html(str);
+        $('#dropdownMenu1').attr('val',val);
+
+    });
+
+
+</script>
+
+
+</block>
+

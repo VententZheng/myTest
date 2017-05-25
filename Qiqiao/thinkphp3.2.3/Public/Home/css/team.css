@@ -1,0 +1,263 @@
+/*图片适应*/
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: all .5s ease;
+    /* Safari and Chrome */
+    -moz-transition: all .5s ease;
+    /* Firefox */
+    -ms-transition: all .5s ease;
+    /* IE 9 */
+    -o-transition: all .5s ease;
+    /* Opera */
+    transition: all .5s ease;
+}
+body{
+    background: rgba(250,250,250,1.0);
+    font-family: "Microsoft YaHei";
+}
+.team-list{
+    margin-top: 30px;
+}
+.team-list .team-item{
+    list-style: none;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
+    background: white;
+    border-bottom: 1px solid rgba(240,240,240,1.0);
+}
+.team-list .team-item:hover{
+    background: rgba(242,242,242,1.0);
+}
+.team-list .team-item .teamlist-title{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Microsoft YaHei";
+    margin: 0px 0px 10px 0px;
+}
+.team-list .team-item .teamlist-title a{
+    text-decoration: none;
+    font-family: "Microsoft YaHei";
+}
+.team-list .team-item .teamlist-title a:hover{
+    color: rgba(247,132,17,1.0);
+}
+.team-list .team-item .teamlist-summary{
+    font-size: 16px;
+    text-indent: 2em;
+}
+.team-list .team-item .teamlist-btn{
+    text-align: right;
+    margin-left: 20px;
+}
+.team-list .team-item .teamlist-btn a{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 12px 8px 12px;
+    color: rgba(20,160,198,1.0);
+    border: 1px solid rgba(20,160,198,1.0);
+    border-radius: 6px;
+    font-family: "Microsoft YaHei";
+    
+}
+.team-list .team-item .teamlist-btn a:hover{
+    color: rgba(247,132,17,1.0);
+    border: 1px solid rgba(247,132,17,1.0);
+/*    background: rgba(45,186,223,1.0);*/
+}
+
+/*详细优秀团队css*/
+body{
+    background: rgba(250,250,250,1.0);
+}
+img{
+   display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: all .5s ease;
+    /* Safari and Chrome */
+    -moz-transition: all .5s ease;
+    /* Firefox */
+    -ms-transition: all .5s ease;
+    /* IE 9 */
+    -o-transition: all .5s ease;
+    /* Opera */
+    transition: all .5s ease; 
+}
+.teamdetail{
+    margin: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.teamdetail .team-title{
+    background: white;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 0px 30px 0px;
+    border-bottom: none;
+}
+.teamdetail .team-title ul{
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.teamdetail .team-title ul .team-name{
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    display: inline-block;
+    margin: 2px 0px 20px 0px;
+    padding: 0px 6px 5px 4px;
+    border-bottom: 1px solid rgba(220,220,220,1.0);
+}
+.teamdetail .team-title ul .team-slogan{
+    font-size: 16px;
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 10px;
+}
+.teamdetail .team-title ul .stand-title{
+    font-size: 16px;
+    display: block;
+    font-family: "Microsoft YaHei";
+    margin: 0px 0px 8px 0px;
+}
+.teamdetail .team-title ul .stand-project{
+    font-size: 15px;
+    font-family: "Microsoft YaHei";
+    margin-left: 30px;
+}
+/*团队简介*/
+.teamcon-summary{
+    background: white;
+    margin: 0px 0px 30px 0px;
+    padding: 20px 30px 20px 30px;
+}
+.teamcon-summary .teamsum-top{
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 6px 6px;
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(220,220,220,1.0);
+}
+.teamcon-summary .teamsum-top span{
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+}
+.teamcon-summary .teamsum-content p{
+    font-size: 16px;
+    text-indent:2em;
+}
+/*团队详细成员介绍*/
+.team-member{
+    background: white;
+    margin: 0px 0px 30px 0px;
+    padding: 20px 30px 0px 30px;
+}
+.team-member .teammem-top{
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 600;
+    padding: 0px 0px 6px 6px;
+    margin: 0px 0px 20px 0px;
+    border-bottom: 1px solid rgba(220,220,220,1.0);
+}
+.team-member .team-Mr,
+.team-member .team-partner{
+    margin: 0px 0px 20px 0px;
+    padding: 4px 0px 2px 0px;
+}
+.team-member .team-teacher span,
+.team-member .team-partner .team-people span{
+    display: inline-block;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 6px 2px 6px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Microsoft YaHei";
+    border-bottom: 1px solid rgba(220,220,220,1.0);
+}
+.team-member .teamMr-name span,
+.team-member .team-partner .teampart span{
+    font-size: 18px;
+    display: inline-block;
+    padding: 0px 6px 0px 6px;
+    margin: 0px 0px 8px 0px;
+    font-family: "Microsoft YaHei";
+}
+.team-member .teamMr-name p,
+.team-member .team-partner .teampart p{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    text-indent:2em;
+}
+.team-member .team-partner .teampart p{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 24px 0px;
+/*    border-bottom: 1px dashed rgba(220,220,220,1.0);*/
+}
+/*团队作品展示*/
+.team-project{
+    background: white;
+    margin: 0px 0px 30px 0px;
+    padding: 20px 30px 0px 30px;
+}
+.team-project .teamproject-item .teamproject-title{
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 600;
+    padding: 0px 0px 6px 6px;
+    margin: 0px 0px 20px 0px;
+    border-bottom: 1px solid rgba(220,220,220,1.0);
+}
+.team-project .teamproject-item dd{
+    font-family: "Microsoft YaHei";
+    margin: 10px 0px 10px 0px;
+    padding: 2px 0px 2px 0px;
+}
+.team-project .teamproject-item dd a{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 20px 0px 0px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    text-decoration: none;
+}
+.team-project .teamproject-item dd a:hover{
+    color: rgba(247,132,17,1.0);
+}
+.team-project .teamproject-item dd span{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 40px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+}
+
+/*------分页样式-------*/
+.infor-page a, .infor-page span{
+    font-size: 16px;
+    display:inline-block;
+    padding:4px 10px 4px 10px;
+    margin:20px 6px 0px 6px;
+     border:1px solid #f0f0f0;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.infor-page a,.infor-page li {
+  display:inline-block;
+  list-style: none;
+  text-decoration:none; 
+  color:#58A0D3;
+}
+.infor-page a.first,.infor-page a.prev,.infor-page a.next,.infor-page a.end{
+  margin:0;
+}
+.infor-page a:hover{
+  border-color:rgba(45,186,223,1.0);
+}
+.infor-page span.current{
+  background:rgba(20,160,198,1.0);
+  color:rgba(255,255,255,1.0);
+  font-weight:700;
+  border-color:rgba(20,160,198,1.0);
+}

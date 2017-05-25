@@ -1,0 +1,262 @@
+<extend name="Public/base"/>
+<block name="css">
+<style>
+.social-links span{
+	
+    background: #EFF0F4;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #7A7676;
+
+}
+
+.social-links span:hover{
+	cursor:pointer;
+	background:#65CEA7;
+}
+
+
+</style>
+</block>
+<block name="body">
+
+<div class="directory-info-row">
+                <div class="row">
+
+                <volist name='user'  id='v'>
+                    <div class="col-md-9 col-sm-9" style="margin-left:100px;">
+                        <div class="panel" >
+                            <div class="panel-body" style="background:#EFF0F4;min-height:284px; ">
+                                <h4>{$v.username} <span class="text-muted small"> - 普通会员</span></h4>
+                                <div class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="thumb media-object" src="__PUBLIC__/Home/image/user_img/{$v.head_pic}"  width="103" height="93" alt="">
+                                    </a>
+                                    <div class="media-body">
+                                        <div class='message_{$v.id}'>
+                                            <strong>用户信息</strong><br>
+
+                                            性别：<if condition="NULL eq $v['sex']">暂无填写<br>
+                                            	  <else />{$v['sex']}<br>
+                                            	  </if>
+                                           	姓名：<if condition="NULL eq $v['realname']">暂无填写<br>
+                                            	  <else />{$v['realname']}<br>
+                                            	  </if>
+                                           	手机号码：<if condition="NULL eq $v['phone']">暂无填写<br>
+                                            	  <else />{$v['phone']}<br>
+                                            	  </if>
+                                            邮箱：<if condition="NULL eq $v['phone']">暂无填写<br>
+                                            	  <else />{$v['email']}<br>
+                                            	  </if>
+                                            职业：<if condition="NULL eq $v['phone']">暂无填写<br>
+                                            	  <else />{$v['occupation']}<br>
+                                            	  </if>
+                                            地址：<if condition="NULL eq $v['province']">暂无填写<br>
+                                            	  <else />{$v['province']}{$v['city']}{$v['district']}<br>
+                                            	  </if>
+                                            个性签名：<if condition="NULL eq $v['province']">暂无填写<br>
+                                            	  <else />{$v['motto']}<br>
+                                            	  </if>
+                                        </div>
+
+                                        <div class="video_{$v.id}" style="display: none">
+                                            <strong>观看过的视频</strong><br>
+                                            <volist name="arr[$v['id']]['video_title']" id="val" key="k" >
+                                                <h5><span style="width:80px;display:inline-block;text-align: center;">{$val}</span><button class="btn btn-primary btn-sm" onclick="see_detail({$v.id},{$k})">查看详情</button></h5>
+                                            </volist> 
+
+
+                                        </div>
+
+                                        <div class="detail{$v.id}" style="display:none">
+                                            <volist name="array[$v['id']]" id="value" key='j' empty="暂无数据">
+                                              <div class="detail{$v.id}_{$j}" style="display: none">
+                                              <strong>观看记录</strong><br>
+                                              <span>点击开始:</span>
+                                              <volist name="value['arr_start']" id="v_start" key='b' empty='暂无数据'>
+                                                {$v_start|date_change=###}、
+                                              </volist>
+                                              <br>
+                                              <span>点击暂停:</span>
+                                              <volist name="value['arr_pause']" id="v_pause" key='x' empty='暂无数据'>
+                                                {$v_pause|date_change=###}、
+                                              </volist>
+                                              <br>
+                                              <span>拖到进度条到:</span>
+                                              <volist name="value['arr_long']" id="v_long" key='z' empty='暂无数据'>
+                                                {$v_long|date_change=###}、
+                                              </volist>
+                                              <br>  
+                                              </div>
+                                            </volist> 
+                                        </div>
+
+                                        <div class="send_message{$v.id}" style="display:none">
+                                            <strong>发送消息</strong><br>
+                                            <textarea rows="5" cols="40"></textarea>
+                                            <button onclick="send(this,'{$v.id}')" class="btn btn-primary btn-sm" style="margin-top:5px;margin-left:250px;">发送</button>
+                                            
+                                        </div>
+
+                                        <div class="coll{$v.id}" style="display:none">
+                                            <strong>收藏项目</strong><br>
+                                            <volist  name="coll[$v['id']]" id="value1" key='o' empty="暂无数据">
+                                                  <if condition="$value1['id'] NEQ null and $value1['type_name'] EQ video">
+                                                  <div>
+                                                  
+                                                  {$value1.id}----视频------{$value1.video_title}
+                                                  </div>
+                                                  <elseif condition="$value1['id'] NEQ null and $value1['type_name'] EQ plan"/>
+                                                  <div>
+                                                  {$value1.id}----策划------{$value1.plan_title}
+                                                  </div>
+                                                  </if>
+                                            </volist> 
+                                        </div>
+
+
+                                        <div class="praise{$v.id}" style="display:none">
+                                            <strong>点过赞</strong><br>
+                                            <volist  name="praise[$v['id']]" id="value2" key='l' empty="暂无数据">
+                                                  <if condition="$value2['id'] NEQ null and $value2['type_name'] EQ video">
+                                                  <div>
+                                                  {$value2.id}----视频------{$value2.video_title}
+                                                  </div>
+                                                  <elseif condition="$value2['id'] NEQ null and $value2['type_name'] EQ plan"/>
+                                                  <div>
+                                                  {$value2.id}----策划------{$value2.plan_title}
+                                                  </div>
+                                                  </if>
+                                            </volist> 
+                                        </div>
+
+
+                                        <ul class="social-links col-md-6 col-sm-6">
+                                            <li><span onclick='see_message({$v.id})'><i class="glyphicon glyphicon-user"></i></span></li>
+                                            <li><span onclick='see_movies({$v.id})'><i class="glyphicon glyphicon-film"></i></span></li>
+                                            <!--li><span onclick='detail({$v.id})'><i class="glyphicon glyphicon-facetime-video"></i></span></li-->
+                                            <li><span onclick='send_message({$v.id})'><i class="glyphicon glyphicon-envelope"></i></span></li>
+
+                                            <li><span onclick='see_coll({$v.id})'><i class="glyphicon glyphicon-folder-open"></i></span></li>
+
+
+                                            <li><span onclick='see_praise({$v.id})'><i class="glyphicon glyphicon-thumbs-up"></i></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </volist>
+                    </div>
+                    </div>
+
+
+</block>
+<block name="script">
+	
+		<script>
+		function see_message(element){
+            $('.detail'+element).attr('style','display:none');
+            $('.message_'+element).attr('style','display:block');
+            $('.detail'+element).children('div').attr('style','display:none');
+            $('.video_'+element).attr('style','display:none');
+            $('.send_message'+element).attr('style','display:none');
+             $('.praise'+element).attr('style','display:none');
+            $('.coll'+element).attr('style','display:none');
+		}
+
+		function see_movies(element){
+            $('.detail'+element).attr('style','display:none');
+            $('.detail'+element).children('div').attr('style','display:none');
+            $('.send_message'+element).attr('style','display:none');
+            $('.message_'+element).attr('style','display:none');
+             $('.praise'+element).attr('style','display:none');
+            $('.coll'+element).attr('style','display:none');
+            $('.video_'+element).attr('style','display:block');
+
+		}
+
+		function see_detail(id,element){
+            console.log('.detail'+id+'_'+element);
+            $('.message_'+id).attr('style','display:none');
+            $('.send_message'+element).attr('style','display:none');
+            $('.video_'+id).attr('style','display:none');
+             $('.praise'+element).attr('style','display:none');
+            $('.coll'+element).attr('style','display:none');
+            $('.detail'+id).attr('style','display:block');
+            $('.detail'+id+'_'+element).attr('style','display:block');
+
+		}	
+
+		function send_message(element){
+
+            $('.detail'+element).attr('style','display:none');
+            $('.message_'+element).attr('style','display:none');
+            $('.detail'+element).children('div').attr('style','display:none');
+            $('.video_'+element).attr('style','display:none');
+             $('.praise'+element).attr('style','display:none');
+            $('.coll'+element).attr('style','display:none');
+            $('.send_message'+element).attr('style','display:block');
+		}
+
+        function see_coll(element){
+            $('.detail'+element).attr('style','display:none');
+            $('.message_'+element).attr('style','display:none');
+            $('.detail'+element).children('div').attr('style','display:none');
+            $('.video_'+element).attr('style','display:none');
+            $('.send_message'+element).attr('style','display:none');
+
+            $('.praise'+element).attr('style','display:none');
+            $('.coll'+element).attr('style','display:block');
+        }
+
+
+        function see_praise(element){
+            $('.detail'+element).attr('style','display:none');
+            $('.message_'+element).attr('style','display:none');
+            $('.detail'+element).children('div').attr('style','display:none');
+            $('.video_'+element).attr('style','display:none');
+            $('.send_message'+element).attr('style','display:none');
+            
+            $('.coll'+element).attr('style','display:none');
+            $('.praise'+element).attr('style','display:block');
+
+
+        }
+
+        function send(element,id){
+            var text=$(element).siblings('textarea').val();
+            if(text==''){
+                alert('输入消息再进行发送');
+            }
+            else{     
+                $.ajax({
+                       url:"{:U('User/send')}",
+                       type:'post',
+                       dataType:'json',
+                       data:{"text":text,'id':id},
+                       success:function(data){
+                            if(data){
+                                $(element).siblings('textarea').val('');
+                                alert('发送成功');
+                            }
+                            else{
+                                alert('发送失败');
+                            }
+                        }
+                    });
+            }
+
+        }
+
+</script>
+
+</block>
+
+

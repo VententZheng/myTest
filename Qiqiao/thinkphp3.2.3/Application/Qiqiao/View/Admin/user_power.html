@@ -1,0 +1,262 @@
+<extend name="Public/base"/>
+<block name="body">
+
+    <div style="width:920px;height:40px;margin-left:20px;">
+      <span style="font-size:20px;line-height:40px;">{$group_title}权限</span>
+      <input  type="checkbox" name="whole_select" style="float:right;margin-right:30px;margin-top:13px"/>
+      <span style="float:right; margin-right:10px;font-size:16px;line-height:40px;">全选</span>
+    </div>
+
+    <table class="table" style="width:920px" id="table">
+    <tr>
+    <td>系统<input type="checkbox" name="whole_index" style="margin-left:5px" /></td>
+    <td>
+    <ul class="index">
+    <volist name="whole_list_index" id="v">
+            <li style="list-style-type:none;display:block;float:left;margin-left:30px;">{$v.title}<input style="margin-left:5px" type="checkbox" name="power" value="{$v.id}" <in name="v.id" value="$group_rules">checked='checked'</in> /></li>
+    </volist>
+    </ul>
+    </td>
+    </tr>
+
+    <tr>
+    <td>用户<input type="checkbox" name="whole_user" style="margin-left:5px" /></td>
+    <td>
+    <ul class="user">
+    <volist name="whole_list_user" id="v">
+            <li style="list-style-type:none;display:block;float:left;margin-left:30px;">{$v.title}<input style="margin-left:5px" type="checkbox" name="power" value="{$v.id}" <in name="v.id" value="$group_rules">checked='checked'</in> /></li>
+    </volist>
+    </ul>
+    </td>
+    </tr>
+
+    <tr>
+    <td>管理员<input type="checkbox" name="whole_admin" style="margin-left:5px" /></td>
+    <td>
+    <ul class="admin">
+    <volist name="whole_list_admin" id="v">
+            <li style="list-style-type:none;display:block;float:left;margin-left:30px;">{$v.title}<input style="margin-left:5px" type="checkbox" name="power" value="{$v.id}" <in name="v.id" value="$group_rules">checked='checked'</in> /></li>
+    </volist>
+    </ul>
+    </td>
+    </tr>
+
+
+    <tr>
+    <td>视频<input type="checkbox" name="whole_video" style="margin-left:5px" /></td>
+    <td>
+    <ul class="videoo">
+    <volist name="whole_list_video" id="v">
+            <li style="list-style-type:none;display:block;float:left;margin-left:30px;">{$v.title}<input style="margin-left:5px" type="checkbox" name="power" value="{$v.id}" <in name="v.id" value="$group_rules">checked='checked'</in> /></li>
+    </volist>
+    </ul>
+    </td>
+    </tr>
+
+
+    <tr>
+    <td>资讯<input type="checkbox" name="whole_information" style="margin-left:5px" /></td>
+    <td>
+    <ul class="information">
+    <volist name="whole_list_information" id="v">
+            <li style="list-style-type:none;display:block;float:left;margin-left:30px;">{$v.title}<input style="margin-left:5px" type="checkbox" name="power" value="{$v.id}" <in name="v.id" value="$group_rules">checked='checked'</in> /></li>
+    </volist>
+    </ul>
+    </td>
+    </tr>
+
+    <tr>
+    <td>策划称号<input type="checkbox" name="whole_plan" style="margin-left:5px" /></td>
+    <td>
+    <ul class="plan">
+    <volist name="whole_list_plan" id="v">
+            <li style="list-style-type:none;display:block;float:left;margin-left:30px;">{$v.title}<input style="margin-left:5px" type="checkbox" name="power" value="{$v.id}" <in name="v.id" value="$group_rules">checked='checked'</in> /></li>
+    </volist>
+    </ul>
+    </td>
+    </tr>
+
+
+
+
+    
+    </table>
+    <div style="width:920px;">
+        <h4 id="no-see" style="display:none;">更改成功</h4>
+        <button id="sub" class="btn btn-info" style="float:right">更改权限</button>
+    </div>
+
+</block>
+
+
+<block name="script">
+<script type="text/javascript">
+
+    
+    $("#sub").click(function(){
+      var str="";
+        $(":checkbox[name='power'][checked]").each(function(){
+            var val=$(this).val();
+            str=str+val+",";
+        });
+
+        var user='{$user_id}';
+
+        var role_id='{$role_id}';
+        if(user!=''){
+
+         $.ajax({
+                   url:'{:U('Admin/change_power')}',
+                   type:'post',
+                   dataType:'json',
+                   data:{"str":str,"id":user},
+                   success:function(data){
+                      $("#no-see").show().delay(1000).hide(1000);
+                    }
+        }); 
+       }
+       else if(role_id!=''){
+         $.ajax({
+                   url:'{:U('Admin/change_adminrole')}',
+                   type:'post',
+                   dataType:'json',
+                   data:{"str":str,"id":role_id},
+                   success:function(data){
+                      $("#no-see").show().delay(1000).hide(1000);
+                    }
+        
+        });
+       }
+        
+    });
+
+    $("[name='whole_select']").change(function(){
+      status=$(this).attr('checked');
+      if(status=="checked"){
+        $("#table input").each(function(i){
+             $(this).attr('checked','checked');   
+        });
+      }
+      else{
+        $("#table input").each(function(i){
+              $(this).prop("checked", false);
+              $(this).attr("checked", false);
+              $(this).removeAttr('checked');
+        });
+      }
+    });
+
+    $("[name='whole_index']").change(function(){
+      status=$(this).attr('checked');
+      if(status=="checked"){
+            $(".index input").each(function(i){
+               $(this).attr('checked','checked');   
+            });
+      }
+      else{
+            $(".index input").each(function(i){
+              $(this).prop("checked", false);
+              $(this).attr("checked", false);
+              $(this).removeAttr('checked');
+            });
+      }
+    });
+
+    $("[name='whole_user']").change(function(){
+      
+      status=$(this).attr('checked');
+      if(status=="checked"){
+            $(".user input").each(function(i){
+               $(this).attr('checked','checked');   
+            });
+      }
+      else{
+            $(".user input").each(function(i){
+              $(this).prop("checked", false);
+              $(this).attr("checked", false);
+              $(this).removeAttr('checked');
+            });
+      }
+    });
+
+    $("[name='whole_admin']").change(function(){
+      
+      status=$(this).attr('checked');
+      if(status=="checked"){
+            $(".admin input").each(function(i){
+               $(this).attr('checked','checked');   
+            });
+      }
+      else{
+            $(".admin input").each(function(i){
+              $(this).prop("checked", false);
+              $(this).attr("checked", false);
+              $(this).removeAttr('checked');
+            });
+      }
+    });
+
+    $("[name='whole_video']").change(function(){
+      
+      status=$(this).attr('checked');
+      if(status=="checked"){
+            $(".videoo input").each(function(i){
+               $(this).attr('checked','checked');   
+            });
+      }
+      else{
+            $(".videoo input").each(function(i){
+              $(this).prop("checked", false);
+              $(this).attr("checked", false);
+              $(this).removeAttr('checked');
+            });
+      }
+    });
+
+    $("[name='whole_information']").change(function(){
+      
+      status=$(this).attr('checked');
+      if(status=="checked"){
+            $(".information input").each(function(i){
+               $(this).attr('checked','checked');   
+            });
+      }
+      else{
+            $(".information input").each(function(i){
+              $(this).prop("checked", false);
+              $(this).attr("checked", false);
+              $(this).removeAttr('checked');
+            });
+      }
+    });
+
+    $("[name='whole_plan']").change(function(){
+      
+      status=$(this).attr('checked');
+      if(status=="checked"){
+            $(".plan input").each(function(i){
+               $(this).attr('checked','checked');   
+            });
+      }
+      else{
+            $(".plan input").each(function(i){
+              $(this).prop("checked", false);
+              $(this).attr("checked", false);
+              $(this).removeAttr('checked');
+            });
+      }
+    });
+
+
+
+    $("[name='power']").change(function(){
+        status=$(this).attr('checked');
+        if(status=="checked"){
+            $(this).attr('checked','checked');   
+        }
+        else{
+            $(this).removeAttr('checked');
+        }
+    });
+</script>
+</block>

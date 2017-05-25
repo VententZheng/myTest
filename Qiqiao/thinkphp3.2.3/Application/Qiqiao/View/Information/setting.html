@@ -1,0 +1,39 @@
+<extend name="Public/base"/>
+<block name="body">
+         <div class="container" style="width:1000px;">
+            <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6 form-inline pull-right" style="margin-top:50px;">
+                <form class= style="padding:8px 0 " method='post' action="{:U('Information/add_type')}">
+                    <button type="submit" class="btn btn-primary pull-right" style="margin:5px 3px">新增</button>
+                    <input type="text" class="form-control pull-right" name='name' style="margin:5px 3px" placeholder="请输入资讯类型" />
+                </form>
+            </div>
+            </div>
+
+            <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        资讯类型
+                    </header>
+                    <div class="panel-body">
+                        <form  id="app_form" action={:U('Information/change_setting')} method="post">
+
+                            <foreach name='block' item='v'>
+
+                            <div class="form-group col-lg-3">
+                                <input type="text" class="form-control" name="setting_{$v.id}" placeholder="填写类型" id="app" value="{$v.blockname}">
+                            </div>
+
+                            </foreach>
+                            <button type="submit" id="sub" class="btn btn-primary" style="float:right">更改</button>
+                        </form>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        </div>
+
+</block>

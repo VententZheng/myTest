@@ -1,0 +1,1944 @@
+[ 2017-05-14T19:32:53+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+
+[ 2017-05-14T19:32:53+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2017-05-14T19:32:56+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003059s ]
+
+[ 2017-05-14T19:33:00+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2017-05-14T19:33:14+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001634s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `qiq_admin` [ RunTime:0.1918s ]
+SQL: SELECT * FROM `qiq_admin` WHERE `name` = 'root' LIMIT 1   [ RunTime:0.1587s ]
+SQL: SELECT `real_name` FROM `qiq_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_log` [ RunTime:0.0868s ]
+SQL: INSERT INTO `qiq_log` (`user`,`name`,`time`,`ip`,`action`) VALUES ('zhengfuming','登录','2017-05-14 19:33:13','127.0.0.1','zhengfuming登录后台系统') [ RunTime:0.5576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.260261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.225777s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.166325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.390909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2017-05-14T19:33:19+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `qiq_video_attributes` [ RunTime:0.1940s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video_attributes` LIMIT 1   [ RunTime:0.9228s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.2549s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.2222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+SQL: select version() as v; [ RunTime:0.2159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.684417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.684741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004631s ]
+
+[ 2017-05-14T19:33:23+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+SQL: SHOW COLUMNS FROM `qiq_video_attributes` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video_attributes` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_user` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+SQL: select version() as v; [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2017-05-14T19:33:32+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/User/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0152s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.1672s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0506s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'User' AND `status` = 1  [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.4332s ]
+SQL: SELECT * FROM `qiq_user`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qiq_user_behavior` [ RunTime:0.1289s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 39  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qiq_collection` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 39  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_praise` [ RunTime:0.1702s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 39  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0137s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.2023s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 51  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 51  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 51  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 37  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 37  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 37  [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 35  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 35  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 35  [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 57  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 57  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 57  [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 61  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 61  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 61  [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 62  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 62  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 62  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 63  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 63  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 63  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 64  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 64  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 64  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 65  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 65  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 65  [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 67  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 67  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 67  [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 66  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 66  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 66  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 10 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined offset: 39 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 64 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 64 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.412318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.412430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2017-05-14T19:33:34+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/User/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.1461s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0486s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'User' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.1383s ]
+SQL: SELECT * FROM `qiq_user`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qiq_user_behavior` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 39  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_collection` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 39  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_praise` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 39  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0060s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 51  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 51  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 51  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 37  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 37  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 37  [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 35  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 35  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 35  [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 57  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 57  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 57  [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 61  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 61  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 61  [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 62  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 62  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 62  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 63  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 63  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 63  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 64  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 64  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 64  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 65  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 65  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 65  [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 67  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 67  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 67  [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 66  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 66  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 66  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 10 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined offset: 39 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 64 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 64 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002153s ]
+
+[ 2017-05-14T19:33:56+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/User/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0336s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.1742s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'User' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_message` [ RunTime:0.1043s ]
+SQL: SELECT qiq_user.username,qiq_message.* FROM `qiq_message` INNER JOIN qiq_user ON qiq_message.user_id = qiq_user.id   [ RunTime:0.0408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\011c8917a94c99b15aa7aa95e993d42e.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2017-05-14T19:33:57+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/User/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0515s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.1767s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'User' AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qiq_message` [ RunTime:0.1449s ]
+SQL: SELECT qiq_user.username,qiq_message.* FROM `qiq_message` INNER JOIN qiq_user ON qiq_message.user_id = qiq_user.id   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\011c8917a94c99b15aa7aa95e993d42e.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2017-05-14T19:34:08+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Information/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0053s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Information' AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0003s ]
+SQL: select info.id,blo.blockname,info.news_title,info.news_time,info.is_send from qiq_information info , qiq_block blo where info.blockid=blo.id order by info.id desc limit 0,8 [ RunTime:0.0321s ]
+SQL: select count(*) as count from qiq_information info , qiq_block blo where info.blockid=blo.id [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\8c782af64238d1987092f4c375758104.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001725s ]
+
+[ 2017-05-14T19:34:09+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Information/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0843s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0761s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Information' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.1918s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0004s ]
+SQL: select info.id,blo.blockname,info.news_title,info.news_time,info.is_send from qiq_information info , qiq_block blo where info.blockid=blo.id order by info.id desc limit 0,8 [ RunTime:0.0008s ]
+SQL: select count(*) as count from qiq_information info , qiq_block blo where info.blockid=blo.id [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\8c782af64238d1987092f4c375758104.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001949s ]
+
+[ 2017-05-14T19:34:20+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Plan/planmanage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0048s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0054s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Plan' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: select p.plan_highlights,p.plan_rule,blo.name,p.id,p.Uid,p.Tid,p.plan_type,p.plan_route,p.plan_title,p.planup_time,plan_stage,p.plan_summary,p.plan_cover,p.plan_state,p.plan_times,u.username from qiq_plan p,qiq_user u,qiq_plan_block blo where p.Uid=u.id and blo.id=p.plan_stage order by p.id desc limit 0,8 [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 7  [ RunTime:0.0005s ]
+SQL: select count(*) as count from qiq_plan [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\81977b5a0d827fe6c449d77f4f3475a2.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.273123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.273241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
+
+[ 2017-05-14T19:34:21+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Plan/planmanage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.1031s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.2095s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Plan' AND `status` = 1  [ RunTime:0.0006s ]
+SQL: select p.plan_highlights,p.plan_rule,blo.name,p.id,p.Uid,p.Tid,p.plan_type,p.plan_route,p.plan_title,p.planup_time,plan_stage,p.plan_summary,p.plan_cover,p.plan_state,p.plan_times,u.username from qiq_plan p,qiq_user u,qiq_plan_block blo where p.Uid=u.id and blo.id=p.plan_stage order by p.id desc limit 0,8 [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0950s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 7  [ RunTime:0.0004s ]
+SQL: select count(*) as count from qiq_plan [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\81977b5a0d827fe6c449d77f4f3475a2.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2017-05-14T19:34:24+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Plan/titlemanage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0232s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.2198s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Plan' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: select t.id,t.team_name,t.team_slogan,t.team_summary,t.team_pic,t.status,u.username from qiq_team t,qiq_user u where t.Uid=u.id limit 0,3 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 5  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `qiq_video` WHERE `Tid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `Tid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `Tid` = 5  [ RunTime:0.0004s ]
+SQL: select count(*) as count from qiq_team [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\49967adf3a28839a890324577cf7e011.php 第 10 行.
+NOTIC: [8] Undefined offset: 1 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\49967adf3a28839a890324577cf7e011.php 第 386 行.
+NOTIC: [8] Undefined offset: 2 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\49967adf3a28839a890324577cf7e011.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002931s ]
+
+[ 2017-05-14T19:34:25+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Plan/titlemanage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0328s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.1559s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Plan' AND `status` = 1  [ RunTime:0.0010s ]
+SQL: select t.id,t.team_name,t.team_slogan,t.team_summary,t.team_pic,t.status,u.username from qiq_team t,qiq_user u where t.Uid=u.id limit 0,3 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.2195s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 5  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.1276s ]
+SQL: SELECT * FROM `qiq_video` WHERE `Tid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `Tid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `Tid` = 5  [ RunTime:0.0003s ]
+SQL: select count(*) as count from qiq_team [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.016325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.016468s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\49967adf3a28839a890324577cf7e011.php 第 10 行.
+NOTIC: [8] Undefined offset: 1 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\49967adf3a28839a890324577cf7e011.php 第 386 行.
+NOTIC: [8] Undefined offset: 2 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\49967adf3a28839a890324577cf7e011.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2017-05-14T19:35:21+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0057s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0054s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0004s ]
+SQL: select id,video_route from qiq_video where is_change=1 [ RunTime:0.0004s ]
+SQL: select v.video_type,u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate,v.is_change from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0422s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001530s ]
+
+[ 2017-05-14T19:35:22+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.1180s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0812s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0004s ]
+SQL: select id,video_route from qiq_video where is_change=1 [ RunTime:0.0006s ]
+SQL: select v.video_type,u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate,v.is_change from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0009s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002775s ]
+
+[ 2017-05-14T19:35:33+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Plan/setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0207s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.1793s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Plan' AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_plan_block` [ RunTime:0.1208s ]
+SQL: SELECT * FROM `qiq_plan_block`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\2127998095df504d29b9a40a53f90e9e.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2017-05-14T19:35:33+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Plan/setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0295s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0434s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Plan' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_plan_block` [ RunTime:0.1425s ]
+SQL: SELECT * FROM `qiq_plan_block`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\2127998095df504d29b9a40a53f90e9e.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001752s ]
+
+[ 2017-05-14T19:35:36+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Information/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0249s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.2313s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Information' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\b9411c11b05935fe50fb0a8d956e5973.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2017-05-14T19:35:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Information/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0366s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.2392s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Information' AND `status` = 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0424s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\b9411c11b05935fe50fb0a8d956e5973.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2017-05-14T19:35:48+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.1695s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.1050s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.2369s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0004s ]
+SQL: select id,video_route from qiq_video where is_change=1 [ RunTime:0.0004s ]
+SQL: select v.video_type,u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate,v.is_change from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0008s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2017-05-14T19:35:49+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0707s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.2074s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0005s ]
+SQL: select id,video_route from qiq_video where is_change=1 [ RunTime:0.0008s ]
+SQL: select v.video_type,u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate,v.is_change from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0010s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2017-05-14T19:36:29+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/User/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000318s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.1208s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0759s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'User' AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `qiq_user`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qiq_user_behavior` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 39  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_collection` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 39  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_praise` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 39  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0068s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 51  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 51  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 51  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 37  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 37  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 37  [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 35  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 35  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 35  [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 57  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 57  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 57  [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 61  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 61  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 61  [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 62  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 62  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 62  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 63  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 63  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 63  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 64  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 64  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 64  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 65  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 65  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 65  [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 67  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 67  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 67  [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 66  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 66  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 66  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 10 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined offset: 39 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 64 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 64 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002625s ]
+
+[ 2017-05-14T19:36:30+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/User/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0422s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0638s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'User' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.1559s ]
+SQL: SELECT * FROM `qiq_user`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qiq_user_behavior` [ RunTime:0.2158s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 39  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_collection` [ RunTime:0.1036s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 39  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_praise` [ RunTime:0.0970s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 39  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.2050s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.1748s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 51  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 51  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 51  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 37  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 37  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 37  [ RunTime:0.0008s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 35  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 35  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 35  [ RunTime:0.0006s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 57  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 57  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 57  [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 61  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 61  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 61  [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 62  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 62  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 62  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 63  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 63  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 63  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 64  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 64  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 64  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 65  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 65  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 65  [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 67  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 67  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 67  [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_title` FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user_behavior` WHERE `userid` = 66  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_collection` WHERE `Uid` = 66  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_praise` WHERE `Uid` = 66  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 10 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined offset: 39 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 51 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 62 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined offset: 63 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 64 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 64 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 355 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined index: id D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 322 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 328 行.
+NOTIC: [8] Undefined offset: 66 D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 351 行.
+NOTIC: [8] Use of undefined constant video - assumed 'video' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 364 行.
+NOTIC: [8] Use of undefined constant plan - assumed 'plan' D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\4cf78e6d7325c2080ac666857f15631b.php 第 367 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2017-05-14T19:37:03+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0063s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.3682s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0522s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0003s ]
+SQL: select id,video_route from qiq_video where is_change=1 [ RunTime:0.0003s ]
+SQL: select v.video_type,u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate,v.is_change from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000570s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002213s ]
+
+[ 2017-05-14T19:37:04+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.2295s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.2322s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.1337s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0005s ]
+SQL: select id,video_route from qiq_video where is_change=1 [ RunTime:0.0005s ]
+SQL: select v.video_type,u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate,v.is_change from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0008s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001767s ]
+
+[ 2017-05-14T19:37:09+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/get_attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `qiq_video_attributes` [ RunTime:0.2922s ]
+SQL: SELECT `id` FROM `qiq_video_attributes` WHERE `videoid` = 19 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.2157s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `qiq_video_attributes` SET `id`='78' WHERE `videoid` = 78 [ RunTime:0.0700s ]
+
+[ 2017-05-14T19:37:31+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0418s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.2138s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_app` [ RunTime:0.1660s ]
+SQL: SELECT `video_wm`,`token` FROM `qiq_app` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0790s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\c1dfa5a8a38ce0762d399a6b16cf631c.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2017-05-14T19:37:32+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0476s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.1169s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qiq_app` [ RunTime:0.1709s ]
+SQL: SELECT `video_wm`,`token` FROM `qiq_app` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\c1dfa5a8a38ce0762d399a6b16cf631c.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2017-05-14T19:37:39+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Information/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0375s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.2092s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Information' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0887s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0004s ]
+SQL: select info.id,blo.blockname,info.news_title,info.news_time,info.is_send from qiq_information info , qiq_block blo where info.blockid=blo.id order by info.id desc limit 0,8 [ RunTime:0.0010s ]
+SQL: select count(*) as count from qiq_information info , qiq_block blo where info.blockid=blo.id [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\8c782af64238d1987092f4c375758104.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2017-05-14T19:37:40+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Information/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0047s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0056s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Information' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0003s ]
+SQL: select info.id,blo.blockname,info.news_title,info.news_time,info.is_send from qiq_information info , qiq_block blo where info.blockid=blo.id order by info.id desc limit 0,8 [ RunTime:0.0008s ]
+SQL: select count(*) as count from qiq_information info , qiq_block blo where info.blockid=blo.id [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\8c782af64238d1987092f4c375758104.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+

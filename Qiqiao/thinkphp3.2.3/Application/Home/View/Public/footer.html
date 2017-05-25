@@ -1,0 +1,60 @@
+ <!-- -------------footer底部--------- -->
+    
+    <div class="footer">
+        <div class="wrap-footer">
+            <div class="container footer-t">
+                <div class="row">
+                <hr style="background-color:#999999; height:2px" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" />
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-top">
+                        <ul>
+                            <li><a href="#">关于我们</a></li><span> | </span>
+                            <li><a href="#">诚聘英才</a></li><span> | </span>
+                            <li><a href="#">服务条款</a></li><span> | </span>
+                            <li><a href="#">广告服务</a></li><span> | </span>
+                            <li><a href="#">客服中心</a></li><span> | </span>
+                            <li><a href="#">意见反馈</a></li><span> | </span>
+                            <li><a href="#">网站导航</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-middle">
+                        &copy; 七巧网 ****版权所有
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  返回顶部  -->
+    <div class="bottom_tools">
+        <a id="scrollUp" href="javascript:;" title="回到顶部"></a>
+    </div>
+    <script type="text/javascript">
+    $(function () {
+            var $body = $(document.body);
+            var $bottomTools = $('.bottom_tools');
+            var $qrTools = $('.qr_tool');
+            var qrImg = $('.qr_img');
+            $(window).scroll(function () {
+                var scrollHeight = $(document).height();
+                var scrollTop = $(window).scrollTop();
+                var $footerHeight = $('.footer').outerHeight(true);
+                var $windowHeight = $(window).innerHeight();
+                scrollTop > 300 ? $("#scrollUp").fadeIn(200).css("display", "block") : $("#scrollUp").fadeOut(200);//fadeIn元素淡入，fadeOut(2000)元素淡出2秒
+                $bottomTools.css("bottom", scrollHeight - scrollTop - $footerHeight > $windowHeight ? 40 : $windowHeight + scrollTop + $footerHeight + 40 - scrollHeight);
+            });
+            $('#scrollUp').click(function (e) {
+                e.preventDefault();
+                $('html,body').animate({
+                    scrollTop: 0
+                });
+            });
+            $qrTools.hover(function () {
+                qrImg.fadeIn();
+            }, function () {
+                qrImg.fadeOut();
+            });
+        });
+    </script>
+    </body>
+
+</html>

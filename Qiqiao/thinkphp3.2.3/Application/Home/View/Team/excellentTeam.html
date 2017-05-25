@@ -1,0 +1,92 @@
+<!-- 导入头部文件 -->
+<include file="Public/header" />
+<!-- 导入css文件 -->
+<link href="__PUBLIC__/Home/css/team.css" rel="stylesheet">
+
+    <!--  详细的团队内容展示  -->
+    <div class="container">
+        <div class="row">
+            <div class="teamdetail col-lg-9 col-md-9 col-sm-10 col-xs-12">
+                <!-- 团队图片、名称、代表作品begin  -->
+                <div class="team-title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <if condition="$vo.team_pic EQ null">
+                        <li class="col-lg-3 col-md-4 col-sm-5 col-xs-12"><img src="__PUBLIC__/Home/image/team/team-default.jpg"></li>
+                        <else />
+                        <li class="col-lg-3 col-md-4 col-sm-5 col-xs-12"><img src="__PUBLIC__/Home/image/team/{$Tdata.team_pic}"></li>
+
+                        </if>
+                        <li class="col-lg-9 col-md-8 col-sm-7 col-xs-12"><span class="team-name">{$Tdata.team_name}</span></li>
+                        <li class="col-lg-9 col-md-8 col-sm-7 col-xs-12"><span class="team-slogan">团队口号：</span><span class="team-slogan">{$Tdata.team_slogan}</span></li>
+                        <li class="col-lg-9 col-md-8 col-sm-7 col-xs-12"><span class="stand-title">代表作品：</span></li>
+                        <li class="col-lg-9 col-md-8 col-sm-7 col-xs-12"><span class="stand-project"><volist name="video" id="val">《{$val.video_title}》
+                        </volist></span></li>
+                    </ul>
+                </div>
+                <!--  团队图片、名称、代表作品end  -->
+
+                <!-- 团队简介begin -->
+                <div class="teamcon-summary col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="teamsum-top">
+                        <span>团队简介</span>
+                    </div>
+                    <div class="teamsum-content">
+                        <p>{$Tdata.team_summary}</p>
+                    </div>
+                </div>
+                <!-- 团队简介end -->
+
+                <!-- 团队成员信息begin -->
+                <div class="team-member col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <dl>
+                        <dt class="teammem-top"><span>团队详细介绍</span></dt>
+                        <dd class="team-Mr">
+                            <dl>
+                                <dt class="team-teacher"><span>团队导师</span></dt>
+                                <volist name="tmdata" id="vo">
+                                <dd class="teamMr-name">
+                                    <span>{$vo.member_name}</span>
+                                    <p>{$vo.member_summary}</p>
+                                </dd>
+                                </volist>
+                            </dl>
+                        </dd>
+                        <dd class="team-partner">
+                            <dl>
+                                <dt class="team-people"><span>团队成员</span></dt>
+                                <volist name="mdata" id="vo">
+                                <dd class="teampart">
+                                    <span>{$vo.member_name}</span>
+                                    <p>{$vo.member_summary}</p>
+                                </dd>
+                                <hr style="color:rgba(220,220,220,1.0)" />
+                                </volist>
+                                <!-- 分界线 -->
+                            </dl>
+                        </dd>
+                    </dl>
+                </div>
+                <!-- 团队成员信息end -->
+
+                <!-- 团队作品begin -->
+                <div class="team-project col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <dl class="teamproject-item">
+                        <dt class="teamproject-title"><span>团队作品</span></dt>
+                        <volist name="video" id="val">
+                            <dd><a href="#">{$val.video_title}</a><span></span><span>{$val.vidup_time|date='Y-m-d',###}</span></dd>
+                        </volist>
+                    </dl>
+                </div>
+                <!-- 团队作品end -->
+            </div>
+        </div>
+    </div>
+
+<!-- JavaScript -->
+    <!-- 导航栏点击变颜色 -->
+    <script type="text/javascript">
+        $("#team").addClass('homepage');
+    </script>
+
+<!-- -------------footer底部--------- -->
+<include file="Public/footer" />

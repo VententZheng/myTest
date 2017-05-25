@@ -1,0 +1,325 @@
+<!-- 导入个人中心左侧 -->
+<include file="User/index" />
+
+            <!--   账户设置  -->
+            <div class="myaccount col-lg-10 col-md-10 col-sm-9 col-xs-12">
+                <div class="myaccount-title">
+                    <h3>账户设置</h3>
+                </div>
+                <ul id="myTab" class="nav nav-tabs">
+                    <li class="active col-lg-2 col-md-2 col-xs-3"><a href="#myEmail" data-toggle="tab"><i class="fa fa-envelope-o"></i>&nbsp;邮箱验证</a></li>
+                    <li class="col-lg-2 col-md-2 col-xs-3"><a href="#myPhone" data-toggle="tab"><i class="fa fa-mobile-phone"></i>&nbsp;手机验证</a></li>
+                    <li class="col-lg-2 col-md-2 col-xs-3"><a href="#modifyPassword" data-toggle="tab"><i class="fa fa-lock"></i>&nbsp;修改密码</a></li>
+                    <li class="col-lg-2 col-md-2 col-xs-3"><a href="#otherAccount" data-toggle="tab"><i class="fa fa-link"></i>&nbsp;第三方账号</a></li>
+                </ul>
+
+                <div id="myTabContent" class="tab-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <!--   邮箱绑定   -->
+                    <div class="tab-pane fade in active myemail" id="myEmail">
+                        <!-- 已经绑定邮箱样式 -->
+                        <notempty name="adata.email">
+                        <form class="form-horizontal email-bond" role="form">
+                            <div class="form-group">
+                                <label for="label" class="col-lg-2 col-md-2 col-sm-3 col-xs-3 control-label">已绑定邮箱：</label>
+                                <div class="col-lg-5 col-md-6 col-sm-8 col-xs-9 email-content">
+                                    <span>{$adata.email}</span>
+                                    <a href="__CONTROLLER__/removerEmail" onclick="if(confirm('确定要解除邮箱绑定吗?')){return true;}else{return false;}">解除绑定</a>
+                                </div>
+                            </div>
+                        </form>
+                        <else />
+                        <!-- 没绑定邮箱样式 -->
+                        <form role="form" class="form-horizontal" method="post" action="{:U('User/addEmail')}" id="emailModify">
+                            <div class="form-group">
+                                <label for="email" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">邮&nbsp;&nbsp;&nbsp;箱</label>
+                                <div class="col-lg-6 col-md-7 col-sm-8 col-xs-8">
+                                    <input type="text" class="form-control mailbox" id="email" name="email" placeholder="请输入常用邮箱">
+                                </div>
+                                <div>
+                                    <label for="email" class="error control-label col-lg-offset-2 col-lg-9 col-md-offset-2 col-md-9 col-sm-offset-2 col-sm-9 col-xs-offset-2 col-xs-9" style="color: red;text-align: left;padding-left: 20px;"></label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="emailcode" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">验证码</label>
+                                <div class="col-lg-6 col-md-7 col-sm-8 col-xs-8">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control emailboxcode" name="mailboxcode" placeholder="请输入邮箱验证码">
+                                        <span class="input-group-addon">获取验证码</span>
+                                    </div>
+                                </div>
+                                <div>
+                                <label for="mailboxcode" class="error control-label col-lg-offset-2 col-lg-9 col-md-offset-2 col-md-9 col-sm-offset-2 col-sm-9 col-xs-offset-2 col-xs-9" style="color: red;text-align: left;padding-left: 20px;"></label>
+                                </div>
+                            </div>
+
+                            <div class="form-group email-btn" style="text-align:left;">
+                                <div class="col-lg-offset-2 col-lg-10 col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10 col-xs-offset-2 col-xs-10">
+                                    <button type="submit" class="btn btn-default col-lg-5 col-md-5 col-sm-7 col-xs-7">保 存</button>
+                                </div>
+                            </div>
+                        </form>
+                        </notempty>
+                    </div>
+
+                    <!--  手机验证  -->
+                    <div class="tab-pane fade myphone" id="myPhone">
+                    <!-- 已经绑定手机号码样式 -->
+                    <notempty name="adata.phone">
+                        <form class="form-horizontal phone-bond" role="form">
+                            <div class="form-group">
+                                <label for="label" class="col-lg-2 col-md-2 col-sm-3 col-xs-4 control-label">已绑定手机号：</label>
+                                <div class="col-lg-5 col-md-6 col-sm-8 col-xs-8 phone-content">
+                                    <span>{$adata.phone}</span>
+                                    <!--a href="__CONTROLLER__/removerPhone" onclick="if(confirm('确定要解除手机号绑定吗?')){return true;}else{return false;}">解除手机绑定</a-->
+                                </div>
+                            </div>
+                        </form>
+                        <else />
+                        <!-- 未绑定手机号样式 -->
+                        <form role="form" class="form-horizontal" id="phoneBind" method="POST" action="{:U('User/addPhone')}">
+                            <div class="form-group">
+                                <label for="phone" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">手&nbsp;&nbsp;&nbsp;机</label>
+                                <div class="col-lg-6 col-md-7 col-sm-8 col-xs-8">
+                                    <input type="text" class="form-control" id="phonenum" name="phonenum" placeholder="请输入常用手机号码" required>
+                                </div>
+                                 <label for="phonenum" class="error control-label col-lg-offset-2 col-lg-9 col-md-offset-2 col-md-9 col-sm-offset-2 col-sm-9 col-xs-offset-2 col-xs-9" style="color: red;text-align: left;padding-left: 20px;"></label>
+                            </div>
+                            <div class="form-group">
+                                <label for="phonecode" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">验证码</label>
+                                <div class="col-lg-6 col-md-7 col-sm-8 col-xs-8">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="请输入手机验证码" name="phonecode">
+                                        <span class="input-group-addon">获取验证码</span>
+                                    </div>
+                                </div>
+                                <label for="phonecode" class="error control-label col-lg-offset-2 col-lg-9 col-md-offset-2 col-md-9 col-sm-offset-2 col-sm-9 col-xs-offset-2 col-xs-9" style="color: red;text-align: left;padding-left: 20px;"></label>
+                            </div>
+                            <div class="form-group phone-btn" style="text-align:left;">
+                                <div class="col-lg-offset-2 col-lg-10 col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10 col-xs-offset-2 col-xs-10">
+                                    <button type="submit" class="btn btn-default col-lg-5 col-md-5 col-sm-7 col-xs-7">保 存</button>
+                                </div>
+                            </div>
+                        </form>
+                        </notempty>
+                    </div>
+
+                    <!--  修改密码  -->
+                    <div class="tab-pane fade mypassword" id="modifyPassword">
+                        <form role="form" class="form-horizontal" id="passwordEdit" method="POST" action="{:U('User/modifyPwd')}">
+                            <div class="form-group">
+                                <label for="password" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">原密码</label>
+                                <div class="col-lg-6 col-md-7 col-sm-8 col-xs-8">
+                                    <input type="password" class="form-control" id="password" name="password" placeholder="请输入原密码">
+                                </div>
+                                <label for="password" class="error control-label col-lg-offset-2 col-lg-9 col-md-offset-2 col-md-9 col-sm-offset-2 col-sm-9 col-xs-offset-2 col-xs-9" style="color: red;text-align: left;padding-left: 20px;"></label>
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">新密码</label>
+                                <div class="col-lg-6 col-md-7 col-sm-8 col-xs-8">
+                                    <input type="password" class="form-control" id="newpassword" name="newpassword" placeholder="请输入新密码" required>
+                                </div>
+                                <label for="newpassword" class="error control-label col-lg-offset-2 col-lg-9 col-md-offset-2 col-md-9 col-sm-offset-2 col-sm-9 col-xs-offset-2 col-xs-9" style="color: red;text-align: left;padding-left: 20px;"></label>
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">确认密码</label>
+                                <div class="col-lg-6 col-md-7 col-sm-8 col-xs-8">
+                                    <input type="password" class="form-control" id="confirmpwd" name="confirmpwd" placeholder="请输入确认新密码" required>
+                                </div>
+                                <label for="confirmpwd" class="error control-label col-lg-offset-2 col-lg-9 col-md-offset-2 col-md-9 col-sm-offset-2 col-sm-9 col-xs-offset-2 col-xs-9" style="color: red;text-align: left;padding-left: 20px;"></label>
+                            </div>
+                            <div class="form-group password-btn" style="text-align:left;">
+                                <div class="col-lg-offset-2 col-lg-10 col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10 col-xs-offset-2 col-xs-10">
+                                    <button type="submit" class="btn btn-default col-lg-5 col-md-5 col-sm-7 col-xs-7">保存</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!--  第三方账户绑定   -->
+                    <div class="tab-pane fade myother" id="otherAccount">
+                        <ul>
+                            <li><i class="fa fa-weixin"></i></li>
+                            <li><span>微信</span></li>
+                            <li><a href="#">立即绑定</a></li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa fa-weibo"></i></li>
+                            <li><span>新浪微博</span></li>
+                            <li><a href="#">立即绑定</a></li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa fa-qq"></i></li>
+                            <li><span>QQ</span></li>
+                            <li><a href="#">立即绑定</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+    <!-- JavaScript -->
+    <script src="__PUBLIC__/Home/js/jquery.validate.min.js"></script>
+    <script src="__PUBLIC__/Home/js/validate-messages_zh.min.js"></script>
+
+    <!--  邮箱绑定验证  -->
+    <script>
+        $().ready(function () {
+            $("#emailModify").validate({
+                //验证规则
+                rules: {
+                    email: {
+                        required: true,
+                        checkemail:true,
+                        remote: {
+                            url: "__CONTROLLER__/checkemail",
+                            type: "post",
+                            data: {
+                                ajaxemail: function () {
+                                    return $('#email').val();
+                                }
+                            },
+                            dataType: "html",
+                            dataFilter: function (data, type) {
+                                if (data == true)
+                                    return true;
+                                else
+                                    return false;
+                            },
+                        }
+                    },
+                    mailboxcode: 'required',
+                },
+                //提示信息
+                messages: {
+                    email: {
+                        required: '*请输入常用邮箱',
+                        remote: '*该邮箱已经注册',
+                    },
+                    mailboxcode: '*请输入邮箱验证码',
+                },
+
+            });
+            //邮箱正则表达式验证
+            $.validator.addMethod("checkemail", function (value, element, params) {
+                var checkemail = /^^([0-9A-Za-z\-_\.]+)@([0-9a-z]+\.[a-z]{2,3}(\.[a-z]{2})?)$/;
+                return this.optional(element) || (checkemail.test(value));
+            }, "*请输入正确的邮箱");
+        });
+    </script>
+
+    <!-- 手机绑定验证 -->
+    <script type="text/javascript">
+         $().ready(function () {
+            $("#phoneBind").validate({
+                //验证规则
+                rules: {
+                    phonenum: {
+                        required: true,
+                        checkPhone: true,
+                        remote: {
+                            url: "__CONTROLLER__/checkphone",
+                            type: "post",
+                            data: {
+                                ajaxphone: function () {
+                                    return $('#phonenum').val();
+                                }
+                            },
+                            dataType: "html",
+                            dataFilter: function (data, type) {
+                                if (data == true)
+                                    return true;
+                                else
+                                    return false;
+                            },
+                        }
+                    },
+                    phonecode: 'required',
+                },
+                //提示信息
+                messages: {
+                    phonenum: {
+                        required: '*请输入常用手机号',
+                        remote: '*该手机号已经注册',
+                    },
+                    phonecode: '*请输入手机验证码',
+                },
+
+            });
+            //手机号码正则表达式验证
+            $.validator.addMethod("checkPhone", function (value, element, params) {
+                var checkPhone = /^1[3|4|5|7|8][0-9]{9}$/;
+                return this.optional(element) || (checkPhone.test(value));
+            }, "*请输入正确的手机号码");
+        });
+</script>
+
+<!-- 两次密码相同 -->
+    <script>
+        $().ready(function () {
+            $("#passwordEdit").validate({
+                //验证规则
+                rules: {
+                    //密码
+                    password: {
+                        required: true,
+                        remote: {
+                            url: "__CONTROLLER__/checkpwd",
+                            type: "post",
+                            data: {
+                                ajaxpwd: function () {
+                                    return $('#password').val();
+                                }
+                            },
+                            dataType: "html",
+                            dataFilter: function (data, type) {
+                                if (data == true)
+                                    return true;
+                                else
+                                    return false;
+                            },
+                        }
+                    },
+                    newpassword: {
+                        required: true,
+                    },
+                    //确认密码
+                    confirmpwd: {
+                        required: true,
+                        equalTo: "#newpassword",
+                    },
+                },
+                //提示信息
+                messages: {
+                    password:　{
+                        required: '*请输入原密码',
+                        remote: '*原密码输入错误',
+                    },
+                    newpassword: {
+                        required: '*请输入新密码',
+                    },
+                    confirmpwd: {
+                        required: '*请输入确认密码',
+                        equalTo: '*两次输入的密码不一致',
+                    },
+                },
+            });
+        });
+    </script>
+
+<!-- 直接跳转修改密码 -->
+    <script>
+        var url = window.location.href;
+        var index = url.indexOf("flag");
+        if (index == 'pwd') {
+            $('.toregister a').trigger("click");
+        }
+    </script>
+
+    <!-- 侧边导航点击变颜色 -->
+    <script type="text/javascript">
+        $("#myaccount").addClass('centerhome');
+    </script>
+
+ <!-- -------------footer底部--------- -->
+<include file="Public/footer" />

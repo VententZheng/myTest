@@ -1,0 +1,36 @@
+[ 2017-03-13T15:18:03+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Index/log/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-13T15:18:16+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Index/log/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-13T15:18:19+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Index/log/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-13T15:18:21+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Index/log/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-13T15:18:53+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Index/log/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-13T23:34:44+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Index/log/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+

@@ -1,0 +1,385 @@
+.container{
+    font-family: "Microsoft YaHei";
+}
+.top-classify {
+    margin: 20px 0px 0px 0px;
+    padding: 10px 0px 10px 10px;
+    border: 1px solid rgba(224, 224, 224, 1.0);
+    background: white;
+}
+
+.top-classify .item-project {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.top-classify .item-project .item-type,
+.item-process,
+.item-sort {
+    list-style: none;
+}
+
+.top-classify .item-project .item-sort dl {
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 5px 10px
+}
+
+.top-classify .item-project .item-type dl,
+.item-process dl {
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 5px 10px;
+    border-bottom: 1px dashed #D5D5D5;
+}
+
+.top-classify .item-project .item-type dl dt,
+.item-process dl dt,
+.item-sort dl dt {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.top-classify .item-project .item-type dl dd,
+.item-process dl dd,
+.item-sort dl dd {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 10px 2px 10px;
+}
+
+.top-classify .item-project .item-type dl dd a,
+.item-process dl dd a,
+.item-sort dl dd a {
+    margin: 0px 0px 0px 0px;
+    padding: 2px 4px 2px 4px;
+    color: #333333;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+.navdown a{
+    background: rgba(37,149,183,1.0);
+    color: rgba(255,255,255,1.0);
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.top-classify .item-project .item-type dl dd a:hover,
+.item-process dl dd a:hover,
+.item-sort dl dd a:hover {
+    color: rgba(247,132,17,1.0);
+    text-decoration: none;
+}
+.program-content{
+    margin: 25px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-top: 1px solid rgba(215,215,215,1.0);
+}
+.program-content .item{
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 10px;
+    border-bottom: 1px dashed rgba(204,204,204,1.0);
+    background: white; 
+}
+.program-content .item:hover{
+    background: rgba(242,242,242,1.0);
+}
+.program-content .item ul{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.program-content .item ul .li-img{
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.program-content .item ul .li-img span{
+    background: rgba(247,132,17,1.0);
+    position: absolute;
+    top: 0px;
+    font-size: 15px;
+    color: white;
+    padding: 4px 6px 4px 6px;
+}
+.program-content .item ul .li-content{
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+}
+.program-content .item ul li dl dt{
+    padding: 10px 0px 10px 20px;
+    /*background: rgba(10,178,81,0.1);*/
+    /*text-align: center;*/
+}
+.program-content .item ul li dl dt h3{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 4px 4px 4px;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(220,220,220,1.0);
+}
+.program-content .item ul li dl dt h3 a{
+    color: #333333;
+    text-decoration: none;
+}
+.program-content .item ul li dl dt h3 a:hover{
+    color: rgba(247,132,17,1.0);
+}
+/*图片适应*/
+.program-content img{
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: all .5s ease;
+    /* Safari and Chrome */
+    -moz-transition: all .5s ease;
+    /* Firefox */
+    -ms-transition: all .5s ease;
+    /* IE 9 */
+    -o-transition: all .5s ease;
+    /* Opera */
+    transition: all .5s ease;
+}
+
+.program-content .item ul .li-content .tream-infor{
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
+    list-style: none;
+}
+.program-content .item ul .li-content .tream-infor i{
+    color: rgba(247,132,17,1.0);
+    font-size: 18px;
+}
+.program-content .item ul .li-content .tream-infor .puser{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+}
+.program-content .item ul .li-content .tream-infor .pteam{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+}
+.program-content .item ul .li-content .tream-infor .teamp a{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+}
+.program-content .item ul .li-content .tream-infor .teamp a:hover{
+    color: rgba(247,132,17,1.0);
+}
+
+.program-content .item ul .li-content .tream-infor .ptype{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+}
+/*.program-content .item ul .li-content .tream-infor li a{
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color: #333333;
+    text-decoration: none;
+    font-size: 16px;
+}
+.program-content .item ul .li-content .tream-infor li a:hover{
+    color: rgba(255,146,11,1.0);
+}
+.program-content .item ul .li-content .tream-infor li p{
+    display: inline-block;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}*/
+.program-content .item ul .li-content .item-time{
+    margin: 10px 0px 10px 00px;
+    font-size: 16px;
+}
+.program-content .item ul .li-content .item-detail{
+    text-align: center;
+}
+.program-content .item ul .li-content .item-detail a{
+    display: block;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 6px;
+    background: rgba(20,160,198,1.0);
+    color: white;
+    font-size: 18px;
+}
+.program-content .item ul .li-content .item-detail a:hover{
+    background: rgba(45,186,223,1.0);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*节目孵化详细界面*/
+body{
+    background: rgba(246,246,246,1.0);
+}
+img{
+   display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: all .5s ease;
+    /* Safari and Chrome */
+    -moz-transition: all .5s ease;
+    /* Firefox */
+    -ms-transition: all .5s ease;
+    /* IE 9 */
+    -o-transition: all .5s ease;
+    /* Opera */
+    transition: all .5s ease; 
+}
+.hatch{
+    padding-top: 30px;
+}
+.hatch .hatch-head{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
+    background: white;
+}
+.hatch .hatch-head .hatch-title{
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.hatch .hatch-head .hatch-title .hatchtitle-right{
+    list-style: none;
+}
+.hatch .hatch-head .hatch-title .hatchtitle-right dt{
+    font-size: 22px;
+    font-family: "Microsoft YaHei";
+    font-weight: 500;
+    margin: 0px 0px 16px 0px;
+}
+/*点赞 收藏*/
+.hatch .hatch-head .hatch-title .hatchtitle-right dt .love{
+    display: inline-block;
+    float: right;
+}
+.hatch .hatch-head .hatch-title .hatchtitle-right dt .love a:hover{
+    color: rgba(247,132,17,1.0);
+}
+.hatch .hatch-head .hatch-title .hatchtitle-right dt .love a:hover .badge{
+    color: rgba(247,132,17,1.0);
+}
+.hatch .hatch-head .hatch-title .hatchtitle-right dt .love i{
+    font-size: 24px;
+    margin: 0px 5px 0px 5px;
+}
+.hatch .hatch-head .hatch-title .hatchtitle-right dt .love .badge{
+    background: white;
+    color: rgba(45,168,223,1.0);
+    font-size: 16px;
+}
+/*点赞 收藏 结束*/
+
+.hatch .hatch-head .hatch-title .hatchtitle-right dd{
+    padding: 0px 0px 0px 0px;
+    margin: 16px 0px 10px 0px;
+}
+.hatch .hatch-head .hatch-title .hatchtitle-right dd p{
+    font-size: 16px;
+    text-indent: 2em;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed rgba(220,220,220,1.0);
+}
+.hatch .hatch-head .hatch-title .hatchtitle-right dd span{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+}
+
+
+.hatch .hatch-footer{
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0px 20px 0px;
+    background: white;
+}
+.hatch .hatch-footer .hatch-content{
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 10px;
+}
+.hatch .hatch-footer .hatch-content span{
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 4px 3px 4px;
+    border-bottom: 1px solid rgba(220,220,220,1.0);
+}
+.hatch .hatch-footer .hatch-introduction{
+    
+}
+.hatch .hatch-footer .hatch-introduction dt{
+    text-align: center;
+    background: rgba(242,242,242,1.0);
+    font-size: 18px;
+    padding: 4px 0px 4px 0px;
+    margin: 0px 0px 20px 0px;
+}
+.hatch .hatch-footer .hatch-introduction dd{
+    
+}
+.hatch .hatch-footer .hatch-introduction dd p{
+    text-indent: 2em;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.hatch .hatch-footer .hatch-introduction .hatch-schedule dd span{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+.hatch .hatch-footer .hatch-introduction .hatch-team{
+    
+}
+.hatch .hatch-footer .hatch-introduction .hatch-team .hatch-team-name h4{
+    font-family: "Microsoft YaHei";
+    margin: 0px 0px 0px 0px;
+    margin: 30px 0px 20px 0px;
+    padding: 0px 0px 0px 2px;
+    color: rgba(20,160,198,1.0);
+}
+.hatch .hatch-footer .hatch-introduction .hatch-team .hatch-team-detail{
+    list-style: none;
+    display: block;
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(220,220,220,1.0);
+}
+.hatch .hatch-footer .hatch-introduction .hatch-team .hatch-team-detail li{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/*------分页样式-------*/
+.infor-page a, .infor-page span{
+    font-size: 16px;
+    display:inline-block;
+    padding:4px 10px 4px 10px;
+    margin:10px 6px 0px 6px;
+     border:1px solid #f0f0f0;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.infor-page a,.infor-page li {
+  display:inline-block;
+  list-style: none;
+  text-decoration:none; 
+  color:#58A0D3;
+}
+.infor-page a.first,.infor-page a.prev,.infor-page a.next,.infor-page a.end{
+  margin:0;
+}
+.infor-page a:hover{
+  border-color:rgba(45,186,223,1.0);
+}
+.infor-page span.current{
+  background:rgba(20,160,198,1.0);
+  color:rgba(255,255,255,1.0);
+  font-weight:700;
+  border-color:rgba(20,160,198,1.0);
+}

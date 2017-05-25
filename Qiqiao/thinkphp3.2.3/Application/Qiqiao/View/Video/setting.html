@@ -1,0 +1,123 @@
+<extend name="Public/base"/>
+<block name="body">
+
+            <div class="container" style="width:1000px;">
+             <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6 form-inline pull-right" style="margin-top:50px;">
+                <form class= style="padding:8px 0 " method='post' action="{:U('Video/add_type')}">
+                    <button type="submit" class="btn btn-primary pull-right" style="margin:5px 3px">新增</button>
+                    <input type="text" class="form-control pull-right" name='name' style="margin:5px 3px" placeholder="请输入视频类型" />
+                </form>
+            </div>
+            </div>
+
+
+			<form action="{:U('Video/changewm')}" method="post" enctype="multipart/form-data">
+            <div class="form-group" style="margin-top:20px;">
+                <label class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-2 col-md-2 col-sm-2 control-label">水印</label>
+                <div class="col-md-6 col-sm-6">
+                 <input type="file" id="input-file-now" name="img" class="dropify" data-default-file="__PUBLIC__/Home/wm/{$img}" />
+                    <!--input type="file" name="img" id="img" /-->
+                </div>
+                <div class="col-md-1 col-sm-1">
+                	<button class="btn btn-primary" style="margin-top:80px;" type="submit" name="submit">更改</button>
+                	
+                </div>
+            </div>
+            </form>
+
+            <form action="{:U('Video/changetoken')}" method="post">
+            <div class="form-group">
+            	<label class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-2 col-md-2 col-sm-2 control-label">防盗链TOKEN</label>
+            	<div class="col-md-6 col-sm-6">
+            		<input type='text' id='token' name='token' value='{$token}'/>
+            	</div>
+            	<div class="col-md-1 col-sm-1">
+                	<button class="btn btn-primary"  type="submit" name="submit">更改</button>
+                	
+                </div>
+            </div>
+            </form>
+
+
+            <form  id="app_form" action={:U('Video/change_setting')} method="post">
+            <div class="form-group">
+                    <label class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-2 col-md-2 col-sm-2 control-label">视频类型</label>
+
+                    <div class="panel-body col-md-6 col-sm-6">
+
+                            <foreach name='block' item='v'>
+
+                            <div class="form-group col-lg-3">
+                                <input type="text" class="form-control" name="setting_{$v.id}" placeholder="填写类型" id="app" value="{$v.type}">
+                            </div>
+
+                            </foreach>
+
+                           
+
+                   
+            </div>
+             <div class="col-md-1 col-sm-1">
+                        <button type="submit" id="sub" style="margin-top:85px;" class="btn btn-primary">更改</button>
+                        </div>
+
+
+            </div>
+            </form>
+            </div>
+
+
+
+</block>
+
+
+
+
+<block name="script">
+
+<script type="text/javascript" src="__PUBLIC__/dist/js/dropify.js"></script>
+<script type="text/javascript">
+        $(document).ready(function(){
+        // Basic
+        $('.dropify').dropify();
+
+        // Translated
+        $('.dropify-fr').dropify({
+            messages: {
+                default: '点我上传图片',
+                replace: '点我更换图片',
+                remove:  '移除',
+                error:   '哦哦，出错了。'
+            }
+        });
+
+        // Used events
+        var drEvent = $('#input-file-events').dropify();
+
+        drEvent.on('dropify.beforeClear', function(event, element){
+            return confirm("你想要删除 \"" + element.file.name + "\" ?");
+        });
+
+        drEvent.on('dropify.afterClear', function(event, element){
+            alert('文件删除');
+        });
+
+        drEvent.on('dropify.errors', function(event, element){
+            console.log('出现错误');
+        });
+
+        var drDestroy = $('#input-file-to-destroy').dropify();
+        drDestroy = drDestroy.data('dropify')
+        $('#toggleDropify').on('click', function(e){
+            e.preventDefault();
+            if (drDestroy.isDropified()) {
+                drDestroy.destroy();
+            } else {
+                drDestroy.init();
+            }
+        })
+    });
+
+</script>
+</block>

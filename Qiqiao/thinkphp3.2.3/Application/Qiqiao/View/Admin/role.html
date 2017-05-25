@@ -1,0 +1,149 @@
+<extend name="Public/base"/>
+<block name="css">
+
+<style>
+.online{background:white;display:none;height:100px;}
+.online li{list-style-type:none;display:block;float:left;}
+.online li span{display:block;width:140px;text-align:center;height:20px;float:left;background:white;}
+
+.tubox{display: inline-block; width: 36px;height: 36px;line-height: 34px;overflow: hidden;border:1px solid #ccc;border-radius: 18px;margin-right: 20px;}
+.tubox span{display: inline-block;text-align: center;width: 70px;}
+
+
+
+</style>
+
+
+
+
+</block>
+<block name="body">
+		<div class="container" style="width:1000px;">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6 form-inline pull-right">
+                <form class= style="padding:8px 0 " action="{:U('Admin/role')}" method="post" >
+                    <button type="button" class="btn btn-primary pull-right" style="margin:5px 3px" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">新增角色</button>
+                    <button type="submit" class="btn btn-primary pull-right" style="margin:5px 3px">搜索</button>
+                    <input type="text" class="form-control pull-right" style="margin:5px 3px" name="role_name" placeholder="请输入角色名称" />
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="center-block"><table class="table table-hover text-center" style="margin:auto;width:1000px;">
+
+                  <tr>
+                        <th class="text-center" style="width:30%">序号</th>
+                        <th class="text-center" style="width:30%">角色名</th>
+                        <th class="text-center" style="width:160px">管理</th>
+                    </tr>
+                    <foreach name='role' item='v'>
+                    <tr>
+                    <td>{$v.id}</td>
+                    <td>{$v.title}</td>
+                        <td>
+                        <a href="{:U('Admin/user_power')}/role_id/{$v.id}"><div  class="tubox"><img class="tu" src="__IMG__/role_gray.png"><span>权限</span></div></a>
+
+                        <div  class="tubox" val='{$v.id}' onclick="del('{$v.id}')"><img class="tu" src="__IMG__/del_gray.png"><span>删除</span></div>
+
+
+
+                        </td>
+                    </foreach>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="exampleModalLabel">新增角色</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                  <label for="recipient-name" class="control-label">角色名称</label>
+                  <input type="text" class="form-control" id="name" name="name">
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+              <button type="button" class="btn btn-primary" id="sure">确定</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</block>
+
+
+<block name="script">
+<script type="text/javascript">
+
+              $(".tubox").hover(function(){
+                var imgSrc=$(this).find("img").attr("src");     
+                $(this).stop().animate({"width":"120px"},300)
+                $(this).css({"background":"#5AB6DF","color":"#fff","border-color":"#337AB7","cursor":"pointer"})
+
+                imgSrc=imgSrc.replace("_gray","_white")
+                $(this).find("img").attr("src",imgSrc);
+            },function(){
+                var imgSrc=$(this).find("img").attr("src");
+                $(this).stop().animate({"width":"36px"},300)
+                $(this).css({"background":"#fff","border-color":"#ccc"})
+                imgSrc=imgSrc.replace("_white","_gray")
+                $(this).find("img").attr("src",imgSrc);
+            });
+
+              function del(id){
+
+               $.ajax({
+                 url:'{:U('Admin/del_role')}',
+                 type:'post',
+                 dataType:'json',
+                 data:{"id":id},
+                 success:function(data){
+                    if(data==1){
+                       window.location.href="{:U('Admin/role')}";
+                    }
+                    else{
+                      alert('该角色正在使用，请解除角色使用再删除');
+                    }
+                  }
+              }); 
+
+              }
+
+              $("#sure").click(function(){
+                var content=$('#name').val();
+                if(content!=''){
+                   $.ajax({
+                     url:'{:U('Admin/add_role')}',
+                     type:'post',
+                     dataType:'json',
+                     data:{"name":content},
+                     success:function(data){
+                        if(data==1){
+                           window.location.href="{:U('Admin/role')}";
+                        }
+                        else{
+                          alert('出现错误');
+                        }
+                      }
+                  }); 
+                }
+              });
+
+
+
+</script>
+
+
+
+</block>
+
+ 
+
+

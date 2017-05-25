@@ -1,0 +1,134 @@
+<extend name="Public/base"/>
+<block name="css">
+
+<link rel="stylesheet" type="text/css" href="__DITOR__/themes/default/css/ueditor.css">
+
+
+<style>
+.num,.current,.prev,.next,.first,.end{color:#337AB7;border:1px solid #AA939B; margin-left:5px;width:30px;height:30px;display: inline-block;line-height: 30px}
+.num:hover,.current:hover,.prev:hover,.next:hover,.first:hover,.end:hover{text-decoration:none;background:#EAEAEC;}
+.padding{float: left}
+.prev,.next{width:50px;}
+</style>
+</block>
+<block name="body">
+        <div class="container" style="width:1000px;">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6 form-inline pull-right">
+                    <form class= style="padding:8px 0 " action="{:U('Video/pass')}" method="post" id="video_form">
+                    <button type="submit" class="btn btn-primary pull-right" id="sub" style="margin:5px 3px">搜索</button>
+                    <input type="text" class="form-control pull-right" style="margin:5px 3px" name='subcontent' placeholder="请输入视频标题" id="cont"/>
+                    <input type="hidden" name='hide_sub' value='1' />
+                    <select  name="block_select" class="pull-right text-center" style="border-radius:4px;width:120px;height:34px;margin:5px 3px">
+                        <option name="select_block" value="0">选择板块</option>
+                        <volist name="block_select" id='vo'>
+                            <option value="{$vo.id}">{$vo.type}</option>
+                        </volist>
+                    </select>
+                    </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="center-block">
+                <table class="table table-hover">
+                    <tr>
+                        <th>序号</th>
+                        <th>视频标题</th>
+                        <th>播放次数</th>
+                        <th>点赞人数</th>
+                        <th>收藏人数</th>
+                        <th>所属板块</th>
+                        <th>操作</th>
+                    </tr>
+                    <volist name='info' id='v'>
+                    <tr>
+                    <td>{$v.id}</td>
+                    <td>{$v.video_title}</td>
+                    <td>{$v.play_times}</td>
+                    <td>{$v.video_praise}</td>
+                    <td>{$v.video_collection}</td>
+                    <td>{$v.type}</td>
+                    <td>
+                        <button class="btn btn-primary btn-xs information" onclick="display_video({$v.id})">详情</button>
+                        <button class="btn btn-primary btn-danger btn-xs" id="model_{$v.id}" data-toggle="modal" data-target="#myModal_{$v.id}">撤销</button>                    
+                        <!-- 模态框（Modal） -->
+                        <div class="modal fade" id="myModal_{$v.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                  &times;
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                  撤销视频
+                                </h4>
+                              </div>
+                              <div class="modal-body">
+                                撤销视频后，将在前台不可见，并进入待审核状态
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                                </button>
+                                <button type="button" class="btn btn-primary" onclick="
+                                lock({$v.id},0)">
+                                  确定
+                                </button>
+                              </div>
+                            </div><!-- /.modal-content -->
+                          </div><!-- /.modal -->
+                        </div>
+                    </td>
+                    </tr>
+                    </volist>
+                </table>
+            </div>
+        </div>
+    </div>
+
+         <div class="text-center" style="margin-top:50px">
+            <div class="page">{$page}</div>
+        </div>
+    
+    
+
+</block>
+
+
+
+
+
+<block name="script">
+    <script type="text/javascript">
+
+
+    function lock(element,num){
+        $.ajax({
+           url:'{:U('Video/set_state')}',
+           type:'post',
+           dataType:'json',
+           data:{"id":element,"num":num},
+           success:function(data){
+                //console.log(data);
+              if(data == '1'){
+                window.location.href="{:U('Video/pass')}";
+              }
+              else{
+                $('#myModal_'+element).modal('hide');
+              }
+
+
+            }
+        }); 
+    }
+
+
+    function display_video(element){
+    	console.log(element);
+    	window.location.href="{:U('Video/video_detail')}/id/"+element;
+    }
+
+
+
+    </script>
+    
+</block>

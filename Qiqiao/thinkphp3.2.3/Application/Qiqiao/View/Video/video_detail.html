@@ -1,0 +1,207 @@
+<extend name="Public/base"/>
+<block name='css'>
+<link href="__CSS__/video-js.min.css" rel="stylesheet">
+<style>
+  
+
+
+/*----------显示的评论内容--------------*/
+
+.comment-show{
+    /*background: white;*/
+}
+.comment-show h4{
+    border-left: 3px solid rgba(45,186,223,1.0);
+    padding-left: 5px;
+}
+.comment-show hr{
+    margin-top: 5px;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+.comment-show .chr{
+    margin-top: 5px;
+}
+.comment-show .comment-list{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background: white;
+}
+.comment-show .comment-list .compic{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: right;
+}
+.comment-show .comment-list .compic img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.comment-show .comment-list .comcontent{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.comment-show .comment-list .comcontent .user{
+    display: inline-block;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    color: rgba(247,132,17,1.0);
+}
+.comment-show .comment-list .comcontent .hftime{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: right;
+    color: rgba(55,55,55,0.4);
+}
+.comment-show .comment-list .comcontent .hf{
+    float: right;
+    cursor: pointer;
+    color: rgba(55,55,55,0.6);
+    margin-right: 20px;
+}
+.comment-show .comment-list .comcontent .hf:hover{
+    color: rgba(247,132,17,1.0);
+}
+
+</style>
+</block>
+
+
+<block name="body">
+
+
+<div style="margin-left:100px;margin-top:25px;">
+ <video id="example-video"   class="video-player col-lg-7 video-js vjs-default-skin" controls>
+                        <source src="__PUBLIC__/Home{$video}" type="application/x-mpegURL">
+</video>
+
+<form id='form' action='{:U("Video/view")}' method='post'>
+  <input name='type' id='type' type='hidden' value='' />
+  <input name='other' id='other' type='hidden' value='' />  
+  <input name='id'   id='id' type='hidden' value='{$id}' />
+</form>
+</div>
+
+
+        <!--   -----评论内容显示---- -->
+        <div class="row">
+        <div class="col-lg-9 comment-show" style="margin-left:100px;margin-top:25px;">
+            <h4>评论内容</h4>
+            <volist name="commentList" id="vo">
+                <eq name="vo.pid" value="0">
+                    <hr class="phr col-lg-12" style="height: 1px;border:none;border-top:1px solid rgba(55,55,55,0.2);" />
+                    <else />
+                    <hr class="chr col-lg-12" style="height: 1px;border:none;border-top:1px dashed rgba(55,55,55,0.2);" />
+                </eq>
+                <div class="comment-list col-lg-12" style="padding-left:{$vo['level']-1}cm">
+                    <!-- 第二个父元素parent().parent() -->
+                    <div class="compic col-lg-1">
+                        <img src="__PUBLIC__/Home/image/user_img/{$vo.headPic}">
+                    </div>
+                    <div class="comcontent col-lg-11">
+                        <!-- 第一个父元素parent() -->
+                        <div class="user">{$vo.uname}</div>
+                        <div class="hftime" id="comtime">{$vo.com_time}<soan style="margin-left:30px;color:red" onclick="del_comment('{$vo.id}')">删除</soan></div>
+                        <div class="content">{$vo.com_content}</div>
+                    </div>
+                </div>
+            </volist>
+        </div>
+    </div>
+
+</block>
+
+<block name="script">
+    <script src="__JS__/video.min.js"></script>
+    <script src="__JS__/videojs-contrib-hls.js"></script>
+    <script>
+
+
+
+        //播放器实例
+        var player = videojs('example-video',{
+
+          "controls": true,
+          "autoplay": false,
+          "preload": "auto",
+          "loop": false,
+          controlBar: {
+            volumeMenuButton: {
+            inline: false,
+            vertical: true
+            },//竖着的音量条
+          }
+        });
+
+
+        player.currentTime({$time});
+
+        
+        function playerInitVideo() {
+            videoPanelMenu = $(".vjs-fullscreen-control");
+            str='<div class="dropup" style="position:relative;"><button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top:5px;">清晰度</button><ul class="dropdown-menu" aria-labelledby="dropdownMenu2" position:absolute;z-index:99; style="min-width:70px;background:white; color:red;">{$num}</ul></div>';
+            videoPanelMenu.before(''+ ''+ ''+ str);
+            $('li').click(function(){
+              time=parseInt(player.currentTime());
+              if($(this).children('a').text()=='全高清'){
+                $("#type").val('2');
+                $("#other").val(time);
+                $("#form").submit();
+              }
+
+              if($(this).children('a').text()=='高清'){
+                $("#type").val('1');
+                $("#other").val(time);
+                $("#form").submit();
+              }
+
+              if($(this).children('a').text()=='标清'){
+                $("#type").val('0');
+                $("#other").val(time);
+                $("#form").submit();
+              }
+
+            })
+        }
+        //加载页面进行播放器初始化
+        //
+        player.ready(function() {playerInitVideo()});
+
+
+
+        //player.play();
+
+
+
+        function del_comment(element){
+           $.ajax({
+           url:'{:U('Video/del_comment')}',
+           type:'post',
+           dataType:'json',
+           data:{"id":element},
+           success:function(data){
+                //console.log(data);
+              if(data == '1'){
+                window.location.href="{:U('Video/video_detail')}/id/{$id}";
+              }
+              else{
+                $('#myModal_'+element).modal('hide');
+              }
+
+
+            }
+          }); 
+        }
+        
+
+
+
+
+    </script>
+
+</block>

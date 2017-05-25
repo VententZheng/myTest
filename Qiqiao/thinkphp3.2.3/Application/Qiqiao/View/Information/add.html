@@ -1,0 +1,261 @@
+<extend name="Public/base"/>
+<block name="css">
+
+<link rel="stylesheet" type="text/css" href="__DITOR__/themes/default/css/ueditor.css">
+
+
+
+
+
+
+</block>
+<block name="body">
+	<div class="row" style="width:1000px;margin:auto;margin-top:80px;">
+                <div class="col-md-12">
+                    <div class="square-widget">
+                        <div class="widget-container">
+                            <div class="stepy-tab">
+                            </div>
+                            <form id="default" action="{:U('Information/edit_information')}"  enctype="multipart/form-data" method="post" class="form-horizontal">
+                                <fieldset title="————">
+                                    <legend>资讯基本信息</legend>
+                                    <div class="form-group">
+                                        <label class="col-md-2 col-sm-2 control-label">标题</label>
+                                        <div class="col-md-6 col-sm-6">
+                                            <input type="text" placeholder="标题" class="form-control" name="title" id="infotitle">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 col-sm-2 control-label">作者</label>
+                                        <div class="col-md-6 col-sm-6">
+                                            <input type="text" placeholder="作者" class="form-control" name="author" id="infoauthor">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 col-sm-2 control-label">关键字</label>
+                                        <div class="key">
+                                        <div class="col-md-2 col-sm-2">
+                                            <input type="text" placeholder="关键字"  class="form-control" name="key0" id="key0" value=''>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2" style="display:none;">
+                                            <input type="text" placeholder="关键字" class="form-control" name="key1" id="key1" value=''>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2" style="display:none;">
+                                            <input type="text" placeholder="关键字" class="form-control" name="key2" id="key2" value=''>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2" style="display:none;">
+                                            <input type="text" placeholder="关键字" class="form-control" name="key3" id="key3" value=''>
+                                        </div>
+                                        </div>
+                                        <div class="col-md-1 col-sm-1">
+                                            <img src="__IMG__/add.png" id="img" />
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset title="———">
+                                    <legend>资讯概要</legend>
+
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 col-sm-2 control-label">缩略图</label>
+                                        <div class="col-md-6 col-sm-6">
+                                         <input type="file" id="input-file-now" name="img" class="dropify" />
+                                            <!--input type="file" name="img" id="img" /-->
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">资讯简介</label>
+                                    <div class="col-md-6 col-sm-6">
+                                    <textarea  rows="6" cols="50" name="summary"></textarea>
+                                    </div>
+                                    </div>
+
+                                </fieldset>
+                                <fieldset title="———">
+                                    <legend>资讯正文</legend>
+                                    <div class="form-group">
+                                        <label class="col-md-2 col-sm-2 control-label">板块</label>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="dropdown">
+                                              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width:150px;"  val="0">
+                                                选择所属于板块
+                                                <span class="caret"></span>
+                                              </button>
+                                              <input name="blockid" type="hidden" value="0" id="hide"></input>
+                                              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                <foreach name="block"  item="v">
+                                                        <li class="block" value="{$v.id}"><a href="#">{$v.blockname}</a></li>
+                                                </foreach>
+                                              </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 col-sm-2 control-label">来源</label>
+                                        <div class="col-md-6 col-sm-6">
+                                            <input type="text" placeholder="来源" name="source" id="infosource" class="form-control">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 col-sm-2 control-label">内容</label>
+                                        <div class="col-md-6 col-sm-6">
+                                            <textarea name="content" id="Editorld"></textarea>
+                                        </div>
+                                    </div>
+
+
+                                </fieldset>
+                                <fieldset title="——">
+                                    <legend>操作</legend>
+                                    <div class="form-group">
+                                        <div class="col-md-12">
+                                            <p>确保你已经编辑以上信息</p>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <span class="btn btn-info finish" id='sub'>
+                                    保存 </span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+</block>
+
+<block name="script">
+<script type="text/javascript" src="__JS__/jquery.stepy.js"></script>
+<script type="text/javascript" src="__DITOR__/ueditor.config.js"></script>
+<script type="text/javascript" src="__DITOR__/ueditor.all.js"></script>
+<script type="text/javascript" charset="utf-8" src="__DITOR__/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" src="__PUBLIC__/dist/js/dropify.js"></script>
+
+
+
+<script>
+        $(document).ready(function(){
+        // Basic
+        $('.dropify').dropify();
+
+        // Translated
+        $('.dropify-fr').dropify({
+            messages: {
+                default: '点我上传图片',
+                replace: '点我更换图片',
+                remove:  '移除',
+                error:   '哦哦，出错了。'
+            }
+        });
+
+        // Used events
+        var drEvent = $('#input-file-events').dropify();
+
+        drEvent.on('dropify.beforeClear', function(event, element){
+            return confirm("你想要删除 \"" + element.file.name + "\" ?");
+        });
+
+        drEvent.on('dropify.afterClear', function(event, element){
+            alert('文件删除');
+        });
+
+        drEvent.on('dropify.errors', function(event, element){
+            console.log('出现错误');
+        });
+
+        var drDestroy = $('#input-file-to-destroy').dropify();
+        drDestroy = drDestroy.data('dropify')
+        $('#toggleDropify').on('click', function(e){
+            e.preventDefault();
+            if (drDestroy.isDropified()) {
+                drDestroy.destroy();
+            } else {
+                drDestroy.init();
+            }
+        })
+    });
+
+
+
+
+
+
+
+
+
+    $(function(){
+        window.UEDITOR_HOME_URL='__DITOR__/';
+        window.onload=function(){
+            window.UEDITOR_CONFIG.initialFrameWidth=800;  //初始化编辑器宽度,默认800
+            window.UEDITOR_CONFIG.initialFrameHeight=500;
+
+            var editor = new UE.ui.Editor({
+                imageUrl:'__DITOR__/uploadImage',
+                fileUrl:'__DITOR__/uploadFile',
+                imagePath : '', 
+                filePath : '', 
+                imageManagerUrl:'__DITOR__/imageManage', //图片在线管理的处理地址 
+            });
+             editor.render("Editorld"); 
+        }
+
+    });
+
+    /*=====STEPY WIZARD====*/
+    $(function() {
+        $('#default').stepy({
+            backLabel: '返回',
+            block: true,
+            nextLabel: '继续',
+            titleClick: true,
+            titleTarget: '.stepy-tab'
+        });
+    });
+    /*=====STEPY WIZARD WITH VALIDATION====*/
+    $(function() {
+        $('#stepy_form').stepy({
+            backLabel: '返回',
+            nextLabel: '继续',
+            errorImage: true,
+            block: true,
+            description: true,
+            legend: false,
+            titleClick: true,
+            titleTarget: '#top_tabby',
+            validate: true
+        });
+        
+    });
+
+    $("#img").click(function(){
+            $('.key').children('div').each(function(){
+                if($(this).css('display')=='none'){
+                    $(this).css('display','block');
+                    return false;
+                }
+                if($('.key').children('div:last').css('display')!='none'){
+                    alert('最多四个关键字');
+                    return false;
+                }
+            });
+    });
+
+
+    $('.block').click(function(){
+        var val=$(this).attr('value');
+        var str=$(this).children('a').text()+'<span class="caret" style="float:right;margin-top:8px;"></span>';
+        $("#hide").attr('value',val);
+        $('#dropdownMenu1').html(str);
+        $('#dropdownMenu1').attr('val',val);
+
+    });
+
+
+</script>
+
+
+</block>
+

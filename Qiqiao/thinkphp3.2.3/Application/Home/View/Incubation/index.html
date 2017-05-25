@@ -1,0 +1,199 @@
+<!-- 导入头部文件 -->
+<include file="Public/header" />
+<!-- 导入css文件 -->
+<link href="__PUBLIC__/Home/css/incubation.css" rel="stylesheet">
+<style>
+    .item-type dl dd span:hover,.item-process dl dd span:hover, .item-sort dl dd span:hover {
+    cursor:pointer;
+    color: rgba(247,132,17,1.0);
+    text-decoration: none;
+    }
+
+    .item-type dl dd span,.item-process dl dd span, .item-sort dl dd span {
+    margin: 0px 0px 0px 0px;
+    padding: 2px 4px 2px 4px;
+    color: #333333;
+    font-size: 16px;
+    font-family: "微软雅黑";
+   }
+
+    #navdown span {
+    background: rgba(45,186,223,1.0);
+    /*color: rgba(255,255,255,1.0);*/
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+
+</style>
+    <!---------------内容----------------------  -->
+    <div class="container">
+        <div class="row">
+            <!--    类型      -->
+            <div id="top-classify" class="top-classify col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <ul class="item-project">
+
+                    <li class="item-type">
+                        <dl>
+                            <dt>项目类型：</dt>
+
+                            <if condition="$video eq 0">
+                            <dd id="navdown" class="navdown"><span onclick="run('video_id','0')" target='_self'>全部</span></dd>
+                            <else />
+                            <dd><span target='_self' onclick="run('video_id','0')">全部</span></dd>
+                            </if>
+                            <foreach name='video_block' item='v'>
+                                <if condition="$video eq $v['id']">
+                                <dd id="navdown" class="navdown"><span onclick="run('video_id','{$v.id}')" target='_self'>{$v.type}</span></dd>
+                                <else />
+                                <dd><span  onclick="run('video_id','{$v.id}')" target='_self'>{$v.type}</span></dd>
+                                </if>
+                            </foreach>
+
+                        </dl>
+                    </li>
+
+                    <li class="item-process">
+                        <dl>
+                            <dt>项目进程：</dt>
+                            <if condition="$type eq 0">
+                            <dd id="navdown" class="navdown"><span target='_self' onclick="run('type_id','0')">全部</span></dd>
+                            <else />
+                            <dd><span target='_self' onclick="run('type_id','0')">全部</span></dd>
+                            </if>
+                            <foreach name='type_block' item='v'>
+                                <if condition="$type eq $v['id']">
+                                <dd id="navdown" class="navdown"><span  target='_self' onclick="run('type_id','{$v.id}')">{$v.name}</span></dd>
+                                <else />
+                                <dd><span target='_self' onclick="run('type_id','{$v.id}')">{$v.name}</span></dd>
+                                </if>
+                            </foreach>
+                        </dl>
+                    </li>
+                    <li class="item-sort">
+                        <dl>
+                            <dt>项目排序：</dt>
+                            <if condition="$item eq 0">
+                            <dd id="navdown" class="navdown"><span href="" target='_self' onclick="run('item_id',0)">全部</span></dd>
+                            <else />
+                            <dd><span target='_self' onclick="run('item_id',0)">全部</span></dd>
+                            </if>
+                            <if condition="$item eq 2">
+                            <dd id="navdown" class="navdown"><span onclick="run('item_id',2)">最新上线</span></dd>
+                            <else />
+                            <dd><span onclick="run('item_id',2)">最新上线</span></dd>
+                            </if>
+                            <if condition="$item eq 1">
+                            <dd id="navdown" class="navdown"><span onclick="run('item_id',1)">支持人数</span></dd>
+                            <else />
+                            <dd><span onclick="run('item_id',1)">支持人数</span></dd>
+                            </if>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <!--     节目孵化      -->
+            <div class="program-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                 <volist name="list" id="vo">
+                <div class="item col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <ul>
+                        <li class="li-img col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                           <span>{$vo.plan_stage}</span>
+                            <a href="javascript:void(0)"><img style="height:282px;" src="__PUBLIC__/Home/image/{$vo.plan_cover}"></a>
+                        </li>
+                        <li class="li-content col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <dl>
+                                <dt><h3><a href="{:U('Incubation/incubationDetail',array('id'=>$vo['id']))}">{$vo.plan_title}</a></h3></dt>
+                                <dd>
+                                    <ul class="tream-infor">
+                                        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img src="__PUBLIC__/Home/image/user_img/{$vo.head_pic}" title="用户头像"></li>
+                                        <li class="puser"><p><i class="fa fa-user"></i> &nbsp;{$vo.username}</p></li>
+
+                                        <if condition="$vo.tid eq 0">
+                                        <li class="pteam"><p><i class="fa fa-users" style=""></i>&nbsp;团 队：{$vo.team_name}</p></li>
+                                        <else />
+                                        <li class="teamp"><a href="{:U('Team/excellentTeam',array('id'=>$vo['tid']))}"><p><i class="fa fa-users"></i>&nbsp;团 队：{$vo.team_name}</p></a></li>
+                                        </if>
+                                    
+                                        <li class="ptype"><p><i class="fa fa-th-large"></i>&nbsp;类 型：{$vo.plan_type}</p></li>
+                                    </ul>
+                                </dd>
+                                <dd class="item-time col-lg-12 col-md-12 col-sm-12 col-xs-11"><i class="fa fa-clock-o"></i> &nbsp;{$vo.planup_time|date="Y-m-d",###}</dd>
+                                <dd class="item-detail col-lg-12 col-md-12 col-sm-12 col-xs-12"><a class="col-lg-10 col-md-10 col-sm-10 col-xs-12" href="{:U('Incubation/incubationDetail',array('id'=>$vo['id']))}">查看详情</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </volist>
+            </div>
+
+            <!-- 分页 -->
+                    <div class="infor-page paginList" style="padding: 20px 0px 0px 0px;margin: 20px 0px 0px 0px;">{$page}
+                    </div>
+
+            <span style='display:none;' id='type_id'>{$type}</span>
+            <span style='display:none;' id='video_id'>{$video}</span>
+            <span style='display:none;' id='item_id'>{$item}</span>
+
+        </div>
+    </div>
+
+    <!-- JavaScript   --> 
+    <script type="text/javascript">
+        //点击背景变色
+        $(function () {
+            $(".item-type dl dd").click(function () {
+                $(".item-type dl dd").eq($(this).index() - 1).addClass("navdown").siblings().removeClass("navdown");
+            })
+        })
+        $(function () {
+            $(".item-process dl dd").click(function () {
+                $(".item-process dl dd").eq($(this).index() - 1).addClass("navdown").siblings().removeClass("navdown");
+            })
+        })
+        $(function () {
+            $(".item-sort dl dd").click(function () {
+                $(".item-sort dl dd").eq($(this).index() - 1).addClass("navdown").siblings().removeClass("navdown");
+            })
+        })
+    </script>
+
+    <!-- 导航栏点击变颜色 -->
+    <script type="text/javascript">
+        $("#hatch").addClass('homepage');
+    </script>
+
+    <script type="text/javascript">
+        function run(action,num){
+            if(action=='video_id'){
+                type_id=parseInt($("#type_id").text());
+                item_id=parseInt($("#item_id").text());
+                //console.log("{:U('Incubation/index')}/type_id/"+type_id+"/item_id/"+item_id+"/video_id/"+num);
+                //return;
+                window.location.href="{:U('Incubation/index')}/type_id/"+type_id+"/item_id/"+item_id+"/video_id/"+num;
+            }
+            if(action=='type_id'){
+                video_id=parseInt($("#video_id").text());
+                item_id=parseInt($("#item_id").text());
+                //console.log("{:U('Incubation/index')}/type_id/"+num+"/item_id/"+item_id+"/video_id/"+video_id);
+                //return;
+                window.location.href="{:U('Incubation/index')}/type_id/"+num+"/item_id/"+item_id+"/video_id/"+video_id;
+
+            }
+            if(action=='item_id'){
+                type_id=parseInt($("#type_id").text());
+                video_id=parseInt($("#video_id").text());
+                //console.log("{:U('Incubation/index')}/type_id/"+type_id+"/item_id/"+num+"/video_id/"+video_id);
+                //return;
+                window.location.href="{:U('Incubation/index')}/type_id/"+type_id+"/item_id/"+num+"/video_id/"+video_id;
+
+            }
+        }
+        
+
+
+    </script>
+
+<!-- -------------footer底部--------- -->
+<include file="Public/footer" />

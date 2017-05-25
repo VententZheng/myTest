@@ -1,0 +1,391 @@
+.news{
+    padding: 0px 0px 0px 0px;
+    margin-top: 30px;
+}
+/*-----------综艺资讯标题--------------*/
+.news .new-title{
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid rgba(150,150,150,1.0);
+}
+.news .new-title h1{
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 20px 0px;
+    font-weight: 500;
+}
+.news .new-title .new-infor{
+    padding: 0px 0px 0px 15px;
+    margin: 0px 0px 0px 0px; 
+}
+.news .new-title .new-infor ul{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    list-style: none;
+}
+.news .new-title .new-infor ul li{
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 15px 0px 0px;
+    font-size: 16px;
+    font-family:"微软雅黑";
+}
+.news .new-title .new-infor ul li a{
+    color: rgba(116,106,116,1.0);
+    text-decoration: none;
+}
+.news .new-title .new-infor ul li a:hover{
+    color: rgba(252,103,31,1.0);
+}
+
+/*----------综艺资讯第三方分享--------*/
+.news .new-title .new-share{
+    padding: 0px 0px 0px 0px;
+    text-align: right;
+}
+.news .new-title .new-share ul{
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+}
+.news .new-title .new-share ul li{
+    display: inline-block;
+}
+.news .new-title .new-share ul li a{
+    padding: 0px 0px 0px 0px;
+}
+.news .new-title .new-share ul li a i{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 15px 0px 10px;
+    font-size: 28px;
+    border-radius: 50%;
+}
+.news .new-title .new-share ul li a .fa-qq{
+    font-size: 22px;
+    padding: 6px 7px 7px 6px;
+    margin: 0px 10px 0px 0px;
+    background: rgba(0,157,218,1.0);
+    color: white;
+    border: 1px solid rgba(0,157,218,1.0);
+}
+.news .new-title .new-share ul li a .fa-qq:hover{
+    background: white;
+    color: rgba(0,157,218,1.0);
+    border: 1px solid rgba(0,157,218,1.0);
+}
+.news .new-title .new-share ul li a .fa-wechat{
+    font-size: 22px;
+    padding: 6px 6px 7px 6px;
+    margin: 0px 10px 0px 0px;
+    background: rgba(4,179,16,1.0);
+    color: white;
+    border: 1px solid rgba(4,179,16,1.0);
+}
+.news .new-title .new-share ul li a .fa-wechat:hover{
+    background: white;
+    color: rgba(4,179,16,1.0);
+    border: 1px solid rgba(4,179,16,1.0);
+}
+.news .new-title .new-share ul li a .fa-weibo{
+    font-size: 22px;
+    padding: 6px 6px 7px 6px;
+    margin: 0px 10px 0px 0px;
+    background: rgba(230,22,45,1.0);
+    color: white;
+    border: 1px solid rgba(230,22,45,1.0);
+}
+.news .new-title .new-share ul li a .fa-weibo:hover{
+    background: white;
+    color: rgba(230,22,45,1.0);
+    border: 1px solid rgab(230,22,45,1.0);
+}
+.news .new-title .new-share ul .fa-comment{
+    font-size: 22px;
+    color: rgba(234, 151, 68,1.0);
+}
+.news .new-title .new-share ul .fa-comment:hover{
+    color: rgba(252, 145, 39,1.0);
+}
+/*----------综艺资讯详细内容----------*/
+.news .new-content{
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+    text-align: justify;
+}
+.news .new-content p img{
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 0xp 0px;
+}
+.news .new-content span{
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+.news .new-content p{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    text-align: left;
+}
+/*--------------综艺资讯来源------------*/
+.news .new-source{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.news .new-source ul{
+    list-style: none;
+    text-align: right;
+    margin-top: 20px;
+}
+.news .new-source ul li{
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.news .new-source ul li img{
+    width: 14px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 2px 0px 0px;
+}
+.news .new-source ul li span{
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: rgba(116,106,116,1.0);
+}
+hr{
+    height:2px;
+    border:none;
+    border-top:2px solid rgba(150,150,150,1.0);
+    padding: 0px 0px 0px 0px;
+}
+/*------------- 综艺资讯评论  ------------*/
+.news .news-comment{
+    padding: 0px 0px 0px 0px;
+}
+.news .news-comment .report-comment .recomlogin-top{
+    padding: 0px 0px 0px 0px;
+}
+.news .news-comment .report-comment .recomlogin-top img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    display: inline-block;
+}
+.news .news-comment .report-comment .recomlogin-top .newscom-user{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    margin-left: 5px;
+    vertical-align: bottom;
+}
+.news .news-comment .report-comment .recomlogin-top .newslgcom-num{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    float: right;
+    margin-right: 5px;
+}
+.news .news-comment .report-comment .recom-top{
+    padding: 0px 0px 0px 0px;
+}
+.news .news-comment .report-comment .recom-top span{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+.news .news-comment .report-comment .recom-top .newscom-num{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    float:right;
+}
+.news .news-comment .report-comment .recom-content{
+    margin-top: 4px;
+}
+.news .news-comment .report-comment .recom-content .input-group textarea{
+    border: 1px solid rgba(20,160,198,1.0);
+}
+.news .news-comment .report-comment .recom-content .input-group button{
+    height: 94px;
+    color: white;
+    background: rgba(20,160,198,1.0);
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    border: 2px solid rgba(20,160,198,1.0);
+    font-weight: 500;
+}
+.news .news-comment .report-comment .recom-content .input-group button:hover{
+    background: rgba(45,186,223,1.0);
+    border: 2px solid rgba(45,186,223,1.0);
+    font-weight: 500;
+}
+/*-------------评论列表--一级评论----------------*/
+.news .news-comment .newscom-list{
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.news .news-comment .newscom-list .nclist-title{
+    padding: 0px 35px 2px 4px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+}
+.news .news-comment .newscom-list .comment-list{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one{
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .ncolist-item{
+    padding: 0px 0px 0px 0px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .ncolist-item .one-item{
+    padding: 20px 30px 20px 0px;
+    border-top: 1px solid rgba(150,150,150,0.6);
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .ncolist-item .comitem-top img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .ncolist-item .comitem-top .comitem-name{
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .ncolist-item .comitem-top .comitem-time{
+    float: right;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    margin-right: 8px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .ncolist-item .comitem-middle p{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    margin-left: 46px;
+    padding-right: 20px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .ncolist-item .comitem-bottom{
+    text-align: right;
+    color: rgba(60,137,213,1.0);
+    font-family: "Microsoft YaHei";
+    cursor: pointer; 
+    font-size: 15px;
+    margin-right: 10px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .ncolist-item .comitem-bottom span:hover{
+    text-decoration: underline;
+    color: rgba(247,132,17,1.0);
+}
+
+/*---------评论列表 -- 二级评论-------------*/
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list{
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item{
+    border-top: 1px dashed rgba(150,150,150,0.6);
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 36px;
+    background: rgba(250,250,250,1.0);
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .children-top{
+    padding: 0px 0px 5px 0px;
+    margin: 20px 0px 0px 0px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .children-top img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .children-top .comitem-name{
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .children-top .comitem-time{
+    float: right;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    margin-right: 8px;
+    padding: 0px;
+    margin: 0px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .children-middle p{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 46px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .children-bottom span{
+    float: right;
+    color: rgba(60,137,213,1.0);
+    font-family: "Microsoft YaHei";
+    cursor: pointer; 
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .children-bottom span:hover{
+    text-decoration: underline;
+    color: rgba(247,132,17,1.0);
+}
+/*----------第三级评论-----------*/
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .third-list{
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .third-list .third-item{
+    border-top: 1px dashed rgba(150,150,150,0.6);
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 36px;
+    background: rgba(250,250,250,1.0);
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .third-list .third-item .third-top{
+    padding: 0px 0px 5px 0px;
+    margin: 20px 0px 0px 0px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .third-list .third-item .third-top img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .third-list .third-item .third-top .comitem-name{
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .third-list .third-item .third-top .comitem-time{
+    float: right;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .third-list .third-item .third-middle p{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 46px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .third-list .third-item .third-bottom span{
+    float: right;
+    color: rgba(60,137,213,1.0);
+    font-family: "Microsoft YaHei";
+    cursor: pointer; 
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.news .news-comment .newscom-list .comment-list .comlist-one .children-list .chilren-item .third-list .third-item .third-bottom span:hover{
+    text-decoration: underline;
+    color: rgba(247,132,17,1.0);
+}

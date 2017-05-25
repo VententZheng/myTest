@@ -1,0 +1,193 @@
+/*头像修改模态框*/
+
+.head-modal {}
+
+.head-modal .modal-content {}
+
+.head-modal .modal-content .modal-header {
+    padding: 10px 0px 10px 0px;
+}
+
+.head-modal .modal-content .modal-header .modal-title {
+    font-size: 16px;
+}
+
+.head-modal .modal-content .modal-body {}
+
+.head-modal .modal-content .modal-body .avatar-upload {}
+
+.head-modal .modal-content .modal-body .avatar-upload .select-pic {
+    font-size: 14px;
+    border: none;
+    color: white;
+    background: rgba(20, 160, 198, 1.0);
+}
+
+.head-modal .modal-content .modal-body .avatar-upload .select-pic:hover {
+    background: rgba(45, 186, 233, 1.0);
+}
+
+.head-modal .modal-content .modal-body .avatar-btns {}
+
+.head-modal .modal-content .modal-body .avatar-btns button {
+    background: rgba(20, 160, 198, 1.0);
+    color: white;
+    border: none;
+    margin: 0px 10px 0px 0px;
+}
+
+.head-modal .modal-content .modal-body .avatar-btns .avatar-save {
+    font-size: 16px;
+}
+
+.head-modal .modal-content .modal-body .avatar-btns button:hover {
+    background: rgba(45, 186, 233, 1.0);
+}
+
+.avatar-view {
+    display: block;
+    width: 220px;
+    height: 220px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.avatar-view img {
+    width: 100%;
+}
+
+.avatar-body {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.avatar-upload {
+    overflow: hidden;
+}
+
+.avatar-upload input {
+    display: block;
+    margin-left: 110px;
+}
+
+.avater-alert {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*画布*/
+
+.avatar-wrapper {
+    height: 300px;
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .25);
+    background-color: #fcfcfc;
+    overflow: hidden;
+}
+
+.avatar-wrapper img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+
+/*截图预览*/
+
+.avatar-preview {
+    float: left;
+    height: 200px;
+    width: 100%;
+    margin-right: 15px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.avatar-preview:hover {
+    border-color: #ccf;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+}
+
+.avatar-preview img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*
+@media (min-width: 992px) {
+    .avatar-preview {
+        float: none;
+    }
+}
+*/
+
+@media(max-width:992px) {
+    .avatar-wrapper {
+        height: 300px;
+        width: 100%;
+        margin-top: 15px;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, .25);
+        background-color: #fcfcfc;
+        overflow: hidden;
+    }
+    .avatar-preview {
+        float: left;
+        height: 140px;
+        width: 100%;
+        margin-right: 15px;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        background-color: #fff;
+        overflow: hidden;
+    }
+}
+
+@media(max-width:768px) {
+    .avatar-wrapper {
+        height: 200px;
+        width: 100%;
+        margin-top: 15px;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, .25);
+        background-color: #fcfcfc;
+        overflow: hidden;
+    }
+
+    .head-preview{
+        display: none;
+    }
+    .head-modal .modal-content .modal-body .avatar-btns button{
+        margin: 0px 2px 0px 0px;
+    }
+    .head-modal .modal-content .modal-body .avatar-btns .avatar-save{
+        margin: 10px 0px 0px 0px;
+    }
+}
+
+.avatar-btns {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.avatar-btns .btn-group {
+    margin-right: 5px;
+}
+
+.loading {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .75;
+    filter: alpha(opacity=75);
+    z-index: 20140628;
+}

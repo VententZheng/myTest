@@ -1,0 +1,115 @@
+body {
+    font-family: "Microsoft YaHei";
+}
+
+.myUpload {
+    margin: 30px 0px 0px 0px;
+    background: rgba(251, 251, 251, 1.0);
+    padding: 0px 0px 0px 0px;
+}
+.myUpload .upload-title {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+    color: rgba(247, 132, 17, 1.0);
+    background: rgba(246, 246, 246, 1.0);
+}
+.myUpload .upload-content{
+    margin: 20px 0px 0px 0px;
+}
+.myUpload .upload-content .mywisdom-stage{
+    
+}
+.myUpload .upload-content .mywisdom-stage label{
+    font-size: 20px;
+    text-align: right;
+    font-weight: 500;
+    padding: 10px 0px 0px 0px;
+}
+.myUpload .upload-content .mywisdom-stage ul{
+    padding: 0px 0px 0px 10px;
+}
+.myUpload .upload-content .mywisdom-stage ul li a{
+    background: rgba(251, 251, 251, 1.0);
+    color: rgba(51,51,51,1.0);
+    font-size: 18px;
+}
+.myUpload .upload-content .mywisdom-stage ul li a:hover{
+    color: rgba(247,132,17,1.0);
+}
+.myUpload .upload-content .mywisdom-stage ul li.active a{
+    color: rgba(247,132,17,1.0);
+}
+/*---------上传策划方案、上传作品-------------*/
+.myUpload .upload-content .mywisdom-scheme,
+.myUpload .upload-content .mywisdom-project{
+    margin: 30px 0px 30px 0px;
+}
+.myUpload .upload-content .mywisdom-scheme .form-group,
+.myUpload .upload-content .mywisdom-project .form-group{
+    margin: 20px 0px 0px 0px;
+}
+.myUpload .upload-content .mywisdom-scheme .form-group .control-label,
+.myUpload .upload-content .mywisdom-project .form-group .control-label{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 6px 0px 0px;
+}
+.myUpload .upload-content .mywisdom-scheme .form-group .checkbox-inline,
+.myUpload .upload-content .mywisdom-project .form-group .checkbox-inline{
+    font-size: 16px;
+    padding: 2px 2px 2px 2px;
+    margin: 0px 8px 8px 8px;
+}
+.myUpload .upload-content .mywisdom-scheme .wisdom-title label,
+.myUpload .upload-content .mywisdom-project .project-title label{
+    padding: 0px 0px 0px 0px;
+}
+.myUpload .upload-content .mywisdom-scheme .wisdom-title input,
+.myUpload .upload-content .mywisdom-project .project-title input{
+    font-size: 16px;
+}
+.myUpload .upload-content .mywisdom-scheme .wisdom-title span,
+.myUpload .upload-content .mywisdom-project .project-title span{
+    font-size: 14px;
+}
+.myUpload .upload-content .mywisdom-scheme .wisdom-summary label,
+.myUpload .upload-content .mywisdom-project .project-summary label{
+    vertical-align: top;
+}
+.myUpload .upload-content .mywisdom-scheme .wisdom-summary textarea,
+.myUpload .upload-content .mywisdom-project .project-summary textarea{
+    vertical-align: top;
+}
+.myUpload .upload-content .mywisdom-project .project-plan,
+.myUpload .upload-content .mywisdom-scheme .wisdom-plan{
+    
+}
+.myUpload .upload-content .mywisdom-scheme .wisdom-plan input,
+.myUpload .upload-content .mywisdom-project .project-plan input{
+    font-size: 16px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.myUpload .upload-content .mywisdom-scheme .wisdom-plan span,
+.myUpload .upload-content .mywisdom-project .project-plan span{
+    font-size: 14px;
+}
+.myUpload .upload-content .mywisdom-scheme .wisdom-btn,
+.myUpload .upload-content .mywisdom-project .project-btn{
+    
+}
+.myUpload .upload-content .mywisdom-scheme .wisdom-btn button,
+.myUpload .upload-content .mywisdom-project .project-btn button{
+    color: white;
+    background: rgba(20,160,198,1.0);
+    border: 1px solid rgba(20,160,198,1.0);
+    font-size: 18px;
+}
+.myUpload .upload-content .mywisdom-scheme .wisdom-btn button:hover,
+.myUpload .upload-content .mywisdom-project .project-btn button:hover{
+    background: rgba(45,186,223,1.0);
+    border: 1px solid rgba(45,186,223,1.0);
+}
+
+/*---------上传作品-------------*/

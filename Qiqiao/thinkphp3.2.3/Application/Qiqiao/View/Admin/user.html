@@ -1,0 +1,301 @@
+<extend name="Public/base"/>
+<block name="css">
+
+<style>
+.online{background:white;display:none;height:100px;}
+.online li{list-style-type:none;display:block;float:left;}
+.online li span{display:block;width:140px;text-align:center;height:20px;float:left;background:white;}
+.num,.current,.prev,.next,.first,.end{color:#337AB7;border:1px solid #AA939B; margin-left:5px;width:30px;height:30px;display: inline-block;line-height: 30px}
+.num:hover,.current:hover,.prev:hover,.next:hover,.first:hover,.end:hover{text-decoration:none;background:#EAEAEC;}
+.padding{float: left}
+.prev,.next{width:50px;}
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+</block>
+<block name="body">
+		<div class="container" style="width:1000px;">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6 form-inline pull-right">
+                <form class= style="padding:8px 0 " method='post' action="{:U('Admin/user')}">
+                    <a type="button" class="btn btn-primary pull-right" href="{:U('Admin/adduser')}" style="margin:5px 3px">新增管理员</a>
+                    <button type="submit" class="btn btn-primary pull-right" style="margin:5px 3px">搜索</button>
+                    <input type="text" class="form-control pull-right" name='login_name' style="margin:5px 3px" placeholder="请输入登录名" />
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="center-block">
+                <table class="table table-hover">
+                    <tr>
+                        <th>序号</th>
+                        <th>登录名</th>
+                        <th>真实姓名</th>
+                        <th>创建时间</th>
+                        <th>所属角色</th>
+                        <th>管理</th>
+                    </tr>
+                    <foreach name='user' item='v'>
+                    <tr>
+                    <td>{$v.id}</td>
+                    <td>{$v.name}</td>
+                    <td>{$v.real_name}</td>
+                    <td>{$v.create_time}</td>
+                    <td>{$v.title}</td>
+                    <td>
+                        <button class="btn btn-primary btn-xs information" onclick="display_information(this,{$v.id})">信息</button>
+                        <a href="{:U('Admin/user_power')}/id/{$v.id}"><button class="btn btn-primary btn-info btn-xs">权限</button></a>
+                        <eq name="v.status" value="0">
+                        <button class="btn btn-primary btn-danger btn-xs" id="model_{$v.id}" data-toggle="modal" data-target="#myModal_{$v.id}">锁定</button>
+                        <else />
+                        <button class="btn btn-primary btn-danger btn-xs" id="model_{$v.id}" data-toggle="modal" data-target="#myModal_{$v.id}">解绑</button>
+                        </eq>
+
+                        <!-- 模态框（Modal） -->
+                        <div class="modal fade" id="myModal_{$v.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                  &times;
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                <eq name="v.status" value="0">
+                                  锁定用户
+                                <else />
+                                  解绑用户
+                                </eq>
+                                </h4>
+                              </div>
+                              <div class="modal-body">
+                                <eq name="v.status" value="0">
+                                锁定用户后，用户将不能进行任何操作
+                                <else />
+                                解绑用户后，用户将恢复操作
+                                </eq>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                                </button>
+
+                                <eq name="v.status" value="0">
+                                <button type="button" class="btn btn-primary" onclick="
+                                lock({$v.id},1)">
+                                  确定
+                                </button>
+                                <else />
+                                <button type="button" class="btn btn-primary" onclick="
+                                lock({$v.id},0)">
+                                  确定
+                                </button>
+                                </eq>
+
+                              </div>
+                            </div><!-- /.modal-content -->
+                          </div><!-- /.modal -->
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td colspan="6" class="online" id="none_{$v.id}">
+                        <ul>
+                        <li><span class="real_name">姓名</span><span ondblclick="showelement(this,{$v.id})">{$v.real_name}</span></li>
+                        <li><span>登录名</span><span>{$v.name}</span></li>
+                        <li><span class="id_card">身份证</span><span ondblclick="showelement(this,{$v.id})">{$v.id_card}</span></li>
+                        
+                        </ul>
+                        <br>
+  
+                        <ul>
+                        <li><span class="tel">电话</span><span ondblclick="showelement(this,{$v.id})">{$v.tel}</span></li>
+                        <li><span class="age">年龄</span><span ondblclick="showelement(this,{$v.id})">{$v.age}</span></li>
+                        <li><span class="mail">邮箱</span><span ondblclick="showelement(this,{$v.id})">{$v.mail}</span></li>
+                        </ul>
+                        <br>
+
+                        <ul>
+                        <li><span>创建时间</span><span>{$v.create_time}</span></li>
+                        <li><span class="role">角色</span>
+						            <span class="modify_select" ondblclick="showelement(this,{$v.id},{$v.roleid})">{$v.title}</span>
+
+
+            						<select class="select_whole_{$v.id}" onchange="change_select(this,{$v.id},{$v.roleid})" style="display:none">
+            							<volist name="role_title" id="val">
+            								<option class="select_{$val.id}" value="{$val.title}">{$val.title}</option>
+            							 </volist>
+            						</select>
+						
+						
+						
+						</li>
+                        <li><span></span><span>双击内容修改</span></li>
+                        </ul>
+                        </br>
+                    </td>
+                    </tr>
+
+                    </foreach>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center" style="margin-top:50px">
+            <div class="page">{$page}</div>
+        </div>
+	
+	
+
+</block>
+
+
+<block name="script">
+<script type="text/javascript">
+
+function showelement(element,id,roleid){
+  var oldhtml=$(element).html();
+  var input="<input type='text' style='width:135px;' value='"+oldhtml+"' />";
+  var reg_id_card = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+  var reg_tel=/^1[3|4|5|8][0-9]\d{4,8}$/;
+  var reg_age=/^[0-9]*[1-9][0-9]*$/;
+  var reg_mail=/^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/;
+  $(element).html('');
+  if($(element).prev().attr('class')=='role'){
+    $(".select_whole_"+id).children("option").removeAttr('selected');
+		$(".select_whole_"+id).children(".select_"+roleid).attr('selected','selected');
+		str=$(".select_whole_"+id).prop("outerHTML");
+    reg=/style="display:none"/;
+    str=str.replace(reg,"");
+		$(element).append(str);
+  }
+  else{
+  $(element).append(input);
+
+  $(element).children('input').blur(function(){
+    if($(this).val()==''){
+      var value=oldhtml;
+    }
+    else{
+      var value=$(this).val();
+    }
+    str=$(element).prev().attr('class');
+    
+    switch(str){
+      case 'id_card':
+           if(!reg_id_card.test(value)){
+            value=oldhtml;
+          }
+           break;
+      case 'tel':
+          if(!reg_tel.test(value)){
+            value=oldhtml;
+          }
+          break;
+      case 'age':
+          if(!reg_age.test(value)){
+            value=oldhtml;
+          }
+          break;
+      case 'mail':
+          if(!reg_mail.test(value)){
+            value=oldhtml;
+          }
+          break;
+    }
+     $.ajax({
+           url:'{:U('Admin/edit_user')}',
+           type:'post',
+           dataType:'json',
+           data:{"str":str,"id":id,"value":value},
+           success:function(data){
+              //$("#no-see").show().delay(1000).hide(1000);
+            }
+    }); 
+    $(element).html(value);
+  });
+  $(element).children('input').focus();
+  }
+};
+
+function display_information(element,id){
+  var name="#none_"+id;
+  if($(name).css('display')=='none'){
+    $(name).show();
+  }
+  else{
+    $(name).hide();
+  }
+  
+};
+
+function change_select(select_whole,element,select)
+{
+	//console.log($(".select_whole_"+element+" option:selected").val());
+  //console.log(element);
+
+  str = $(".select_whole_"+element+" option:selected").val();
+   $.ajax({
+     url:'{:U('Admin/change_role')}',
+     type:'post',
+     dataType:'json',
+     data:{"id":element,"str":str},
+     success:function(data){
+        if(data){
+          str_span='showelement(this,'+element+','+data+')';
+          $(select_whole).parent('.modify_select').attr("ondblclick",str_span);
+          $(select_whole).parent('.modify_select').html(str);
+        }
+      }
+  }); 
+
+
+
+};
+
+
+
+
+
+
+function lock(id,num){
+       $.ajax({
+           url:'{:U('Admin/lock_user')}',
+           type:'post',
+           dataType:'json',
+           data:{"id":id,"num":num},
+           success:function(data){
+              if(data=='1'){
+                window.location.href="{:U('Admin/user')}";
+              }
+              else{
+                $('#myModal_'+id).modal('hide');
+              }
+            }
+        }); 
+
+
+
+}
+
+
+
+</script>
+
+
+
+</block>
+
+ 
+
+

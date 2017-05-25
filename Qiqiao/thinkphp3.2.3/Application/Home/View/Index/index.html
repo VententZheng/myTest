@@ -1,0 +1,227 @@
+<!-- 导入头部文件 -->
+<include file="Public/header" />
+
+    <!-- ----------------------轮播------------------------------ -->
+    <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+        <volist name="carousel" id="vo">
+            <li data-target="#myCarousel" data-slide-to="{$i-1}" class='<if condition="$i-1 eq 0">active</if>'></li>
+        </volist>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+        <volist name="carousel" id="vot">
+            <div class='item <if condition="$i-1 eq 0">active</if>'>
+                <a href="{:U('Variety/player',array('id'=>$vot['id']))}"><img src="__PUBLIC__/Home/upload_img/{$vot.video_cover}" alt="First slide"></a>
+            </div>
+            </volist>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;
+    </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;
+    </a>
+</div>
+
+    <!-- --------------类型--------------------  -->
+    <div class="container">
+        <!-- 原创综艺 -->
+        <div class="row">
+            <!--  左边内容  -->
+            <div class="modular col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="vcontent col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                    <div class="vid-header">
+                        <h4><span><i class="fa fa-file-video-o"></i>&nbsp;最新综艺</span><a href="{:U('Variety/index',array('pid'=>0,'id'=>0))}">更多<i class="fa fa-chevron-circle-right"></i></a></h4>
+                    </div>
+                    <div class="vid-content col-lg-12">
+
+                    <volist name="updatevid" id="upvid">
+                        <div class="col-lg-4 col-md-4 col-sm-4  col-xs-6">
+                            <div class="vitem col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="vitem-caption">
+                                <if condition="$upvid.play_times gt 50">
+                                    <span>热门</span>
+                                    </if>
+                                    <a href="{:U('Variety/player',array('id'=>$upvid['id']))}"><i class="fa fa-play-circle-o"></i></a>
+                                    <p>{$upvid.video_title}</p>
+                                </div>
+                                <div class="vitem-img">
+                                    <img src="__PUBLIC__/Home/upload_img/{$upvid.video_cover}" class="img-responsive  center-block" alt="">
+                                </div>
+                            </div>
+                        </div> 
+                </volist>    
+            </div>
+                </div>
+                <!--  右边排行榜  -->
+                <div class="vranking-list col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="vrank-header col-lg-12 col-md-12 cl-sm-12 col-xs-12">
+                        <h4><span>综艺热门排行榜</span></h4>
+                    </div>
+                    <div class="vrank-content col-lg-12 col-md-12 cl-sm-12 col-xs-12">
+                        <ul>
+                        <volist name="hotvid" id="hvid">
+                            <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><a href="{:U('Variety/player',array('id'=>$hvid['id']))}" class="col-lg-10 col-md-10 col-sm-8 col-xs-10" title="{$hvid.video_title}"><i class="fa fa-angle-right"></i>&nbsp;{$hvid.video_title}</a><span class="col-lg-2 col-md-2 col-sm-4 col-xs-2">{$hvid.play_times}</span></li>
+                            </volist>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 节目孵化  -->
+        <div class="row">
+            <!--  左边内容  -->
+            <div class="modular col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="vcontent col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                    <div class="vid-header">
+                        <h4><span><i class="fa fa-file-word-o"></i>&nbsp;最新孵化</span><a href="{:U('Incubation/index')}">更多<i class="fa fa-chevron-circle-right"></i></a></h4>
+                    </div>
+                    <div class="pid-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <volist name="nplan" id="nplan">
+                        <div class="pitem col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <div class="pitem-pic col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <a href="{:U('Incubation/incubationDetail',array('id'=>$nplan['id']))}"><img src="__PUBLIC__/Home/image/{$nplan.plan_cover}" class="img-responsive center-block" alt=""></a>
+                            </div>
+                            <div class="pitem-caption">
+                                <!-- <span>热门</span> -->
+                                <a href="{:U('Incubation/incubationDetail',array('id'=>$nplan['id']))}">{$nplan.plan_title}</a>
+                                <p><i class="fa fa-history"></i> 进 度：{$nplan.plan_stage}</p>
+                                <p><i class="fa fa-th-large"></i> 类 型：{$nplan.plan_type}</p>
+                            </div>
+                        </div>
+                        </volist>
+
+
+                    </div>
+                </div>
+                <!--  右边排行榜  -->
+                <div class="vranking-list col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="vrank-header col-lg-12 col-md-12 cl-sm-12 col-xs-12">
+                        <h4><span>孵化热门排行榜</span></h4>
+                    </div>
+                    <div class="vrank-content col-lg-12 col-md-12 cl-sm-12 col-xs-12">
+                        <ul>
+                        <volist name="hotplan" id="hotplan">
+                            <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><a href="{:U('Incubation/incubationDetail',array('id'=>$hotplan['id']))}" class="col-lg-10 col-md-10 col-sm-8 col-xs-10" title="{$hotplan.plan_title}"><i class="fa fa-angle-right"></i>&nbsp;{$hotplan.plan_title}</a><span class="col-lg-2 col-md-2 col-sm-4 col-xs-2">{$hotplan.plan_times}</span></li>
+                            </volist>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 综艺资讯  -->
+        <div class="row">
+            <!--  左边内容  -->
+            <div class="modular col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="vcontent col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                    <div class="vid-header">
+                        <h4><span><i class="fa fa-file-text-o"></i>&nbsp;综艺资讯</span><a href="{:U('Information/index')}">更多<i class="fa fa-chevron-circle-right"></i></a></h4>
+                    </div>
+                    <div class="icontent col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <volist name="information" id="infor">
+                        <div class="iitem col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="iitem-pic col-lg-3 col-md-3"><img src="__PUBLIC__/information_img/{$infor.news_img}" class="img-responsive center-block" alt=""></div>
+                            <div class="title col-lg-9 col-md-9 col-sm-12 col-xs-12"><a href="{:U('Information/detail',array('id'=>$infor['id']))}">{$infor.news_title}</a></div>
+                            <div class="time col-lg-9 col-md-9 col-sm-12 col-xs-12"><span>{$infor.news_time}</span></div>
+                            <div class="summary col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                                <p>{$infor.news_summary}</p>
+                            </div>
+                        </div>
+                        </volist>
+
+                    </div>
+                </div>
+
+                <!--  右边排行榜  -->
+                <div class="vranking-list col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="vrank-header col-lg-12 col-md-12 cl-sm-12 col-xs-12">
+                        <h4><span>热门综艺资讯</span></h4>
+                    </div>
+                    <div class="vrank-content col-lg-12 col-md-12 cl-sm-12 col-xs-12">
+                        <ul>
+                        <volist name="hotinfor" id="hotinfor">
+                           <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><a href="{:U('Information/detail',array('id'=>$hotinfor['id']))}" class="col-lg-10 col-md-10 col-sm-8 col-xs-10" title="{$hotinfor.news_title}"><i class="fa fa-angle-right"></i>&nbsp;{$hotinfor.news_title}</a><span class="col-lg-2 col-md-2 col-sm-4 col-xs-2">&nbsp;&nbsp;{$hotinfor.news_visit}</span></li>
+                           </volist>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 优秀团队  -->
+        <div class="row">
+            <!--  左边内容  -->
+            <div class="modular col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="vcontent col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                    <div class="vid-header">
+                        <h4><span><i class="fa fa-users"></i>&nbsp;优秀团队</span><a href="{:U('Team/index')}">更多<i class="fa fa-chevron-circle-right"></i></a></h4>
+                    </div>
+                    <div class="tcontent col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <volist name="team" id="team">
+                        <div class="titem col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                            <div class="titem-s col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="t-pic col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <if condition="$team.team_pic EQ null">
+                                <img src="__PUBLIC__/Home/image/team/team-default.jpg" class="img-responsive center-block" alt=""></div>
+                                <else />
+                                <img src="__PUBLIC__/Home/image/team/{$team.team_pic}" class="img-responsive center-block" alt=""></div>
+                                </if>
+                                <div class="t-name col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:0px">
+                                    <a href="{:U('Team/excellentTeam',array('id'=>$team['id']))}"><h4>{$team.team_name}</h4></a></div>
+                                <!--div class="t-project col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <ul>
+                                        <li>《霹雳天使》</li>
+                                        <li>《达芬奇密码》</li>
+                                    </ul>
+                                </div-->
+                            </div>
+                        </div>
+                        </volist>
+
+
+                    </div>
+                </div>
+
+                <!--  右边排行榜  -->
+                <div class="vranking-list col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="vrank-header col-lg-12 col-md-12 cl-sm-12 col-xs-12">
+                        <h4><span>优秀团队榜</span></h4>
+                    </div>
+                    <div class="vrank-content col-lg-12 col-md-12 cl-sm-12 col-xs-12">
+                        <ul>
+                        <volist name="hotteam" id="hotteam">
+                            <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><a href="{:U('Team/excellentTeam',array('id'=>$team['id']))}" class="col-lg-10 col-md-10 col-sm-8 col-xs-10" title="{$hottem.team_name}"><i class="fa fa-angle-right"></i>&nbsp;{$hotteam.team_name}</a><span class="col-lg-2 col-md-2 col-sm-4 col-xs-2"></span></li>
+                            </volist>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+<!-- JavaScript   -->  
+   <!-- 轮播 -->
+    <script type="text/javascript">
+        $('.carousel').carousel({
+            interval: 3000
+        });
+    </script>    
+    <!-- 导航栏点击变颜色 -->
+    <script type="text/javascript">
+        $("#homepage").addClass('homepage');
+    </script>
+
+    <!-- -------------footer底部--------- -->
+    <include file="Public/footer" />

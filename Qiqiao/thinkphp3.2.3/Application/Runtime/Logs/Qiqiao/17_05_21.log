@@ -1,0 +1,442 @@
+[ 2017-05-21T16:32:28+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+
+[ 2017-05-21T16:32:28+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2017-05-21T16:32:30+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006574s ]
+
+[ 2017-05-21T16:32:31+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002485s ]
+
+[ 2017-05-21T16:32:37+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007809s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003081s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005065s ]
+
+[ 2017-05-21T16:32:39+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2017-05-21T16:32:39+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2017-05-21T16:32:40+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/verifyImg/random0.19296141663342947
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2017-05-21T16:32:42+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/verifyImg/random0.019251735725910768
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2017-05-21T16:32:46+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003120s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005360s ]
+
+[ 2017-05-21T16:32:48+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2017-05-21T16:32:48+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2017-05-21T16:32:49+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/verifyImg/random0.009170707166305858
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2017-05-21T16:32:54+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `qiq_admin` [ RunTime:0.1214s ]
+SQL: SELECT * FROM `qiq_admin` WHERE `name` = 'root' LIMIT 1   [ RunTime:0.0483s ]
+SQL: SELECT `real_name` FROM `qiq_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_log` [ RunTime:0.1239s ]
+SQL: INSERT INTO `qiq_log` (`user`,`name`,`time`,`ip`,`action`) VALUES ('zhengfuming','登录','2017-05-21 16:32:54','127.0.0.1','zhengfuming登录后台系统') [ RunTime:0.0909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.408850s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008037s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.404141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.411562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002736s ]
+
+[ 2017-05-21T16:32:55+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `qiq_video_attributes` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video_attributes` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+SQL: select version() as v; [ RunTime:0.0807s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004223s ]
+
+[ 2017-05-21T16:32:56+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `qiq_video_attributes` [ RunTime:0.0794s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video_attributes` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_video` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+SQL: select version() as v; [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001799s ]
+
+[ 2017-05-21T16:32:59+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0458s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0956s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.1372s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0947s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0759s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0004s ]
+SQL: select id,video_route from qiq_video where is_change=1 [ RunTime:0.0004s ]
+SQL: select v.video_type,u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate,v.is_change from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0008s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002326s ]
+
+[ 2017-05-21T16:32:59+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/attributes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0044s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0069s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0003s ]
+SQL: select id,video_route from qiq_video where is_change=1 [ RunTime:0.0003s ]
+SQL: select v.video_type,u.username,v.id,v.video_title,v.video_summary,v.video_cover,v.vidup_time,v.uid,a.channels,a.abit_rate,a.width,a.height,a.vbit_rate,a.duration,a.size,a.id as aid,a.acodec_name,a.vcodec_name,a.avg_frame_rate,v.is_change from qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid LEFT JOIN qiq_user u ON u.id=v.Uid  where  v.video_state=0  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\361d1d324291314eacefc6b047413e7a.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2017-05-21T16:33:03+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/is_send/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0053s ]
+SQL: UPDATE `qiq_video` SET `video_state`='1' WHERE `id` = 20 [ RunTime:0.0004s ]
+
+[ 2017-05-21T16:33:04+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/pass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0045s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0058s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0004s ]
+SQL: select vid.id,blo.type,vid.video_title,vid.play_times,vid.video_praise,vid.video_collection from qiq_video vid, qiq_video_block blo where vid.video_type=blo.id and vid.video_state=1 order by vid.id desc limit 0,3 [ RunTime:0.0005s ]
+SQL: select count(*) as count from qiq_video vid , qiq_video_block blo where vid.video_type=blo.id and vid.video_state=1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\33d6dcbe6d6fda9240c1f3cca634c50b.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002220s ]
+
+[ 2017-05-21T16:33:04+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Qiqiao/Video/pass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000251s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM qiq_auth_group_access a INNER JOIN qiq_auth_group g on a.group_id=g.id  WHERE ( a.uid='9' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_auth_rule` [ RunTime:0.0078s ]
+SQL: SELECT `condition`,`name` FROM `qiq_auth_rule` WHERE `id` IN ('1','2','3','24','6','7','8','9','11','14','16','17','18','22','23','19','21') AND `type` = 'Video' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0003s ]
+SQL: select vid.id,blo.type,vid.video_title,vid.play_times,vid.video_praise,vid.video_collection from qiq_video vid, qiq_video_block blo where vid.video_type=blo.id and vid.video_state=1 order by vid.id desc limit 0,3 [ RunTime:0.0004s ]
+SQL: select count(*) as count from qiq_video vid , qiq_video_block blo where vid.video_type=blo.id and vid.video_state=1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined variable: meta_title D:\ProgramFilesStudy\phpStudy\WWW\thinkphp3.2.3\Application\Runtime\Cache\Qiqiao\33d6dcbe6d6fda9240c1f3cca634c50b.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+

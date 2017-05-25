@@ -1,0 +1,57 @@
+<!-- 导入个人中心左侧 -->
+<include file="User/index" />
+
+            <!--   我的项目  -->
+            <div class="myconcern col-lg-10 col-md-10 col-sm-9 col-xs-12">
+                <div class="myconcern-title">
+                    <h3>关注项目</h3>
+                </div>
+                <div class="myconcern-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>项目名称</th>
+                                    <th>阶段</th>
+                                    <th>类型</th>
+                                    <th>发起时间</th>
+                                    <th>取消关注</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="video" id="vo">
+                                <tr>
+                                    <td><a href="{:U('Variety/Player',array('id'=>$vo['id']))}">{$vo.video_title}</a></td>
+                                    <td>作品</td>
+                                    <td>{$vo.video_type}</td>
+                                    <td>{$vo.vidup_time|date="Y-m-d",###}</td>
+                                    <td><a href="__CONTROLLER__/cancelConcern/id/{$vo.cid}" onclick="if(confirm('确定要取消关注吗?')){return true;}else{return false;}">取消</a></td>
+                                </tr>
+                                </volist>
+                                <volist name="plan" id="vo">
+                                <tr>
+                                    <td><a href="{:U('Incubation/IncubationDetail',array('id'=>$vo['id']))}">{$vo.plan_title}</a></td>
+                                    <td>{$vo.plan_stage}</td>
+                                    <td>{$vo.plan_type}</td>
+                                    <td>{$vo.planup_time|date="Y-m-d",###}</td>
+                                    <td><a href="__CONTROLLER__/cancelConcern/id/{$vo.cid}" onclick="if(confirm('确定要取消关注吗?')){return true;}else{return false;}">取消</a></td>
+                                </tr>
+                                </volist>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- JavaScript   -->
+    <!-- 侧边导航点击变颜色 -->
+    <script type="text/javascript">
+        $("#myconcern").addClass('centerhome');
+    </script>
+
+ <!-- -------------footer底部--------- -->
+<include file="Public/footer" />

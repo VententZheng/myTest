@@ -1,0 +1,152 @@
+<!-- 导入头部文件 -->
+<include file="Public/header" />
+<!-- 导入css文件 -->
+<link href="__PUBLIC__/Home/css/video.css" rel="stylesheet">
+
+<style type="text/css">
+    #videohover{
+        color: white;
+        background:rgba(45,186,223,1.0);
+        border-radius: 3px;
+        padding: 2px 4px 2px 4px;
+    }
+    #videohover:hover{
+        background:rgba(20,160,198,1.0);
+        color: white;
+    }
+</style>
+
+    <!--  --------------页面内容----------------  -->
+    <div class="container">
+        <div class="row">
+            <!--    顶部类型      -->
+            <div class="top-classify col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <ul class="item-project">
+
+                    <li class="item-type">
+                        <dl>
+                            <dt>类 型：</dt>
+                            <if condition="$vtype eq 0">
+                            <dd class="navdown"><a id="videohover" href="{:U('Variety/index',array('vtype'=>0,'vuptime'=>$vuptime,'vstate'=>$vstate))}">全部</a></dd>
+                            <else />
+                            <dd class="navdown"><a href="{:U('Variety/index',array('vtype'=>0,'vuptime'=>$vuptime,'vstate'=>$vstate))}">全部</a></dd>
+                            </if>
+
+                            <volist name="video_block" id="vblock">
+                            <if condition="$vtype eq $vblock['id']">
+                            <dd><a href="{:U('Variety/index',array('vtype'=>$vblock['id'],'vuptime'=>$vuptime,'vstate'=>$vstate))}" id="videohover">{$vblock.type}</a></dd>
+                            <else />
+                            <dd><a href="{:U('Variety/index',array('vtype'=>$vblock['id'],'vuptime'=>$vuptime,'vstate'=>$vstate))}">{$vblock.type}</a>
+                            </if>
+                            </volist>
+                        </dl>
+                    </li>
+
+                    <li class="item-process">
+                        <dl>
+                            <dt>状 态：</dt>
+                            <if condition="$vstate eq 0">
+                            <dd class="navdown"><a id="videohover" href="{:U('Variety/index',array('vtype'=>$vtype,'vuptime'=>$vuptime,'vstate'=>0))}">全部</a></dd>
+                            <else />
+                            <dd class="navdown"><a href="{:U('Variety/index',array('vtype'=>$vtype,'vuptime'=>$vuptime,'vstate'=>0))}">全部</a></dd>
+                            </if>
+
+                            <if condition="$vstate eq 1">
+                            <dd><a id="videohover" href="{:U('Variety/index',array('vtype'=>$vtype,'vuptime'=>$vuptime,'vstate'=>1))}">热播</a></dd>
+                            <else />
+                            <dd><a href="{:U('Variety/index',array('vtype'=>$vtype,'vuptime'=>$vuptime,'vstate'=>1))}">热播</a></dd>
+                            </if>
+
+                            <if condition="$vstate eq 2">
+                            <dd><a id="videohover" href="{:U('Variety/index',array('vtype'=>$vtype,'vuptime'=>$vuptime,'vstate'=>2))}">最新更新</a></dd>
+                            <else />
+                            <dd><a href="{:U('Variety/index',array('vtype'=>$vtype,'vuptime'=>$vuptime,'vstate'=>2))}">最新更新</a></dd>
+                            </if>
+
+                            <if condition="$vstate eq 3">
+                            <dd><a id="videohover" href="{:U('Variety/index',array('vtype'=>$vtype,'vuptime'=>$vuptime,'vstate'=>3))}">点赞数</a></dd>
+                            <else />
+                            <dd><a href="{:U('Variety/index',array('vtype'=>$vtype,'vuptime'=>$vuptime,'vstate'=>3))}">点赞数</a></dd>
+                            </if>
+                            <!-- 搜索按钮 -->
+                            <dd id="vid-search-btn" title="原创综艺搜索"><a href="javascript:void(0);"><i class="fa fa-search fa-lg"></i></a></dd>
+                            <dd>
+                            </dd>
+                        </dl>   
+                    </li>
+
+                    <li style="position: absolute;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <!-- 原创综艺搜索 -->
+                    <div class="video-search col-lg-5">
+                    <form action="{:U('Variety/vidSearch')}" method="get">
+                        <div class="vid-seach">
+                            <div class="input-group">
+                                <input type="text" name="vid-search" placeholder="请输入原创节目" class="form-control">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- 原创综艺搜索 -->
+               <!--  <div class="video-search col-lg-6">
+                    <form action="{:U('Variety/vidSearch')}" method="get">
+                        <div class="vid-seach">
+                            <div class="input-group">
+                                <input type="text" name="vid-search" placeholder="请输入原创节目" class="form-control">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div> -->
+        </div>
+
+        <!--   中间部分视频展示   -->
+        <div class="row">
+            <div class="video-item col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <volist name="Vlist" id="vo">               
+                  <div class="vitem col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div class="item-vid">
+                        <div class="vid-img"><a href="{:U('Variety/player',array('id'=>$vo['videoid']))}"><img src="__PUBLIC__/Home/upload_img/{$vo.video_cover}" class="img-responsive  center-block" alt=""></a></div>
+                        <div class="vitem-caption">
+                        <if condition="$vo.play_times gt 30">
+                            <span>热门</span>
+                            </if>
+                            <h4><a href="{:U('Variety/player',array('id'=>$vo['videoid']))}">{$vo.video_title}</a></h4>
+                            <p><i class="fa fa-user">&nbsp;{$vo.play_times}</i><i class="fa fa-thumbs-up">&nbsp;{$vo.video_praise}</i></p>
+                        </div>
+                    </div>
+                </div>
+                </volist>             
+                
+            </div>
+        </div>
+        <!-- 分页 -->
+        <div class="infor-page paginList" style="padding: 20px 0px 0px 0px;margin: 0px 0px 0px 0px;">{$page}
+        </div>
+        
+          
+    </div>
+
+
+    <!-- JavaScript   -->
+    <!-- 导航栏点击变颜色 -->
+    <script type="text/javascript">
+        $('#vid-search-btn').click(function(){
+            $('.video-search').toggle(500)
+        })
+    </script>
+    <script type="text/javascript">
+        $("#variety").addClass('homepage');
+    </script>
+
+ <!-- -------------footer底部--------- -->
+<include file="Public/footer" />

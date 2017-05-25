@@ -1,0 +1,70 @@
+<extend name="Public/base"/>
+
+<block name="css">
+<style>
+.tubox{display: inline-block; width: 36px;height: 36px;line-height: 34px;overflow: hidden;border:1px solid #ccc;border-radius: 18px;margin-right: 20px;}
+.tubox span{display: inline-block;text-align: center;width: 70px;}
+
+
+</style>
+</block>
+<block name="body">
+
+        <table class="table table-hover text-center" style="margin:auto;width:1000px;">
+
+        	<tr>
+        	    <th class="text-center" style="width:10%">用户</th>
+                <th class="text-center" style="width:50%">消息</th>
+                <th class="text-center" style="width:10%">状态</th>
+
+                <th class="text-center" style="width:160px">操作</th>
+            </tr>
+
+            <volist name="message" id="v">
+            <tr>
+            	<td>{$v.username}</td>
+            	<td>{$v.content}</td>
+            	<if condition="$v['is_used']==1">
+            	<td>未读</td>
+            	<else />
+            	<td>已读</td>
+            	</if>
+            	<td><div  class="tubox" val='{$v.id}' onclick="del('{$v.id}')"><img class="tu" src="__IMG__/del_gray.png"><span>删除</span></div></td>
+            </tr>
+            </volist>
+        </table>
+
+        <form action="{:U('User/delmessage')}" method="post" id="form">
+        	<input id="id" name="id" type="hidden" val="" />
+        </form>
+</block>
+
+
+
+<block name="script">
+<script type="text/javascript">
+	
+	            $(".tubox").hover(function(){
+                var imgSrc=$(this).find("img").attr("src");     
+                $(this).stop().animate({"width":"120px"},300)
+                $(this).css({"background":"#5AB6DF","color":"#fff","border-color":"#337AB7","cursor":"pointer"})
+
+                imgSrc=imgSrc.replace("_gray","_white")
+                $(this).find("img").attr("src",imgSrc);
+            },function(){
+                var imgSrc=$(this).find("img").attr("src");
+                $(this).stop().animate({"width":"36px"},300)
+                $(this).css({"background":"#fff","border-color":"#ccc"})
+                imgSrc=imgSrc.replace("_white","_gray")
+                $(this).find("img").attr("src",imgSrc);
+            });
+
+	            function del(id){
+	            	$("#id").val(id);
+	            	$("#form").submit();
+
+	            }
+
+
+</script>
+</block>

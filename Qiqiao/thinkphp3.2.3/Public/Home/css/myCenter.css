@@ -1,0 +1,830 @@
+/*图片自适应*/
+.centerhome{
+    color: rgba(247,132,17,1.0);
+    border-left: 3px solid rgba(247,132,17,1.0);
+    border-right: 3px solid rgba(247,132,17,1.0);
+    font-weight: 600;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: all .5s ease;
+    /* Safari and Chrome */
+    -moz-transition: all .5s ease;
+    /* Firefox */
+    -ms-transition: all .5s ease;
+    /* IE 9 */
+    -o-transition: all .5s ease;
+    /* Opera */
+    transition: all .5s ease;
+}
+
+body {
+    /*    background: rgba(249,249,249,1.0);*/
+    font-family: "Microsoft YaHei";
+    background: white;
+}
+
+
+/*个人中心上面部分*/
+
+.person-top {
+    margin: 20px 0px 0px 0px;
+    background: rgba(250, 250, 250, 1.0);
+}
+
+.person-top .top-img {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.person-top .top-img img {
+    padding: 0px 0px 0px 0px;
+}
+
+.person-top .top-content {
+    padding: 0px 0px 0px 30px;
+}
+
+.person-top .top-content h3 {
+    font-family: "Microsoft YaHei";
+}
+
+.person-top .top-content span {
+    display: block;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+.person-top .top-content span i {
+    font-size: 20px;
+    color: rgba(247, 132, 17, 1.0);
+}
+
+.person-top .top-content p {
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
+}
+
+
+/*-------个人中心内容--------*/
+
+.person-body{
+    padding-right: 0px;
+    margin: 30px 0px 0px 0px;
+}
+.person-body .body-left{
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+.person-body .body-left ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    background: rgba(249, 249, 249, 1.0);
+}
+.person-body .body-left ul a{
+    font-size: 18px;
+    display: block;
+    padding: 12px 0px 12px 0px;
+    text-decoration: none;
+}
+.person-body .body-left ul a:hover{
+    color: rgba(247,132,17,1.0);
+    border-left: 3px solid rgba(247,132,17,1.0);
+    border-right: 3px solid rgba(247,132,17,1.0);
+    font-weight: 600;
+}
+
+/*--------右边iframe样式--------*/
+.person-body .body-right{
+    margin: 0px 0px 0px 0px;
+/*    padding-bottom: 0px;*/
+}
+
+/*----------我的项目CSS、关注项目CSS------*/
+.myproject,
+.myconcern{
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 50px 30px;
+}
+
+.myproject .myproject-title,
+.myconcern .myconcern-title,
+{
+    margin-bottom: 0px;
+}
+
+.myproject .myproject-title h3, 
+.myconcern .myconcern-title h3 {
+    display: inline-block;
+    padding: 0px 2px 4px 2px;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(20, 160, 198, 1.0);
+}
+
+.myproject .myproject-content
+.myconcern .myconcern-content{}
+
+.myconcern .myconcern-content .table-hover,
+.myproject .myproject-content .table-hover {
+}
+
+.myconcern .myconcern-content .table-hover thead,
+.myproject .myproject-content .table-hover thead {
+}
+
+.myconcern .myconcern-content .table-hover thead th,
+.myproject .myproject-content .table-hover thead th {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.myconcern .myconcern-content .table-hover tbody,
+.myproject .myproject-content .table-hover tbody {}
+
+.myconcern .myconcern-content .table-hover tbody tr,
+.myproject .myproject-content .table-hover tbody tr {
+    font-size: 15px;
+}
+.myconcern .myconcern-content .table-hover tbody tr td,
+.myproject .myproject-content .table-hover tbody tr td{
+    line-height: 36px;
+    text-align: center;
+}
+.myconcern .myconcern-content .table-hover tbody tr a:hover,
+.myproject .myproject-content .table-hover tbody tr a:hover{
+    color: rgba(247,132,17,1.0);
+}
+
+/*----------我的团队CSS---------------*/
+.myteam {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 50px 30px;
+}
+
+.myteam .myteam-title {
+    margin: 0px 0px 0px 0px;
+}
+
+.myteam .myteam-title h3 {
+    display: inline-block;
+    padding: 0px 2px 4px 2px;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(20, 160, 198, 1.0);
+}
+
+.myteam .myteam-detail {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.myteam .myteam-detail .base-infor,
+.myteam .myteam-detail .myteam-member {
+    margin: 0px 0px 10px 0px;
+    padding: 0px 30px 0px 0px;
+}
+
+.myteam .myteam-detail .base-infor h4,
+.myteam .myteam-detail .myteam-member h4{
+    border-bottom: 1px solid rgba(220, 220, 220, 1.0);
+    padding: 0px 0px 4px 3px;
+    margin: 0px 0px 20px 0px;
+}
+.myteam .myteam-detail .base-infor h4 a{
+    font-size: 15px;
+    float: right;
+    margin: 0px 10px 0px 0px;
+}
+.myteam .myteam-detail .base-infor h4 a:hover{
+    color: rgba(247,132,17,1.0);
+}
+
+.myteam .myteam-detail .base-infor .team-inforhead {
+    text-align: center;
+}
+
+.myteam .myteam-detail .base-infor .team-inforhead img {
+    padding: 0px 0px 0px 0px;
+}
+
+.myteam .myteam-detail .base-infor .team-inforhead span {
+    margin: 0px 0px 0px 0px;
+    padding: 4px 0px 4px 0px;
+    background: rgba(20, 160, 198, 0.4);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    top: -30px;
+}
+
+.myteam .myteam-detail .base-infor .team-inforhead span:hover {
+    background: rgba(45, 186, 223, 0.4);
+}
+.myteam .myteam-detail .base-infor .infordetail-show{
+    
+}
+.myteam .myteam-detail .base-infor .infordetail-show input{
+    border: none;
+    background: white;
+    box-shadow: none;
+    cursor: auto;
+}
+.myteam .myteam-detail .base-infor .infordetail-show .team-name input{
+    font-size: 24px;
+}
+.myteam .myteam-detail .base-infor .infordetail-show .team-slogan input{
+    font-size: 16px;
+}
+.myteam .myteam-detail .base-infor .infordetail-show .team-summary{
+    padding-left: 12px;
+    font-size: 16px;
+    text-indent: 2em;
+    text-align: justify;
+}
+.myteam .myteam-detail .base-infor .infordetail-edit{
+    padding-right: 0px;
+}
+.myteam .myteam-detail .base-infor .infordetail-edit label{
+    font-weight: 500;
+    font-size: 16px;
+}
+.myteam .myteam-detail .base-infor .infordetail-edit button{
+    font-size: 16px;
+    background: rgba(20,160,198,1.0);
+    color: white;
+    border: none;
+}
+.myteam .myteam-detail .base-infor .infordetail-edit button:hover{
+    background: rgba(45,186,223,1.0);
+}
+/*团队成员*/
+.myteam .myteam-detail .myteam-member h4 a{
+    float: right;
+    font-size: 15px;
+    border: none;
+    border-radius: 0px;
+    background: white;
+    color: rgba(20,160,198,1.0);
+    padding: 0px 0px 0px 0px;
+}
+.myteam .myteam-detail .myteam-member h4 a:hover{
+    color: rgba(247,132,17,1.0);
+    text-decoration: underline;
+}
+.myteam .myteam-detail .myteam-member .teammember-show{
+    padding: 0px 0px 0px 10px;
+}
+.myteam .myteam-detail .myteam-member .teammember-show dl{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 30px 0px;
+}
+.myteam .myteam-detail .myteam-member .teammember-show dl dt{
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 2px 0px;
+}
+.myteam .myteam-detail .myteam-member .teammember-show dl dt span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.myteam .myteam-detail .myteam-member .teammember-show dl dt a{
+    display: inline-block;
+    float: right;
+    margin-right: 12px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.myteam .myteam-detail .myteam-member .teammember-show dl dt a:hover{
+    color: rgba(247,132,17,1.0);
+}
+.myteam .myteam-detail .myteam-member .teammember-show dl dt a i{
+    font-size: 20px;
+}
+.myteam .myteam-detail .myteam-member .teammember-show dl dd{
+    font-size: 16px;
+    text-indent: 2em;
+    text-align: justify;
+}
+/*添加团队成员模态框*/
+.myteam .myteam-detail .myteam-member #teammemberAdd{
+    
+}
+.myteam .myteam-detail .myteam-member #teammemberAdd .modal-header{
+    border: none;
+    padding-bottom: 0px;
+}
+.myteam .myteam-detail .myteam-member #teammemberAdd .modal-body{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+@media (max-width: 768px){
+    .myteam .myteam-detail .myteam-member #teammemberAdd .modal-body{
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
+}
+}
+.myteam .myteam-detail .myteam-member #teammemberAdd .modal-body label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.myteam .myteam-detail .myteam-member #teammemberAdd .modal-footer{
+    border: none;
+    padding: 10px 20px 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.myteam .myteam-detail .myteam-member #teammemberAdd .modal-footer .btn-default{
+    font-size: 16px;
+}
+.myteam .myteam-detail .myteam-member #teammemberAdd .modal-footer .btn-primary{
+    font-size: 16px;
+    background: rgba(20,160,198,1.0);
+    border: 1px solid rgba(20,160,198,1.0);
+}
+.myteam .myteam-detail .myteam-member #teammemberAdd .modal-footer .btn-primary:hover{
+    background: rgba(45,186,223,1.0);
+    border: 1px solid rgba(45,186,223,1.0);
+}
+
+/*--------------我的消息CSS-------------*/
+.mymessage{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 50px 30px;
+}
+.mymessage .mymessage-title {
+    margin: 0px 0px 0px 0px;
+}
+.mymessage .mymessage-title h3 {
+    display: inline-block;
+    padding: 0px 2px 4px 2px;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(20, 160, 198, 1.0);
+}
+.mymessage .nav-tabs {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mymessage .nav-tabs li a:hover {
+    color: rgba(247, 132, 17, 1.0);
+}
+
+.mymessage .nav-tabs li.active a {
+    color: rgba(247, 132, 17, 1.0);
+    font-weight: 500;
+}
+.mymessage .tab-content{
+
+}
+/*私信*/
+.mymessage .tab-content #privateLetter{
+    
+}
+.mymessage .tab-content #privateLetter dl{
+    list-style: none;
+    margin-top: 10px;
+}
+.mymessage .tab-content #privateLetter dl dd{
+    padding: 0px 0px 8px 0px;
+    margin: 10px 0px 0px 0px;
+    border-bottom: 1px dashed rgba(55,55,55,0.6);
+}
+.mymessage .tab-content #privateLetter dl dd i{
+    text-align: center;
+    padding: 4px 0px 0px 0px;
+    color: red;
+    font-size: 12px;
+}
+.mymessage .tab-content #privateLetter .letcontent{
+    font-size: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0px 0px 0px 0px;
+}
+.mymessage .tab-content #privateLetter dl dd a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.mymessage .tab-content #privateLetter dl dd .lettime{
+    font-size: 15px;
+}
+.mymessage .tab-content #privateLetter dl dd a:hover{
+    color: rgba(247,132,17,1.0);
+}
+/*.mymessage .tab-content #privateLetter{
+    color: red;
+}*/
+
+/*-----------个人资料CSS-------------*/
+.mydata {
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 50px 30px;
+}
+
+.mydata .mydata-title {
+    margin: 0px 0px 0px 0px;
+}
+
+.mydata .mydata-title h3 {
+    display: inline-block;
+    padding: 0px 2px 4px 2px;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(20, 160, 198, 1.0);
+}
+
+.mydata .nav-tabs {
+    font-size: 16px;
+}
+
+.mydata .nav-tabs li a:hover {
+    color: rgba(247, 132, 17, 1.0);
+}
+
+.mydata .nav-tabs li.active a {
+    color: rgba(247, 132, 17, 1.0);
+    font-weight: 500;
+}
+
+
+/*---修改头像----*/
+
+.mydata .tab-content {
+    margin: 30px 0px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 30px
+}
+
+.mydata .tab-content .myavatar {
+    list-style: none;
+}
+
+.mydata .tab-content .myavatar li {
+    padding: 0px 0px 0px 0px;
+}
+
+.mydata .tab-content .myavatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0px 0px 20px 0px;
+}
+
+.mydata .tab-content .myavatar a {
+    font-size: 18px;
+    margin: 0px 0px 0px 30px;
+    text-decoration: none;
+}
+
+.mydata .tab-content .myavatar a:hover {
+    color: rgba(247, 132, 17, 1.0);
+    text-decoration: underline;
+}
+
+
+/*--个人信息修改-----*/
+
+.mydata .tab-content .myinfor-show,
+.mydata .tab-content .myinfor-edit {
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.mydata .tab-content .myinfor-show .form-group,
+.mydata .tab-content .myinfor-edit .form-group {
+    margin-top: 20px;
+}
+
+.mydata .tab-content .myinfor-show .form-group label,
+.mydata .tab-content .myinfor-edit .form-group label {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 0px;
+}
+
+.mydata .tab-content .myinfor-show .form-group input {
+    border: none;
+    background: white;
+    box-shadow: none;
+    font-size: 16px;
+    cursor: auto;
+}
+.mydata .tab-content .myinfor-show .mymotto .form-control{
+    border: none;
+    font-size: 16px;
+    box-shadow: none;
+    cursor: auto;
+}
+
+.mydata .tab-content .myinfor-show .form-group button,
+.mydata .tab-content .myinfor-edit .form-group button {
+    font-size: 16px;
+    color: white;
+    background: rgba(20, 160, 198, 1.0);
+    border: 1px solid rgba(20, 160, 198, 1.0);
+}
+
+.mydata .tab-content .myinfor-show .form-group button:hover {
+    background: rgba(45, 186, 223, 1.0);
+    border: 1px solid rgba(45, 186, 223, 1.0);
+}
+
+.mydata .tab-content .myinfor-edit .form-group .address-edit select {
+    font-size: 16px;
+    padding: 4px 0px 4px 0px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 3px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .mydata .tab-content .myinfor-edit .form-group .address-edit select {
+        font-size: 16px;
+        padding: 4px 0px 4px 0px;
+        margin: 0px 0px 0px 0px;
+        border-radius: 3px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mydata .tab-content .myinfor-edit .form-group .address-edit select {
+        font-size: 16px;
+        padding: 4px 0px 4px 0px;
+        margin: 10px 0px 0px 0px;
+        border-radius: 3px;
+    }
+}
+
+/*-------------账户设置CSS-------------*/
+.myaccount {
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 20px 30px;
+}
+
+.myaccount .myaccount-title {
+    margin-bottom: 0px;
+}
+
+.myaccount .myaccount-title h3 {
+    display: inline-block;
+    padding: 0px 2px 4px 2px;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(20, 160, 198, 1.0);
+}
+
+.myaccount .nav-tabs {
+    font-size: 15px;
+}
+.myaccount .nav-tabs li{
+    padding: 0px;
+    margin: 0px;
+}
+.myaccount .nav-tabs li a {
+    margin: 0px;
+    text-align: center;
+}
+
+.myaccount .nav-tabs li a:hover {
+    color: rgba(247, 132, 17, 1.0);
+}
+
+.myaccount .nav-tabs li.active a {
+    color: rgba(247, 132, 17, 1.0);
+    font-weight: 500;
+}
+@media(max-width: 768px){
+    .myaccount .myaccount-title h3 {
+    display: inline-block;
+    padding: 0px 2px 4px 2px;
+    font-size: 14px;
+    border-bottom: 2px solid rgba(20, 160, 198, 1.0);
+    }
+    .myaccount .nav-tabs li{
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    }
+    .myaccount .nav-tabs li a{
+        font-size: 12px;
+        padding: 4px 0px 4px 0px;
+        margin: 0px;
+        text-align: center;
+    }
+    .myaccount .nav-tabs li a i{
+        font-size: 10px;
+    }
+}
+
+
+/*------邮箱验证、手机验证、修改密码------*/
+/*----邮箱已绑定------*/
+.myaccount .tab-content .myemail .email-bond,
+.myaccount .tab-content .myphone .phone-bond{
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 60px 0px;
+}
+.myaccount .tab-content .myemail .email-bond .form-group,
+.myaccount .tab-content .myphone .phone-bond .form-group{
+    text-align: left;
+}
+.myaccount .tab-content .myemail .email-bond .form-group label,
+.myaccount .tab-content .myphone .phone-bond .form-group label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.myaccount .tab-content .myemail .email-bond .form-group .email-content,
+.myaccount .tab-content .myphone .phone-bond .form-group .phone-content{
+    padding: 8px 0px 0px 0px;
+}
+.myaccount .tab-content .myemail .email-bond .form-group span,
+.myaccount .tab-content .myphone .phone-bond .form-group span{
+    font-size: 16px;
+}
+@media(max-width:768px){
+    .myaccount .tab-content .myemail .email-bond,
+    .myaccount .tab-content .myphone .phone-bond{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 60px 0px;
+    }
+    .myaccount .tab-content .myemail .email-bond .form-group label,
+    .myaccount .tab-content .myphone .phone-bond .form-group label{
+        font-size: 12px;
+        text-align: left;
+        font-weight: 500;
+        vertical-align: top;
+    }
+    .myaccount .tab-content .myemail .email-bond .form-group span,
+    .myaccount .tab-content .myphone .phone-bond .form-group span{
+        font-size: 12px;
+        vertical-align: top;
+    }
+    .myaccount .tab-content .myemail .email-bond .form-group a{
+        font-size: 12px;
+    }
+    .myaccount .tab-content .myemail .email-bond .form-group .email-content a{
+    font-size: 12px;
+    vertical-align: top;
+    }
+    .myaccount .tab-content .myphone .phone-bond .form-group .phone-content span{
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        font-size: 14px;
+    }
+}
+.myaccount .tab-content .myemail .email-bond .form-group a,
+.myaccount .tab-content .myphone .phone-bond .form-group a{
+    padding: 0px 0px 0px 0px;
+    font-size: 16px;
+    margin: 0px 0px 0px 30px;
+}
+.myaccount .tab-content .myemail .email-bond .form-group a:hover,
+.myaccount .tab-content .myphone .phone-bond .form-group a:hover{
+    color: rgba(247,132,17,1.0);
+}
+.myaccount .tab-content .myphone .phone-bond .form-group .phone-content{
+        text-align: left;
+    }
+/*----邮箱未绑定------*/
+.myaccount .tab-content .myemail,
+.myaccount .tab-content .myphone,
+.myaccount .tab-content .mypassword {
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.myaccount .tab-content .myemail .form-group,
+.myaccount .tab-content .myphone .form-group,
+.myaccount .tab-content .mypassword .form-group {
+    margin: 20px 0px 0px 0px;
+}
+
+.myaccount .tab-content .myemail .form-group label,
+.myaccount .tab-content .myphone .form-group label,
+.myaccount .tab-content .mypassword .form-group label {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0px 0px 0px;
+}
+@media(max-width: 768px){
+    .myaccount .tab-content .mypassword {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    }
+    .myaccount .tab-content .mypassword .form-group {
+    margin: 0px 0px 0px 0px;
+    }
+    .myaccount .tab-content .mypassword .form-group label{
+    font-size: 12px;
+    }
+}
+
+.myaccount .tab-content .myemail .form-group input,
+.myaccount .tab-content .myphone .form-group input,
+.myaccount .tab-content .mypassword .form-group input {}
+
+.myaccount .tab-content .myemail .form-group .input-group .input-group-addon,
+.myaccount .tab-content .myphone .form-group .input-group .input-group-addon {
+    background: rgba(20, 160, 198, 1.0);
+    color: white;
+    font-size: 15px;
+    border-color: rgba(20, 160, 198, 1.0);
+}
+
+.myaccount .tab-content .myemail .form-group .input-group .input-group-addon:hover,
+.myaccount .tab-content .myphone .form-group .input-group .input-group-addon:hover {
+    background: rgba(45, 186, 223, 1.0);
+    border-color: rgba(45, 186, 223, 1.0);
+    cursor: pointer;
+}
+
+.myaccount .tab-content .myemail .email-btn .btn-default,
+.myaccount .tab-content .myphone .phone-btn .btn-default,
+.myaccount .tab-content .mypassword .password-btn .btn-default {
+    background: rgba(20, 160, 198, 1.0);
+    border-color: rgba(20, 160, 198, 1.0);
+    color: white;
+    font-size: 16px;
+}
+
+.myaccount .tab-content .myemail .email-btn .btn-default:hover,
+.myaccount .tab-content .myphone .phone-btn .btn-default:hover,
+.myaccount .tab-content .mypassword .password-btn .btn-default:hover {
+    background: rgba(45, 186, 223, 1.0);
+    border-color: rgba(45, 186, 223, 1.0);
+}
+
+.myaccount .tab-content .myother {
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+.myaccount .tab-content .myother ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+.myaccount .tab-content .myother ul li i {
+    font-size: 40px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    margin: 0px 0px 20px 0px;
+}
+
+.myaccount .tab-content .myother ul li span {
+    display: block;
+    font-size: 16px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 6px 0px;
+}
+
+.myaccount .tab-content .myother ul li a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.myaccount .tab-content .myother ul li a:hover {
+    color: rgba(247, 132, 17, 1.0);
+    text-decoration: underline;
+}
+
+.myaccount .tab-content .myother ul li .fa-weixin {
+    border: 1px solid rgba(4, 179, 16, 1.0);
+    color: rgba(4, 179, 16, 1.0);
+}
+
+.myaccount .tab-content .myother ul li .fa-weixin:hover {
+    background: rgba(4, 179, 16, 1.0);
+    color: white;
+    cursor: pointer;
+}
+
+.myaccount .tab-content .myother ul li .fa-weibo {
+    border: 1px solid rgba(230, 22, 45, 1.0);
+    color: rgba(230, 22, 45, 1.0);
+}
+
+.myaccount .tab-content .myother ul li .fa-weibo:hover {
+    background: rgba(230, 22, 45, 1.0);
+    color: white;
+    cursor: pointer;
+}
+
+.myaccount .tab-content .myother ul li .fa-qq {
+    border: 1px solid rgba(0, 157, 218, 1.0);
+    color: rgba(0, 157, 218, 1.0);
+}
+
+.myaccount .tab-content .myother ul li .fa-qq:hover {
+    background: rgba(0, 157, 218, 1.0);
+    color: white;
+    cursor: pointer;
+}

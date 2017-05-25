@@ -1,0 +1,523 @@
+<!-- 导入头部文件 -->
+<include file="Public/header" />
+<!-- 导入css文件 -->
+<link href="__PUBLIC__/Home/css/video.css" rel="stylesheet">
+<link href="__CSS__/video-js.min.css" rel="stylesheet">
+<script src="__JS__/video.min.js"></script>
+<script src="__JS__/videojs-contrib-hls.js"></script>
+
+<style>
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #fff;
+    white-space: nowrap;
+}
+
+
+
+</style>
+    <div id="DivLocker"></div>
+    <div class="video-cont">
+        <div class="container">
+
+
+            <!-- ----视频标题--------- -->
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left:0px;">
+                <div class="player-title col-lg-7 col-md-7 col-sm-6 col-xs-12" style="padding-left:0px;">
+                    <h3><span style="color: rgba(247,132,17,1.0)">[{$videotype}]</span>{$Vdata.video_title}</h3></div>
+                <div class="player-share col-lg-4 col-md-5 col-sm-6 col-xs-12">
+                    <ul style="margin:0px;">
+                        <li id="praise"><a href="javascript:void(0)"><i class="fa fa-thumbs-up" title="点赞"><!--<span class="badge"></span>--></i></a></li>
+                        <li id="collection"><a href="javascript:void(0);"><i class="fa fa-folder-open" title="点击收藏"></i></a></li>
+                        <li><a href="javascript:void(0);"><i class="fa fa-qq" title="QQ分享"></i></a></li>
+                        <li><a href="javascript:void(0);"><i class="fa fa-wechat" title="微信分享"></i></a></li>
+                        <li><a href="javascript:void(0);"><i class="fa fa-weibo" title="微博分享"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- -----视频播放------- -->
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12" style="background:white; padding:0px; position:relative;">
+                    <!--video class="video-player col-lg-10" controls>
+                        <source src="__PUBLIC__/Home{$Vdata.video_route}" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg"> 您的浏览器不支持 HTML5 video 标签。
+                    </video-->
+
+                     <video id="example-video"   class="video-player col-lg-12 col-md-12 col-sm-12 col-xs-12 video-js vjs-default-skin" controls>
+                                            <source src="{:U('variety/play')}/{$video}" type="application/x-mpegURL" >
+                    </video>
+
+                    <form id='form' action='{:U("variety/player")}' method='post'>
+                      <input name='type' id='type' type='hidden' value='' />
+                      <input name='other' id='other' type='hidden' value='' />  
+                      <input name='id'   id='id' type='hidden' value='{$id}' />
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                    <div class="player-author col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="player-people col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <img src="__PUBLIC__/Home/image/user_img/{$Vdata.head_pic}">
+                            <div class="player-user">
+                                <a class="player-username" href="javascript:void(0)">{$Vdata.username}</a>
+                                <br>
+                                <a href="javascript:void(0)" id="private-letter"><span class="private-letter"><i class="fa fa-envelope"></i> 私信</span></a>
+                            </div>
+                            <span id="letter_succ" style="display: inline-block;font-size: 16px;color: red"></span>
+                        </div>
+                        <div class="player-content col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                            <p><b> 综艺内容：</b>{$Vdata.video_summary}</p>
+                        </div>
+                    </div>
+                    <!-- 私信 -->
+                    <div class="Pletter" id="Pletter">
+                        <form>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 P-letter">
+                            <div class="input-group">
+                                <textarea class="form-control" rows="2" placeholder="@{$Vdata.username}：" required="required"></textarea>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default send" type="button" id="send_letter" style="height: 55px;">发送</button>
+                                </span>
+                            </div>
+                            </div>
+                        </form>
+                        <p id="letter_prompt" style="font-size: 16px;float: right;margin: 4px 20px 0px 0px;"></p>
+                    </div>
+                </div>
+            </div>
+
+
+                <!-- 综艺节目评论 -->
+    <div class="row">
+        <div class="player-comment col-lg-10 col-md-10 col-sm-10 col-xs-12">
+            <div class="news-comment">
+                <!--  发表评论区begin -->
+                <div class="report-comment">
+                    <if condition="$commoninfo.id eq 0">
+                        <div class="cominfor">
+                            <span>请登录后发表评论</span>
+                        </div>
+                        <else />
+                        <div class="cominfor">
+                            <img src="__PUBLIC__/Home/image/user_img/{$commoninfo.head_pic}">
+                            <span>{$commoninfo.username}：</span>
+                            <span class="total-com">总 {$totalcom}条</span>
+                        </div>
+                    </if>
+                    <form action="{:U('Variety/addComment')}" method="post" role="form">
+                        <div class="input-group">
+                            <!-- 用户id -->
+                            <input type="hidden" class="input-group" name="userid" value="{$commoninfo.id}">
+                        </div>
+                        <!-- 上级评论id -->
+                        <div class="input-group">
+                            <input type="hidden" class=" input-group" placeholder="" name="pid" value="0">
+                        </div>
+                        <!-- 资讯id -->
+                        <div class="input-group">
+                            <input type="hidden" name="inforid" value="{$videId}">
+                        </div>
+
+                        <if condition="$commoninfo.id eq 0">
+                            <div class="input-group combtn">
+                                <textarea class="form-control comment" id="content-text" name="comment" rows="3" placeholder="请登陆后输入评论内容"></textarea>
+                                <span class="input-group-btn">
+                            <button class="btn btn-default submit-btn" id="logincom" type="submit" style="height:74px;"><p><i class="fa fa-edit"></i></p><span>登录并发表评论</span></button>
+                                </span>
+                            </div>
+                            <else />
+                            <div class="input-group combtn">
+                                <textarea class="form-control comment" id="content-text" name="comment" rows="3" placeholder="请输入评论内容"></textarea>
+                                <span class="input-group-btn">
+                            <button class="btn btn-default submit-btn" type="submit" style="height:74px;"><p><i class="fa fa-edit"></i></p><span>马上发表</span></button>
+                                </span>
+                            </div>
+                            <p id="error-promt">您是不是忘了说点什么？</p>
+                        </if>
+                    </form>
+                </div>
+            </div>
+            </div>
+            <!--  发表评论区end  -->
+        </div>
+
+        <!--   -----评论内容显示---- -->
+        <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 comment-show">
+            <h4>评论内容</h4>
+            <volist name="commentList" id="vo">
+                <eq name="vo.pid" value="0">
+                    <hr class="phr col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height: 1px;border:none;border-top:1px solid rgba(55,55,55,0.2);" />
+                    <else />
+                    <hr class="chr col-lg-12" style="height: 1px;border:none;border-top:1px dashed rgba(55,55,55,0.2);" />
+                </eq>
+                <div class="comment-list col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left:{$vo['level']-1}cm">
+                    <!-- 第二个父元素parent().parent() -->
+                    <div class="compic col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                        <img src="__PUBLIC__/Home/image/user_img/{$vo.headPic}">
+                    </div>
+                    <div class="comcontent col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                        <!-- 第一个父元素parent() -->
+                        <div class="user">{$vo.uname}</div>
+                        <div class="hftime" id="comtime">{$vo.com_time}</div>
+                        <div class="content">{$vo.com_content}</div>
+                        <div class="hf" id="{$vo.id}">回复</div>
+                    </div>
+                </div>
+            </volist>
+        </div>
+    </div>
+
+    <div class="row">
+    <div class="copyright-infor col-lg-10 col-md-10 col-sm-10 col-xs-12">
+            <p>版权归作者所有，没有作者本人的书面许可任何人不得转载或使用整体或任何部分的内容。</p>
+        </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- JavaScript   -->
+    <script type="text/javascript">
+        
+    </script>
+
+
+    <script type="text/javascript">
+    /*
+    var player = videojs('example-video');
+    player.play();
+    */
+
+      /*$('#DivLocker').css({
+        "position": "absolute",
+        "margin-left": "1px",
+        "margin-top": "1px",
+        "background-color": "#000000",
+        "height": function () { return $(document).height(); },
+        "filter": "alpha(opacity=30)",
+        "opacity": "0.3",
+        "overflow": "hidden",
+        "width": function () { return $(document).width(); },
+        "z-index": "999"
+    });*/
+
+
+
+
+
+        //播放器实例
+        var player = videojs('example-video',{
+
+          "controls": true,
+          "autoplay": false,
+          "preload": "auto",
+          "loop": false,
+          controlBar: {
+            volumeMenuButton: {
+            inline: false,
+            vertical: true
+            },//竖着的音量条
+          }
+        });
+
+
+        player.currentTime({$time});
+
+        
+        function playerInitVideo() {
+            videoPanelMenu = $(".vjs-fullscreen-control");
+            str='<div class="dropup" style="position:relative;"><button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top:5px;">清晰度</button><ul class="dropdown-menu" aria-labelledby="dropdownMenu2" position:absolute;z-index:99; style="min-width:70px;background:white; color:red;">{$num}</ul></div>';
+            videoPanelMenu.before(''+ ''+ ''+ str);
+            $('li').click(function(){
+              time=parseInt(player.currentTime());
+              if($(this).children('a').text()=='全高清'){
+                $("#type").val('2');
+                $("#other").val(time);
+                $("#form").submit();
+              }
+
+              if($(this).children('a').text()=='高清'){
+                $("#type").val('1');
+                $("#other").val(time);
+                $("#form").submit();
+              }
+
+              if($(this).children('a').text()=='标清'){
+                $("#type").val('0');
+                $("#other").val(time);
+                $("#form").submit();
+              }
+
+            })
+        }
+        //加载页面进行播放器初始化
+        //
+        player.ready(function() {playerInitVideo()});
+
+       // player.enterFullScreen();
+       // 
+       // 
+       player.on('pause',function(){
+           time = player.currentTime();
+           id=$('#id').val();
+           if(id==''){
+           }
+           else{
+           $.ajax({
+               url:'{:U('Handle/action_pause')}',
+               type:'post',
+               dataType:'json',
+               data:{"time":time,"id":id},
+               success:function(data){
+                    console.log(data);
+
+                }
+            });
+           }
+       });
+
+
+
+       player.on('play',function(){
+           time = player.currentTime();
+           id=$('#id').val();
+           if(id==''){
+
+           }
+           else{
+           $.ajax({
+               url:'{:U('Handle/action_start')}',
+               type:'post',
+               dataType:'json',
+               data:{"time":time,"id":id},
+               success:function(data){
+
+                    console.log(data);
+                }
+            });
+        }
+       });
+
+
+       player.on('enterFullScreen',function(){
+        console.log('1111');
+       });
+
+        
+        /*
+        setsrc(player,"rtmp://192.168.30.21/live/test3","rtmp/flv");});
+        //通过id获取DOM
+        function get(index) {return document.getElementById(index);}
+        //修改播放地址并播放
+        function writeAddressAndPlay(index,url,type) {
+        播放器操作setsrc(index, url, type?type:"rtmp/flv");play(index);}
+        //高清标清切换就是应用名加减HD
+        function changeUrl(video) {
+            var index = $(video).text();
+        //获取当前播放的url
+        var CurrentUrl = getCurrentAddr(player);$(".vjs-menu-item").removeClass("vjs-selected");$(video).addClass("vjs-selected");if (index == "高清") {if (CurrentUrl.indexOf("HD") == -1) {CurrentUrl = CurrentUrl + "HD";} else {return;}} else {if (CurrentUrl.indexOf("HD") != -1) {CurrentUrl = CurrentUrl.replace("HD", "");} else {return;}}
+        //修改地址并播放
+        writeAddressAndPlay(player, CurrentUrl);}
+        */
+
+        /*function playPause() {
+            if (myVideo.paused)
+                myVideo.play();
+            else
+                myVideo.pause();
+        }
+
+        function makeBig() {
+            myVideo.width = 560;
+        }
+
+        function makeSmall() {
+            myVideo.width = 320;
+        }
+
+        function makeNormal() {
+            myVideo.width = 420;
+        }
+        */
+    </script>
+
+    <!-- 导航栏点击变颜色 -->
+    <script type="text/javascript">
+        $("#variety").addClass('homepage');
+    </script>
+
+    <!-- 使用toggle()函数 -->
+    <script src="__PUBLIC__/Home/js/jquery.min-1.7.2.js"></script> 
+    <!-- 显示点赞和收藏 -->
+    <script type="text/javascript">
+        $vid = '{$videId}';
+        $.get('{:U("Variety/checkUpdate")}',{videoId:$vid},function(data){
+            console.log(data);
+        //如果用户已收藏改变图标颜色
+        if(data.favorite>0){
+            $('.fa-folder-open').css('color','rgba(239,179,18,1.0)');
+            $('.fa-folder-open').css('border-color','rgba(239,179,18,1.0)');
+                }
+        //如果用户已点赞改变图标颜色
+        if(data.fabulous>0){
+            $('.fa-thumbs-up').css('color','rgba(37,187,76,1.0)');
+            $('.fa-thumbs-up').css('border-color','rgba(37,187,76,1.0)');
+            $('.fa-thumbs-up span').css('color','rgba(37,187,76,1.0)');   
+                }
+
+    },'json');
+    </script>
+
+    <!-- 点击收藏按钮 -->
+    <script type="text/javascript">
+        $vid = '{$videId}';
+        $('#collection').toggle(function(){
+            $.get('{:U("Variety/addCollection")}',{videoId:$vid},function(data){console.log(data);
+                if(data.uid){
+                    $('.fa-folder-open').css('color','rgba(239,179,18,1.0)');
+                    $('.fa-folder-open').css('border-color','rgba(239,179,18,1.0)');
+                    $('.fa-folder-open').attr('title','已收藏，再次点击取消收藏');
+                }else{
+                    alert('请先登录');
+                }
+            },'json');
+        },function(){
+            $.get('{:U("Variety/delCollection")}',{videoId:$vid});
+                    $('.fa-folder-open').css('color','rgba(55,55,55,0.7)');
+                    $('.fa-folder-open').css('border-color','rgba(55,55,55,0.7)');
+                    $('.fa-folder-open').attr('title','点击收藏');
+                });
+    </script>
+    
+    <!-- 点击点赞按钮 -->
+    <script type="text/javascript">
+        $vid = '{$videId}';
+        $('#praise').toggle(function(){
+            //点赞+1
+            $.get('{:U("Variety/updataPraise")}',{videoId:$vid},function(data){
+            $('.fa-thumbs-up span').html(data.praise);
+            },'json');
+            //点赞样式变化
+            $.get('{:U("Variety/addPraise")}',{videoId:$vid},function(data){console.log(data);
+            if(data.uid){
+            $('.fa-thumbs-up').css('color','rgba(37,187,76,1.0)');
+            $('.fa-thumbs-up').css('border-color','rgba(37,187,76,1.0)');
+            $('.fa-thumbs-up span').css('color','rgba(37,187,76,1.0)');
+            $('.fa-thumbs-up').attr('title','已点赞，再次点击取消');
+           }else{
+              alert('请先登录');
+             }
+            },'json');
+        },function(){
+            //取消点赞—1
+            $.get('{:U("Variety/updataPraise")}',{videoId:$vid},function(data){
+            $('.fa-thumbs-up span').html(data.praise);
+            },'json');
+            //取消点赞样式变化
+            $.get('{:U("Variety/delPraise")}',{videoId:$vid},function(data){console.log(data);
+            if(data.uid){
+                $('.fa-thumbs-up').css('color','rgba(55,55,55,0.7)');
+                $('.fa-thumbs-up').css('border-color','rgba(55,55,55,0.7)');
+                $('.fa-thumbs-up span').css('color','rgba(55,55,55,0.7)');
+                $('.fa-thumbs-up').attr('title','点赞');
+            }else{
+                alert('请先登录');
+            }
+            },'json');
+        });
+    </script>
+    <!-- 显示点赞总数 -->
+    <script type="text/javascript">
+        $vid = '{$videId}';
+        $.get('{:U("Variety/updataPraise")}',{videoId:$vid},function(data){
+            $('.fa-thumbs-up span').html(data.praise);
+            },'json');
+    </script>
+
+    <!-- 私信输入框显示和隐藏 -->
+    <script type="text/javascript">
+    // 私信发送框隐藏和显示
+    $('#private-letter').click(function () {
+        $comid = '{$commoninfo.id}';
+        if(!$comid){
+            alert('请先登录');
+            return false;
+        }
+           $('#Pletter').slideToggle(300);       
+        }); 
+
+    // 发送私信
+    $('#send_letter').click(function(){
+        var Lcontent = $('.P-letter textarea').val();
+        if(!Lcontent){
+            $('#letter_prompt').css('color','red');
+            $('#letter_prompt').html("私信内容不能为空哦!");
+            return false;
+        }
+        var video_uid = '{$Vdata.id}';
+        $.post(
+            '{:U("Variety/addLetter")}',{letter_content:Lcontent,video_uid:video_uid},function(data){
+                if(data){
+                    $('#Pletter').slideUp("speed");
+                    $('#letter_succ').html("私信发送成功").fadeOut(5000);
+                }
+            },'json');
+    })
+    </script>
+
+    <!-- 未登录评论提示 -->
+    <script type="text/javascript">
+        $('#logincom').click(function(){
+            $logid = '{$commoninfo.id}';
+            if(!$logid){
+                alert('登录后发表评论');
+            }
+        });
+
+    </script>
+
+    <!-- 评论 -->
+    <script type="text/javascript">
+        $(function() {
+            $(".hf").click(//点击回复按钮事件
+                    function(e) {
+                        var $this = $(this);
+                        if ($this.parent().parent().next().hasClass('hftext')) {
+                            $this.parent().parent().next().remove();
+                        } else {
+                            $this.parent().parent().after('<div class="hftext"><form action="__CONTROLLER__/addComment" method="post" role="form"><div class="input-group"><input name="article_id" type="hidden" value="{$Article.id}" /></div><div class="input-group"><input name="article_id" type="hidden" value="{$Article.id}" /></div><div class="input-group"><input id="pid" type="hidden" name="pid" value="{$vo.id}" /></div><div class="input-group"><input type="hidden" name="inforid" value="{$videId}" placeholder="视频id"></div><div class="input-group"><input type="hidden" class="input-group" placeholder="用户id" name="userid" value="{$commoninfo.id}"></div><if condition="$commoninfo.id eq 0"><div class="input-group combtn"> <textarea class="form-control comment" id="content-text2" name="comment" rows="3" placeholder="请登陆后输入评论内容"></textarea><span class="input-group-btn"><button class="btn btn-default submit-btn" type="submit" style="height:74px;"><p><i class="fa fa-edit"></i></p><span>登录并发表评论</span></button></span></div><else /><div class="input-group combtn"><textarea class="form-control comment" id="content-text2" name="comment" rows="3" placeholder="请输入评论内容"></textarea><span class="input-group-btn"><button class="btn btn-default submit-btn" type="submit" style="height:74px;"><p><i class="fa fa-edit"></i></p><span>马上发表</span></button></span></div><p id="error-promtc">您是不是忘了说点什么？</p></if></form></div>');
+                            var v_id = $(e.target).attr('id');//获取元素id;
+                            $("#pid").val(v_id);
+                        }
+
+                        $(".submit-btn").click(function() {
+                            var $this = $(this);
+                            var content = $('#content-text2').val();
+                            if (content == "") {
+                                // alert("评论内容不能为空哦");
+                                $('#error-promtc').slideDown().show().fadeOut(5000);
+                                return false;
+                            }
+                        });
+                        
+                    });
+            $(".submit-btn").click(function() {
+                var $this = $(this);
+                var content = $('#content-text').val();
+                if (content == "") {
+                    $('#error-promt').slideDown().show().fadeOut(5000);
+                    return false;
+                }
+            });
+        });
+    </script>
+
+ <!-- -------------footer底部--------- -->
+<include file="Public/footer" />

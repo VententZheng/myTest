@@ -1,0 +1,110 @@
+<!-- 导入头部文件 -->
+<include file="Public/header" />
+<!-- 导入css文件 -->
+<link href="__PUBLIC__/Home/css/information.css" rel="stylesheet">
+
+<style type="text/css">
+    #inforhover{
+        color: white;
+        background:rgba(45,186,223,1.0);
+        border-radius: 3px;
+        padding: 2px 4px 2px 4px;
+    }
+    #inforhover:hover{
+        background:rgba(20,160,198,1.0);
+        color: white;
+    }
+</style>
+
+
+    <!--  --------------页面内容----------------  -->
+    <div class="container">
+        <div class="row">
+            <div class="infor-top col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <!-- 综艺资讯分类 -->
+                <dl class="infor-type col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <dt>资讯类型：</dt>
+                    <if condition="$block_id eq 0">
+                    <dd><a href="{:U('Information/index')}" id="inforhover">全部</a></dd>
+                    <else />
+                    <dd><a href="{:U('Information/index')}">全部</a></dd>
+                    </if>
+
+                    <volist name="block" id="block">
+                    <if condition="$block_id eq $block['id']">
+                    <dd><a href="{:U('Information/index',array('blockid'=>$block['id']))}" id="inforhover">{$block.blockname}</a></dd>
+                    <else />
+                    <dd><a href="{:U('Information/index',array('blockid'=>$block['id']))}">{$block.blockname}</a></dd>
+                    </if>
+                    </volist>
+                </dl>
+                <!-- 综艺资讯搜索 -->
+                <form action="{:U('Information/search')}" method="get">
+                    <div class="infor-seach col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <div class="input-group">
+                            <input type="text" name="infor-search" placeholder="请输入新闻关键字" class="form-control">
+                            <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                    </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--  新闻展示  -->
+        <div class="row">
+            <div class="infor-body col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12" style="padding:0px;">
+
+                <volist name="list" id="inforvo">
+                    <div class="initem col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <a class="in-img col-lg-2 col-md-2 col-sm-2 col-xs-12" href="#">
+                            <img class="img-responsive  center-block" src="__PUBLIC__/information_img/{$inforvo.news_img}">
+                        </a>
+                        <div class="in-content col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                            <h4><a href="{:U('Information/detail',array('id'=>$inforvo['id']))}">{$inforvo.news_title}</a></h4>
+                            <p class="in-summary">{$inforvo.news_summary}</p>
+                            <p class="in-uc"><i class="fa fa-user">&nbsp;{$inforvo.news_visit}</i><i class="fa fa-clock-o">&nbsp;{$inforvo.news_time|date="Y年m月d日 H:i:s",###}</i><a href="#">更多</a></p>
+                        </div>
+                    </div>
+                    </volist>
+                    <!-- 分页 -->
+                    <div class="infor-page paginList" style="padding: 20px 0px 0px 0px;margin: 20px 0px 0px 0px;">{$page}
+                    </div>
+                    
+                </div>
+                <!--   排行榜 -->
+                <div class="the-charts col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <!-- 24小时榜 -->
+                <dl class="tchat col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <dt><h4>24小时热门榜</h4></dt>
+                    <volist name="hot_day" id="hday">
+                    <dd><a href="{:U('Information/detail',array('id'=>$hday['id']))}" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><i class="fa fa-angle-right"></i> {$hday.news_title}</a></dd>
+                    </volist>
+                </dl>
+                <!-- 权威名人榜 -->
+                <dl class="famous-person">
+                    <dt><h4>权威名人周榜</h4></dt>
+                    <volist name="hot_week" id="hweek">
+                    <dd><a href="{:U('Information/detail',array('id'=>$hweek['id']))}" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><i class="fa fa-angle-right"></i> {$hweek.news_title}</a></dd>
+                    </volist>
+                </dl>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript   -->
+    <!-- 导航栏点击变颜色 -->
+    <script type="text/javascript">
+        $("#information").addClass('homepage');
+    </script>
+    <script type="text/javascript">       
+        $(function(){
+        });
+    </script>
+ 
+ <!-- -------------footer底部--------- -->
+<include file="Public/footer" />

@@ -1,0 +1,276 @@
+﻿<extend name="Public/base"/>
+<block name="css">
+<style>
+.panel-head{border-bottom: 1px dashed #7A7676; height:35px;margin-bottom: 20px;}
+.tubox{display: inline-block; width: 36px;height: 36px;line-height: 34px;overflow: hidden;border:1px solid #ccc;border-radius: 18px;margin-right: 20px;}
+.tubox span{display: inline-block;text-align: center;width: 70px;}
+
+
+</style>
+</block>
+<block name="body">
+    
+    
+    	<div class="panel-head"><strong style="color:#7A7676;line-height:35px;">数据备份</strong></div>
+        <div style="margin-left:20px;">
+        <form id="export-form" method="post" action="{:U('optimize')}">
+        <div class="padding border-bottom">
+        	<div class="button-group button-group-small">
+            <button type="button" class="btn btn-primary btn-md information"  id="checkall" name="checkall" style="float:right"><span class="glyphicon glyphicon-ok"></span> 全选</button>
+             <button type="button" id="export" class="btn btn-primary btn-md information"><span class="glyphicon glyphicon-refresh"></span> 立即备份</button>
+             <button type="button" id="optimize" class="btn btn-primary btn-md information"><span class="glyphicon glyphicon-check"></span> 优化表</button>
+             <button type="button" id="repair" class="btn btn-primary btn-md information"><span class="glyphicon glyphicon-wrench"></span> 修复表</button>
+              <button type="button" id="restore" class="btn btn-primary btn-md information" ><span class=""></span> 还原数据</button>
+             
+
+            
+
+             </div>
+             <div class="warn" style="display:none;float:left;width:100px;"></div>
+        </div>
+
+        </form>
+        <table class="table table-hover text-center">
+        	<tr>
+        	    <th class="text-center">选择</th>
+                <th class="text-center">表名</th>
+                <th class="text-center">数据量</th>
+                <th class="text-center">数据大小</th>
+                <th class="text-center">创建时间</th>
+                <th class="text-center">操作</th>
+            </tr>
+            <foreach name="re" item="v">
+            <tr>
+                <td>
+                    <div style="width:20px;height:50px;margin-left:20px;">
+                <div class="look" style="background-image:url(__IMG__/blue_select.jpg); margin: 3px 0 0;width:20px;height:20px; float:left;display:none;">&nbsp;</div>
+                    <input name="tables[]" type="checkbox" value="{$v.name}" style="float:left;width:20px;height:20px;">
+                    </div>
+                    
+
+                </td>
+                <td>{$v.name}</td>
+                <td>{$v.rows}</td>
+                <td>{$v.data_length}</td>
+                <td>{$v.create_time}</td>
+                <td style="width:300px">
+                    <div  class="optimize_one tubox" val='{$v.name}' ><img class="tu" src="__IMG__/optimize_gray.png"><span>优化表</span></div>
+                    <div  class="repair_one tubox" val='{$v.name}'><img class="tu" src="__IMG__/repair_gray.png"><span>修复表</span></div>
+                </td>
+            </tr>
+            </foreach>
+        </table>
+    </div>
+    </div>
+</block>
+
+<block name="script">
+    <script type="text/javascript">
+
+    $(function() {
+	     	$('#checkall').click(function(){
+	     		if($('input').attr('checked')){
+                    $('.look').hide();
+                    $('input').show();
+	     			$('input').removeAttr('Checked');
+	     			$('input').prop('checked',false);
+	     		}
+	     		else{
+                    $('input').hide();
+                    $('.look').show();
+	     			$('input').attr('checked','checked');
+	     		}
+
+	     	});
+
+            $(".tubox").hover(function(){
+                var imgSrc=$(this).find("img").attr("src");     
+                $(this).stop().animate({"width":"120px"},300)
+                $(this).css({"background":"#5AB6DF","color":"#fff","border-color":"#337AB7","cursor":"pointer"})
+
+                imgSrc=imgSrc.replace("_gray","_white")
+                $(this).find("img").attr("src",imgSrc);
+            },function(){
+                var imgSrc=$(this).find("img").attr("src");
+                $(this).stop().animate({"width":"36px"},300)
+                $(this).css({"background":"#fff","border-color":"#ccc"})
+                imgSrc=imgSrc.replace("_white","_gray")
+                $(this).find("img").attr("src",imgSrc);
+            });
+
+	     	 $("input[name='tables[]']").click(function(){
+	     	 	var name = 'input[value="'+$(this).attr("value")+'"]';
+	     	 	if($(name).attr('checked')){
+                    $(this).hide();
+                    $(this).prev('.look').show();
+	     	 		$(name).attr('checked','checked');
+	     	 	}
+	     	 	else{
+                    $(this).prev('.look').hide();
+                    $(this).show();
+	     			$(name).removeAttr('Checked');
+	     			$(name).prop('checked',false);
+	     	 	}
+
+	     	 });
+
+             $('.look').click(function(){
+                $(this).hide();
+                $(this).next('input').show();
+                $(this).next('input').removeAttr('Checked');
+                $(this).next('input').prop('checked',false);
+             });
+
+
+             $('#export').click(function(){
+                var data=[];
+                $('input[name="tables[]"]:checked').each(function(){
+                    data.push($(this).val());
+                });
+                if(data==''){
+                    alert('选择表再进行备份吧');
+                }
+                else{
+                        $.ajax({
+                       url:'{:U('Index/export')}',
+                       type:'post',
+                       dataType:'json',
+                       data:{"db":data},
+                       success:function(data){
+                          $('.warn').html(data);
+                          $('.warn').css('display','inline-block');
+                          setTimeout($('.warn').hide(5000),2000);
+                          
+                        }
+                    });
+                }
+            });
+
+            $('#optimize').click(function(){
+                var data=[];
+                $('input[name="tables[]"]:checked').each(function(){
+                    data.push($(this).val());
+                });
+                if(data==''){
+                    alert('选择表再进行优化吧');
+                }
+                else{
+                    $.ajax({
+                       url:'{:U('Index/optimize')}',
+                       type:'post',
+                       dataType:'json',
+                       data:{"db":data},
+                       success:function(data){
+                          $('.warn').html(data);
+                          $('.warn').css('display','inline-block');
+                          setTimeout($('.warn').hide(5000),2000);
+                        }
+                    });
+                }
+            });
+
+
+            $('#restore').click(function(){
+
+              /*$.ajax({
+                       url:'{:U('Index/restore')}',
+                       type:'post',
+                       dataType:'json',
+                       data:{"db":data},
+                       success:function(data){
+                          $('.warn').html(data);
+                          $('.warn').css('display','inline-block');
+                          setTimeout($('.warn').hide(5000),2000);
+                        }
+              });*/
+              window.location.href='{:U("Index/restore")}';
+            });
+
+
+            $('#repair').click(function(){
+                var data=[];
+                $('input[name="tables[]"]:checked').each(function(){
+                    data.push($(this).val());
+                });
+                if(data==''){
+                    alert('选择表再进行修复吧');
+                }
+                else{
+                    $.ajax({
+                       url:'{:U('Index/repair')}',
+                       type:'post',
+                       dataType:'json',
+                       data:{"db":data},
+                       success:function(data){
+                          $('.warn').html(data);
+                          $('.warn').css('display','inline-block');
+                          setTimeout($('.warn').hide(5000),2000);
+                        }
+                    });
+                }
+            });
+
+
+            $('.repair_one').click(function(){
+                data=$(this).attr('val');
+                $.ajax({
+                       url:'{:U('Index/repair_one')}',
+                       type:'post',
+                       dataType:'json',
+                       data:{"db":data},
+                       success:function(data){
+                          $('.warn').html(data);
+                          $('.warn').css('display','inline-block');
+                          setTimeout($('.warn').hide(5000),2000);
+                        }
+                 });
+                
+            });
+
+
+
+            $('.optimize_one').click(function(){
+			
+                data=$(this).attr('val');
+                $.ajax({
+                       url:'{:U('Index/optimize_one')}',
+                       type:'post',
+                       dataType:'json',
+                       data:{"db":data},
+                       success:function(data){
+                          $('.warn').html(data);
+                          $('.warn').css('display','inline-block');
+                          setTimeout($('.warn').hide(5000),2000);
+                        }
+                 });
+            });
+
+
+
+
+
+	     	 /*$('#optimization').click(function(){
+	     	 	var data=[];
+	     	 	$('input[name="tables[]"]:checked').each(function(){
+	     	 		data.push($(this).val());
+	     	 	});
+	     	 	alert(data);
+	     	 	var url = "{:U('optimize')}";
+	     	 	$.ajax({
+	     	 		type: "post",
+	     	 		url: url,
+	     	 		data: data,
+	     	 		success: function(){
+	     	 			alert("success");
+	     	 		}
+	     	 	});
+
+
+
+
+	     	 	
+	     	 	});*/
+
+	     	});
+    </script>
+</block>                

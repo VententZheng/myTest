@@ -1,0 +1,178 @@
+<!-- 导入头部文件 -->
+<include file="Public/header" />
+<!-- 导入css文件 -->
+<link href="__PUBLIC__/Home/css/myWisdom.css" rel="stylesheet">
+
+
+
+    <!---------------内容----------------------  -->
+    <div class="container">
+        <div class="row">
+            <div class="myUpload col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="upload-title col-lg-12">
+                    <h3>发起原创综艺节目孵化</h3>
+                </div>
+                <div class="upload-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <div class="form-group mywisdom-stage">
+                        <label for="" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label">上传项目：</label>
+                        <div class="col-sm-8 col-md-8 col-sm-8 col-xs-12">
+                            <ul id="myTab" class="nav nav-pills">
+                                <li class="active"><a href="#uploadPlan" data-toggle="tab">上传策划方案</a></li>
+                                <li><a href="#uploadVideo" data-toggle="tab">上传作品</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="myTabContent" class="tab-content  col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <!-- 策划书上传 -->
+                        <div class="tab-pane fade in active mywisdom-scheme" id="uploadPlan">
+                            <form class="form-horizontal" action="{:U('Wisdom/uploadPlan')}" method="POST" role="form" enctype="multipart/form-data">
+                               <!--------------项目名称---------->
+                                <div class="wisdom-title form-group">
+                                    <label for="wisdom-name" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">方案标题：</label>
+                                    <div class="item-cont col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                        <input type="text" class="form-control" id="firstname" name="plan-title" placeholder="请综艺创意标题" required>
+                                        <span class="help-block">项目名称应简要而独特地概括综艺创意的内容</span>
+                                    </div>
+                                </div>
+                                <!--------------项目类型---------->
+                                <div class="wisdom-type form-group">
+                                    <label for="name" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">方案类型：</label>
+                                    <div class="item-cont col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                    <foreach name='res' item='v'>
+                                        <label class="checkbox-inline" title="例如《{$v.example}》">
+                                            <input type="radio" name="plan-type" id="optionsRadios{$v.id}" value="{$v.id}" > {$v.type}
+                                        </label>
+                                    </foreach>
+                                        
+                                        <label class="checkbox-inline">
+                                            <input type="radio" name="plan-type" id="optionsRadios{$id}" value="{$id}"> 其它
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <!--------------项目简介---------->
+                                <div class="wisdom-summary form-group">
+                                    <label class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label" for="name">方案简介：</label>
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                        <textarea class="form-control" name="plan-summary" rows="5" placeholder=""></textarea>
+                                    </div>
+                                </div>
+                                <!--------------项目策划书---------->
+                                <div class="wisdom-plan form-group">
+                                    <label class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label" for="inputfile">项目策划书：</label>
+                                    <div class="item-cont col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                        <input class="" type="file" name="plan-file" id="inputfile">
+                                        <span class="help-block">支持PDF、Word、Excel、Powerpoint、Zip、Rar文件</span>
+                                    </div>
+                                </div>
+                                <!--------------发起人角色---------->
+                                <div class="wisdom-role form-group">
+                                    <label for="name" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">发起人角色：</label>
+                                    <div class="item-cont col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                        <label class="checkbox-inline" title="个人">
+                                            <input type="radio" name="plan-role" id="optionsRadios13" value="0" checked> 策划人
+                                        </label>
+                                        <notEmpty name="isteam">
+                                        <label class="checkbox-inline" title="团队">
+                                            <input type="radio" name="plan-role" id="optionsRadios14" value="1"> 主创团队
+                                        </label>
+                                        <span class="help-block">主创团队默认为个人中心-我的团队中的团队</span>
+                                        </notEmpty>
+                                    </div>
+                                </div>
+                                <div class="wisdom-btn form-group">
+                                    <div class="col-sm-offset-8 col-lg-3">
+                                        <button type="submit" class="btn btn-default col-lg-6">发起项目</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                <!-- 作品上传 -->
+                        <div class="tab-pane fade mywisdom-project" id="uploadVideo">
+                            <form class="form-horizontal" action="{:U('Wisdom/uploadVideo')}" method="POST" role="form" enctype="multipart/form-data">
+                               <!--------------项目名称---------->
+                                <div class="project-title form-group">
+                                    <label for="project-name" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">作品标题：</label>
+                                    <div class="item-cont col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                        <input type="text" class="form-control" id="firstname" name="video-title" placeholder="请作品标题" required>
+                                        <span class="help-block">作品标题应简要而独特地概括整个作品的内容</span>
+                                    </div>
+                                </div>
+                                <!--------------项目类型---------->
+                                <div class="project-type form-group">
+                                    <label for="project-type" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">作品类型：</label>
+                                    <div class="item-cont col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                      <foreach name='res' item='v'>
+                                        <label class="checkbox-inline" title="例如《{$v.example}》">
+                                            <input type="radio" name="video-type" id="optionsRadios{$v.id}" value="{$v.id}" > {$v.type}
+                                        </label>
+                                      </foreach>
+
+                                        <label class="checkbox-inline">
+                                            <input type="radio" name="video-type" id="optionsRadios{$id}" value="{$id}"> 其它
+                                        </label>
+                                        
+                                        <!--label class="checkbox-inline">
+                                            <input type="radio" name="video-type" id="optionsRadios12" value="其它"> 其它
+                                        </label-->
+                                    </div>
+                                </div>
+                                
+                                <!--------------项目简介---------->
+                                <div class="project-summary form-group">
+                                    <label class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label" for="name">作品简介：</label>
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                        <textarea class="form-control" name="video-summary" rows="5" placeholder=""></textarea>
+                                    </div>
+                                </div>
+                                <!--------------作品---------->
+                                <div class="project-plan form-group">
+                                    <label class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label" for="inputfile">视频作品：</label>
+                                    <div class="item-cont col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                        <input class="" type="file" name="video-file" id="inputfile">
+                                        <span class="help-block">支持Mp4、Rmvb、flv、mkv文件，最大为1024M</span>
+                                    </div>
+                                </div>
+                                <!--------------发起人角色---------->
+                                <div class="project-role form-group">
+                                    <label for="name" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">发起人角色：</label>
+                                    <div class="item-cont col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                        <label class="checkbox-inline" title="个人">
+                                            <input type="radio" name="video-role" id="optionsRadios13" value="0" checked> 策划人
+                                        </label>
+                                        <notEmpty name="isteam">
+                                        <label class="checkbox-inline" title="团队">
+                                            <input type="radio" name="video-role" id="optionsRadios14" value="1"> 主创团队
+                                        </label>
+                                        <span class="help-block">主创团队默认为个人中心-我的团队中的团队</span>
+                                        </notEmpty>
+                                    </div>
+                                </div>
+                                <div class="project-btn form-group">
+                                    <div class="col-sm-offset-8 col-lg-3">
+                                        <button type="submit" class="btn btn-default col-lg-6">发起项目</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript   -->
+    <!-- 导航栏点击变颜色 -->
+    <script type="text/javascript">
+        $("#wisdom").addClass('homepage');
+    </script>
+
+<!-- -------------footer底部--------- -->
+   <include file="Public/footer" />

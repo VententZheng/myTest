@@ -1,0 +1,38 @@
+<extend name="Public/base"/>
+<block name="body">
+	         <div class="span9" id="content">
+	         <form method="post"  action="{:U('Admin/Admin/addrolehandle','','')}">
+	         <table class="table">
+	              <tr>
+	                     <th colspan='2'>角色添加</th>
+	              </tr>
+	              <tr>
+	                     <td align="right">角色名称:</td>
+	                     <td><input type="text" name="name" /></td>
+	              </tr>
+	              <tr>
+	                     <td align="right">角色描述</td>
+	                     <td><input type="text" name="remark" /></td>
+	              </tr>
+	              <tr>
+	                     <td align="right">开启状态：</td>
+	                     <td>
+	                          <input type="radio" name="status" value='1' checked="checked" />&nbsp;开启&nbsp;
+	                          <input type="radio" name="status" value='0' />&nbsp;关闭&nbsp;
+	                     </td>
+	              </tr>
+	              <tr>
+	                     <td colspan='2' align="center"><input type="submit" value='提交' /></td>
+	              </tr>
+	         </table>
+	         </form>
+	         </div>
+ </block>
+
+
+
+
+
+
+
+

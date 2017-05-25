@@ -1,0 +1,151 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+body ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+body :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+.container {
+/*  background: #50a3a2;*/
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+}
+
+.container .form-success .container h1 {
+  -webkit-transform: translateY(85px);
+      -ms-transform: translateY(85px);
+          transform: translateY(85px);
+}
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url('../image/login.jpg');
+}
+.container h1 {
+  font-size: 40px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-put;
+          transition-timing-function: ease-in-put;
+  font-weight: 200;
+    margin: 80px 0px 0px 0px;
+}
+form {
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+form input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 350px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  font-weight: 300;
+}
+form input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+form .verification-code{
+    -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 175px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  font-weight: 300;
+  margin-right: 0px;
+}
+.phone-button{
+/*    display: inline-block;*/
+    margin-left: 0px;
+    width: 175px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.phone-button:focus {
+    background: rgba(255,255,255,0.6);
+}
+.container .registerForm .form input:focus {
+  background-color: white;
+  width: 400px;
+  color: rgba(247,132,17,1.0);
+}
+.container .registerForm .form .verification-code:focus{
+background-color: white;
+  width: 250px;
+  color: rgba(247,132,17,1.0);
+}
+.container .registerForm .register-button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  background-color: rgba(20,160,198,1.0);
+  border: 0;
+  padding: 10px 15px;
+  color: white;
+  font-weight: 600;
+  border-radius: 3px;
+  width: 350px;
+  cursor: pointer;
+  font-size: 18px;
+    margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+.container .registerForm .register-button:hover {
+  background-color: rgba(45,186,223,1.0);
+}
+

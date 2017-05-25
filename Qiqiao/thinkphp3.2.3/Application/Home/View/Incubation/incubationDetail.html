@@ -1,0 +1,209 @@
+<!-- 导入头部文件 -->
+<include file="Public/header" />
+<!-- 导入css文件 -->
+<link href="__PUBLIC__/Home/css/incubation.css" rel="stylesheet">
+
+    <!--  详细的节目孵化内容展示  -->
+    <div class="container">
+        <div class="row">
+            <div class="hatch col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <!-- 节目孵化顶部begin -->
+                <div class="hatch-head col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <ul class="hatch-title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <li class="hatchtitle-left col-lg-6 col-md-6 col-sm-12col-xs-12">
+                            <img src="__PUBLIC__/Home/image/{$Idata.plan_cover}">
+                        </li>
+                        <li class="hatchtitle-right col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <dl>
+                                <dt><span>{$Idata.plan_title}</span><span class="love">
+                                <a href="javascript:void(0)" id="praise"><i class="fa fa-thumbs-o-up" title="点赞"><!--span class="badge"></span--></i></a>
+                                <a href="javascript:void(0);" id="collection"><i class="fa fa-heart-o" title="点击收藏"></i></a>
+                                </span>
+                                </dt>
+
+                                <dd>
+                                    <p>{$Idata.plan_summary}</p>
+                                </dd>
+                                <dd><span><i class="fa fa-history"  style="color:rgba(247,132,17,1.0)"></i>&nbsp;&nbsp;进度描述：</span><span>&nbsp;{$Idata.plan_stage}</span></dd>
+                                <dd><span><i class="fa fa-th-large"  style="color:rgba(247,132,17,1.0)"></i>&nbsp;节目类型：</span><span>&nbsp;&nbsp;{$Idata.plan_type}</span></dd>
+                                <dd><span><i class="fa fa-users"  style="color:rgba(247,132,17,1.0)"></i>&nbsp;核心团队：</span><span>&nbsp;&nbsp;{$Idata.tid}</span></dd>
+                                <dd><span><i class="fa fa-clock-o"  style="color:rgba(247,132,17,1.0)"></i>&nbsp;发起时间：</span><span>&nbsp;&nbsp;{$Idata.planup_time|date="Y-m-d",###}</span></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 节目孵化顶部end  -->
+
+                <!-- 节目孵化详细内容begin  -->
+                <div class="hatch-footer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="hatch-content">
+                        <span>节目概况</span>
+                    </div>
+                    <div class="hatch-introduction">
+                        <dl class="hatch-summary">
+                            <dt><i class="fa fa-file-text-o"  style="color:rgba(247,132,17,1.0)"></i>&nbsp;&nbsp;节目规则</dt>
+                            <dd>
+                                <p>{$Idata.plan_rule|html_entity_decode}</p>
+                            </dd>
+                        </dl>
+                        <dl class="hatch-advantage">
+                            <dt><i class="fa fa-graduation-cap" style="color:rgba(247,132,17,1.0)"></i>&nbsp;&nbsp;节目亮点</dt>
+                            <dd>
+                                     <gt name="num" value="0">
+                                            <p>亮点一: {$array[0]}</p>
+                                    </gt>
+                                    <gt name="num" value="1">
+                                            <p>亮点二: {$array[1]}</p>
+                                    </gt>
+                                    <gt name="num" value="2">
+                                            <p>亮点三: {$array[2]}</p>
+                                    </gt>
+                                    <gt name="num" value="3">
+                                            <p>亮点四: {$array[3]}</p>
+                                    </gt>
+                                    <gt name="num" value="4">
+                                            <p>亮点五: {$array[4]}</p>
+                                    </gt>
+                                    <gt name="num" value="5">
+                                            <p>亮点六: {$array[5]}</p>
+                                    </gt>
+                                    <gt name="num" value="6">
+                                            <p>亮点七: {$array[6]}</p>
+                                    </gt>
+                                    <gt name="num" value="7">
+                                            <p>亮点八: {$array[7]}</p>
+                                    </gt>
+                            </dd>
+                        </dl>
+                        <dl class="hatch-schedule">
+                            <dt><i class="fa fa-history" style="color:rgba(247,132,17,1.0)"></i>&nbsp;&nbsp;节目进度</dt>
+                            <dd>
+                                <span>{$Idata.plan_stage}</span>
+                            </dd>
+                        </dl>
+                        <dl class="hatch-team">
+                            <dt><i class="fa fa-users"  style="color:rgba(247,132,17,1.0)"></i>&nbsp;&nbsp;核心团队</dt>
+
+                            <dd class="hatch-team-name"><h4>{$Idata.tid}</h4></dd>
+                            <dd>
+
+                                
+                                <volist name='res' id='v'>
+                                    <ul class="hatch-team-detail">
+                                        <li>{$v.member_name}</li>
+                                        <li><p>{$v.member_summary}</p></li>
+                                    </ul>
+                                </volist>
+
+                            </dd>
+
+
+
+                        </dl>
+                    </div>
+
+                </div>
+                <!-- 节目孵化详细内容begin  -->
+            </div>
+        </div>
+    </div>
+<!-- JavaScript -->
+    <!-- 导航栏点击变颜色 -->
+    <script type="text/javascript">
+        $("#hatch").addClass('homepage');
+    </script>
+
+    <!-- 使用toggle()函数 -->
+    <script src="__PUBLIC__/Home/js/jquery.min-1.7.2.js"></script> 
+    <!-- 显示点赞和收藏图标 -->
+    <script type="text/javascript">
+        $pid = '{$Idata.id}';
+        $.get('{:U("Incubation/checkUpdate")}',{planId:$pid},function(data){
+            console.log(data);
+        //如果用户已收藏改变图标颜色
+        if(data.favorite>0){
+            $('#collection i').attr('class','fa fa-heart');
+            $('#collection i').css('color','rgba(255,0,0,1.0)');
+                }
+        //如果用户已点赞改变图标颜色
+        if(data.fabulous>0){
+            $('#praise i').attr('class','fa fa-thumbs-up');
+            $('#praise i').css('color','rgba(37,187,16,1.0)');
+            $('#praise i span').css('color','rgba(37,187,16,1.0)');   
+                }
+
+    },'json');
+        
+        $.get('{:U("Incubation/updataPraise")}',{planId:$pid},function(data){
+            $('#praise i span').html(data.pnum);
+            },'json');
+    </script>
+
+    <!-- 点击收藏按钮 -->
+    <script type="text/javascript">
+        $pid = '{$Idata.id}';
+        $('#collection').toggle(function(){
+            $.get('{:U("Incubation/addCollection")}',{planId:$pid},function(data){console.log(data);
+                if(data.uid){
+                    $('#collection i').attr('class','fa fa-heart');
+                    $('#collection i').css('color','rgba(255,0,0,1.0)');
+                    $('#collection i').attr('title','已收藏，再次点击取消收藏');
+                }else{
+                    alert('请先登录');
+                }
+            },'json');
+        },function(){
+            $.get('{:U("Incubation/delCollection")}',{planId:$pid});
+                    $('#collection i').attr('class','fa fa-heart-o');
+                    $('#collection i').css('color','rgba(45,186,223,1.0)');
+                    $('#collection i').attr('title','点击收藏');
+                });
+    </script>
+    
+    <!-- 点击点赞按钮 -->
+    <script type="text/javascript">
+        $pid = '{$Idata.id}';
+        $('#praise').toggle(function(){
+            //点赞+1
+            $.get('{:U("Incubation/updataPraise")}',{planId:$pid},function(data){
+            $('#praise i span').html(data.pnum);
+            },'json');
+            //点赞样式变化
+            $.get('{:U("Incubation/addPraise")}',{planId:$pid},function(data){console.log(data);
+            if(data.uid){
+                $('#praise i').attr('class','fa fa-thumbs-up');
+                $('#praise i').css('color','rgba(37,187,76,1.0)');
+                $('#praise i span').css('color','rgba(37,187,76,1.0)');
+                $('#praise i').attr('title','已点赞，再次点击取消');
+            }else{
+              alert('请先登录');
+             }
+            },'json');
+        },function(){
+            //取消点赞—1
+            $.get('{:U("Incubation/updataPraise")}',{planId:$pid},function(data){
+            $('#praise i span').html(data.pnum);
+            },'json');
+            //取消点赞样式变化
+            $.get('{:U("Incubation/delPraise")}',{planId:$pid},function(data){console.log(data);
+            if(data.uid){
+                $('#praise i').attr('class','fa fa-thumbs-o-up');
+                $('#praise i').css('color','rgba(45,186,223,1.0)');
+                $('#praise i span').css('color','rgba(45,186,223,1.0)');
+                $('#praise i').attr('title','点赞');
+            }else{
+                alert('请先登录');
+            }
+            },'json');
+        });
+    </script>
+    <!-- 显示点赞总数 -->
+    <script type="text/javascript">
+        $pid = '{$Idata.id}';
+        $.get('{:U("Incubation/updataPraise")}',{planId:$pid},function(data){
+            $('#praise i span').html(data.praise);
+            },'json');
+    </script>
+
+<!-- -------------footer底部--------- -->
+<include file="Public/footer" />

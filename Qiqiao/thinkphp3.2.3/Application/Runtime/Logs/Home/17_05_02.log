@@ -1,0 +1,602 @@
+[ 2017-05-02T23:04:19+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: select * from qiq_plan where plan_state=1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0307s ]
+SQL: SELECT `username`,`head_pic` FROM `qiq_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0062s ]
+SQL: SELECT `team_name` FROM `qiq_team` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0062s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qiq_plan_block` [ RunTime:0.0063s ]
+SQL: SELECT `name` FROM `qiq_plan_block` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `username`,`head_pic` FROM `qiq_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `qiq_plan_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `username`,`head_pic` FROM `qiq_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `team_name` FROM `qiq_team` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `qiq_plan_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `username`,`head_pic` FROM `qiq_user` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `qiq_plan_block` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `username`,`head_pic` FROM `qiq_user` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `qiq_plan_block` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_video_block` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_plan_block`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2017-05-02T23:04:20+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0028s ]
+SQL: SELECT * FROM qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid  WHERE ( video_state=1 ) ORDER BY v.vidup_time desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qiq_video_block` ORDER BY id DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: video_time D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-05-02T23:04:23+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/player/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0026s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_app` [ RunTime:0.0024s ]
+SQL: SELECT `token` FROM `qiq_app` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video_attributes` [ RunTime:0.0025s ]
+SQL: SELECT `width` FROM `qiq_video_attributes` WHERE `videoid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0032s ]
+SQL: UPDATE `qiq_video` SET `play_times`=play_times+1 WHERE `id` = 23 [ RunTime:0.0004s ]
+SQL: SELECT qiq_user.id,`video_type`,`username`,`video_summary`,`video_title`,`head_pic` FROM `qiq_video` INNER JOIN qiq_user ON qiq_video.Uid = qiq_user.id  WHERE qiq_video.id = '23' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_type` FROM `qiq_video` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0026s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\VarietyController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `qiq_comment` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`com_time`,`uid`,`vid`,`com_content`,`pid`,`nid` FROM `qiq_comment` WHERE `pid` = 0 AND `Vid` = 23 ORDER BY id DESC  [ RunTime:0.0213s ]
+SQL: SELECT `username`,`head_pic` FROM `qiq_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`com_time`,`uid`,`vid`,`com_content`,`pid`,`nid` FROM `qiq_comment` WHERE `pid` = 8 AND `Vid` = 23 ORDER BY id DESC  [ RunTime:0.0009s ]
+SQL: SELECT `username`,`head_pic` FROM `qiq_user` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`com_time`,`uid`,`vid`,`com_content`,`pid`,`nid` FROM `qiq_comment` WHERE `pid` = 4 AND `Vid` = 23 ORDER BY id DESC  [ RunTime:0.0007s ]
+SQL: SELECT `username`,`head_pic` FROM `qiq_user` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`com_time`,`uid`,`vid`,`com_content`,`pid`,`nid` FROM `qiq_comment` WHERE `pid` = 5 AND `Vid` = 23 ORDER BY id DESC  [ RunTime:0.0009s ]
+SQL: SELECT `username`,`head_pic` FROM `qiq_user` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`com_time`,`uid`,`vid`,`com_content`,`pid`,`nid` FROM `qiq_comment` WHERE `pid` = 6 AND `Vid` = 23 ORDER BY id DESC  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qiq_comment` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_comment` WHERE `Vid` = 23 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: video_route D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ed64c10ae5014e601388a50199c6235a.php 第 212 行.
+NOTIC: [8] Undefined variable: Article D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ed64c10ae5014e601388a50199c6235a.php 第 640 行.
+NOTIC: [8] Undefined variable: Article D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ed64c10ae5014e601388a50199c6235a.php 第 640 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2017-05-02T23:04:24+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/variety/play/id/23/type/normal/token/ghfghvhjvhj1493654400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-05-02T23:04:24+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/updataPraise?videoId=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-02T23:04:24+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/checkUpdate?videoId=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-02T23:04:29+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-05-02T23:04:30+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0427s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `id`,`password`,`username` FROM `qiq_user` WHERE `phone` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-05-02T23:04:32+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2017-05-02T23:04:37+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0447s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `id`,`password`,`username` FROM `qiq_user` WHERE `phone` = 'root' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\UserController.class.php 第 380 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\UserController.class.php 第 382 行.
+SQL: UPDATE `qiq_user` SET `phone`='root',`password`='63a9f0ea7bb98050796b649e85481845',`head_pic`='default.jpg',`reg_ip`='127.0.0.1' WHERE `id` = null [ RunTime:0.0006s ]
+
+[ 2017-05-02T23:04:37+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qiq_video` WHERE `video_state` = 1 ORDER BY vidup_time desc LIMIT 8   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qiq_video` WHERE `video_state` = 1 ORDER BY play_times desc LIMIT 10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `plan_state` = 1 ORDER BY planup_time desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_plan_block` [ RunTime:0.0031s ]
+SQL: SELECT `name` FROM `qiq_plan_block` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `qiq_plan_block` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `qiq_plan_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `qiq_plan_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `qiq_plan_block` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0030s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `plan_state` = 1 ORDER BY plan_times desc LIMIT 10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_information` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qiq_information` ORDER BY news_visit desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qiq_information` ORDER BY news_visit desc LIMIT 10   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qiq_team` LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_team` LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: hottem D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 363 行.
+NOTIC: [8] Undefined variable: hottem D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 363 行.
+NOTIC: [8] Undefined variable: hottem D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 363 行.
+NOTIC: [8] Undefined variable: hottem D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 363 行.
+NOTIC: [8] Undefined variable: hottem D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 363 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2017-05-02T23:04:39+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0028s ]
+SQL: SELECT * FROM qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid  WHERE ( video_state=1 ) ORDER BY v.vidup_time desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qiq_video_block` ORDER BY id DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: video_time D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2017-05-02T23:04:40+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/player/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0029s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_app` [ RunTime:0.0025s ]
+SQL: SELECT `token` FROM `qiq_app` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video_attributes` [ RunTime:0.0028s ]
+SQL: SELECT `width` FROM `qiq_video_attributes` WHERE `videoid` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0026s ]
+SQL: UPDATE `qiq_video` SET `play_times`=play_times+1 WHERE `id` = 24 [ RunTime:0.0003s ]
+SQL: SELECT qiq_user.id,`video_type`,`username`,`video_summary`,`video_title`,`head_pic` FROM `qiq_video` INNER JOIN qiq_user ON qiq_video.Uid = qiq_user.id  WHERE qiq_video.id = '24' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `video_type` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0023s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Only variables should be passed by reference D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\VarietyController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `qiq_comment` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`com_time`,`uid`,`vid`,`com_content`,`pid`,`nid` FROM `qiq_comment` WHERE `pid` = 0 AND `Vid` = 24 ORDER BY id DESC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_comment` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_comment` WHERE `Vid` = 24 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined index: video_route D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ed64c10ae5014e601388a50199c6235a.php 第 212 行.
+NOTIC: [8] Undefined variable: Article D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ed64c10ae5014e601388a50199c6235a.php 第 640 行.
+NOTIC: [8] Undefined variable: Article D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ed64c10ae5014e601388a50199c6235a.php 第 640 行.
+NOTIC: [8] Undefined variable: vo D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ed64c10ae5014e601388a50199c6235a.php 第 640 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-05-02T23:04:40+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/variety/play/id/24/type/normal/token/ghfghvhjvhj1493654400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0027s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_app` [ RunTime:0.0027s ]
+SQL: SELECT `token` FROM `qiq_app` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2017-05-02T23:04:40+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/checkUpdate?videoId=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\VarietyController.class.php 第 223 行.
+SQL: SHOW COLUMNS FROM `qiq_collection` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_collection` WHERE `Uid` = null AND `Vid` = 61 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'qiqiao.qiq_praise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qiq_praise`
+ERR: 1146:Table 'qiqiao.qiq_praise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qiq_praise`
+
+[ 2017-05-02T23:04:40+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/updataPraise?videoId=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1146:Table 'qiqiao.qiq_praise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qiq_praise`
+ERR: 1146:Table 'qiqiao.qiq_praise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qiq_praise`
+
+[ 2017-05-02T23:04:40+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/variety/play/id/24/type/normal/token/index0000/other/ghfghvhjvhj1493654400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0026s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_app` [ RunTime:0.0027s ]
+SQL: SELECT `token` FROM `qiq_app` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2017-05-02T23:04:44+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Handle/action_start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\HandleController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2017-05-02T23:04:46+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Handle/action_pause
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\HandleController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2017-05-02T23:15:33+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/player/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0033s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_app` [ RunTime:0.0024s ]
+SQL: SELECT `token` FROM `qiq_app` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video_attributes` [ RunTime:0.0025s ]
+SQL: SELECT `width` FROM `qiq_video_attributes` WHERE `videoid` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0027s ]
+SQL: UPDATE `qiq_video` SET `play_times`=play_times+1 WHERE `id` = 24 [ RunTime:0.0004s ]
+SQL: SELECT qiq_user.id,`video_type`,`username`,`video_summary`,`video_title`,`head_pic` FROM `qiq_video` INNER JOIN qiq_user ON qiq_video.Uid = qiq_user.id  WHERE qiq_video.id = '24' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `video_type` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0026s ]
+SQL: SELECT `type` FROM `qiq_video_block` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\VarietyController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `qiq_comment` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`com_time`,`uid`,`vid`,`com_content`,`pid`,`nid` FROM `qiq_comment` WHERE `pid` = 0 AND `Vid` = 24 ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_comment` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_comment` WHERE `Vid` = 24 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined index: video_route D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ed64c10ae5014e601388a50199c6235a.php 第 212 行.
+NOTIC: [8] Undefined variable: Article D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ed64c10ae5014e601388a50199c6235a.php 第 640 行.
+NOTIC: [8] Undefined variable: Article D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ed64c10ae5014e601388a50199c6235a.php 第 640 行.
+NOTIC: [8] Undefined variable: vo D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ed64c10ae5014e601388a50199c6235a.php 第 640 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-05-02T23:15:33+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/variety/play/id/24/type/normal/token/ghfghvhjvhj1493654400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0027s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_app` [ RunTime:0.0028s ]
+SQL: SELECT `token` FROM `qiq_app` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2017-05-02T23:15:33+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/checkUpdate?videoId=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\VarietyController.class.php 第 223 行.
+SQL: SHOW COLUMNS FROM `qiq_collection` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_collection` WHERE `Uid` = null AND `Vid` = 61 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1146:Table 'qiqiao.qiq_praise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qiq_praise`
+ERR: 1146:Table 'qiqiao.qiq_praise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qiq_praise`
+
+[ 2017-05-02T23:15:33+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/updataPraise?videoId=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'qiqiao.qiq_praise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qiq_praise`
+ERR: 1146:Table 'qiqiao.qiq_praise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qiq_praise`
+
+[ 2017-05-02T23:15:33+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/variety/play/id/24/type/normal/token/index0000/other/ghfghvhjvhj1493654400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0038s ]
+SQL: SELECT `video_route` FROM `qiq_video` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_app` [ RunTime:0.0027s ]
+SQL: SELECT `token` FROM `qiq_app` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-05-02T23:15:37+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Handle/action_start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\HandleController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2017-05-02T23:15:39+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Handle/action_pause
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\HandleController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+

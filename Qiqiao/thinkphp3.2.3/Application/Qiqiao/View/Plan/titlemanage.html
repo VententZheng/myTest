@@ -1,0 +1,223 @@
+<extend name="Public/base"/>
+<block name="css">
+
+<style>
+.online{background:white;display:none;height:100px;}
+.online li{list-style-type:none;display:block;float:left;}
+.online li span{display:block;width:200px;text-align:center;height:20px;float:left;background:white;}
+.num,.current,.prev,.next,.first,.end{color:#337AB7;border:1px solid #AA939B; margin-left:5px;width:30px;height:30px;display: inline-block;line-height: 30px}
+.num:hover,.current:hover,.prev:hover,.next:hover,.first:hover,.end:hover{text-decoration:none;background:#EAEAEC;}
+.padding{float: left}
+.prev,.next{width:50px;}
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+</block>
+<block name="body">
+		<div class="container" style="width:1000px;">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6 form-inline pull-right">
+                <form class= style="padding:8px 0 " method='post' action="{:U('Plan/titlemanage')}">
+                    <button type="submit" class="btn btn-primary pull-right" style="margin:5px 3px">搜索</button>
+                    <input type="text" class="form-control pull-right" name='name' style="margin:5px 3px" placeholder="请输入团队名" />
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="center-block">
+                <table class="table table-hover">
+                    <tr>
+                        <th>序号</th>
+                        <th>团队发起人</th>
+                        <th>团队名称</th>
+                        <th>团队口号</th>
+                        <th>管理</th>
+                    </tr>
+                    <volist name='team' id='v'>
+                    <tr>
+                    <td>{$v.id}</td>
+                    <td>{$v.username}</td>
+                    <td>{$v.team_name}</td>
+                    <td>{$v.team_slogan}</td>
+                    <td>
+                        <button class="btn btn-primary btn-xs information" onclick="display_information(this,{$v.id})">详情</button>
+                        <!--a href="{:U('Admin/user_power')}/id/{$v.id}"><button class="btn btn-primary btn-info btn-xs">权限</button></a-->
+                        <eq name="v.status" value="0">
+                        <button class="btn btn-primary btn-danger btn-xs" id="model_{$v.id}" data-toggle="modal" data-target="#myModal_{$v.id}">普通团队</button>
+                        <else />
+                        <button class="btn btn-primary btn-danger btn-xs" id="model_{$v.id}" data-toggle="modal" data-target="#myModal_{$v.id}">优秀团队</button>
+                        </eq>
+
+                        <!-- 模态框（Modal） -->
+                        <div class="modal fade" id="myModal_{$v.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                  &times;
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                <eq name="v.status" value="0">
+                                  设为优秀团队
+                                <else />
+                                  撤销优秀团队称号
+                                </eq>
+                                </h4>
+                              </div>
+                              <div class="modal-body">
+                                <eq name="v.status" value="0">
+                                设定优秀团队，前台将在优秀团队板块可见该团队信息
+                                <else />
+                                撤销优秀团队称号，该团队不可再优秀团队板块可见
+                                </eq>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                                </button>
+
+                                <eq name="v.status" value="0">
+                                <button type="button" class="btn btn-primary" onclick="
+                                lock({$v.id},1)">
+                                  确定
+                                </button>
+                                <else />
+                                <button type="button" class="btn btn-primary" onclick="
+                                lock({$v.id},0)">
+                                  确定
+                                </button>
+                                </eq>
+
+                              </div>
+                            </div><!-- /.modal-content -->
+                          </div><!-- /.modal -->
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td colspan="12" class="online" id="none_{$v.id}">
+                        <ul>
+                        <li><span class="real_name">团队名称</span><span style="height:100%">{$v.team_name}</span></li>
+                        <li><span>团队口号</span><span style="height:100%">{$v.team_slogan}</span></li>
+                        </ul>
+                        <br>
+  
+                        <ul>
+                        <li><span class="tel">团队简介</span><span style='width:600px;height:100%;margin-bottom: 10px;border:1px solid #EAEAEC;'>{$v.team_summary}</span></li>
+                        </ul>
+                        <br>
+
+                        <if condition="$v.team_pic EQ null">
+                        <ul>
+                        <li><span>团队照片</span><span style='width:600px;height:100%;margin-bottom: 10px;border:1px solid #EAEAEC;'><img src='/thinkphp3.2.3/Public/Home/image/team/team-default.jpg'    width='300px' height='100%' /></span></li>
+                        </ul>
+                        <br>
+
+                        <else />
+                        <ul>
+                        <li><span>团队照片</span><span style='width:600px;height:100%;margin-bottom: 10px;border:1px solid #EAEAEC;'><img src='/thinkphp3.2.3/Public/Home/image/team/{$v.team_pic}'  width='300px' height='100%' /></span></li>
+                        </ul>
+                        <br>
+
+                        </if>
+
+						
+						<ul>
+						<li><span>团队成员</span><span style='width:600px;height:100%;margin-bottom: 10px;border:1px solid #EAEAEC;'>
+							<volist name="arr[$v['id']]" id='val'>
+								<br>
+								<h5 style="margin:auto">姓名：{$val.member_name}&nbsp;&nbsp;&nbsp;&nbsp;身份：{$val.member_type}</h5>
+								<br>
+								<textare style='display:inline-block;height:20px;width:600px;text-align:left;'>简介：{$val.member_summary}</textare>
+								<br>
+							</volist>
+						</span></li>
+						</ul>
+                        </br>
+
+
+                        <ul>
+                        	<li><span>团队作品</span><span style="width:600px;height:100%;margin-bottom: 10px;border:1px solid #EAEAEC;">
+                        		<volist name="array[$v['id']]" id="val">
+                        			<br>
+                        				<h5>{$val.video_title}------{$val.vidup_time|date='Y-m-d',###} </h5>
+                        			<br>
+                        		</volist>
+
+                        	</span></li>
+
+                        </ul>
+                        </br>
+                    </td>
+                    </tr>
+
+                    </volist>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center" style="margin-top:50px">
+            <div class="page">{$page}</div>
+        </div>
+	
+	
+
+</block>
+
+
+<block name="script">
+<script type="text/javascript">
+
+
+function display_information(element,id){
+  var name="#none_"+id;
+  if($(name).css('display')=='none'){
+    $(name).show();
+  }
+  else{
+    $(name).hide();
+  }
+  
+};
+
+
+function lock(id,num){
+       $.ajax({
+           url:'{:U('Plan/lock_team')}',
+           type:'post',
+           dataType:'json',
+           data:{"id":id,"num":num},
+           success:function(data){
+              if(data=='1'){
+                window.location.href="{:U('Plan/titlemanage')}";
+              }
+              else{
+                $('#myModal_'+id).modal('hide');
+              }
+            }
+        }); 
+
+
+
+}
+
+
+
+</script>
+
+
+
+</block>
+
+ 

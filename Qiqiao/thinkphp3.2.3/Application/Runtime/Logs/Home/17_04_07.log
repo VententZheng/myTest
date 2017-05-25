@@ -1,0 +1,2944 @@
+[ 2017-04-07T19:30:59+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qiq_video` ORDER BY play_times desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_video` ORDER BY vidup_time desc LIMIT 6   [ RunTime:0.0277s ]
+SQL: SHOW COLUMNS FROM `qiq_information` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_information` ORDER BY news_visit desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0305s ]
+SQL: SELECT * FROM `qiq_team` LIMIT 5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-04-07T19:30:59+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Home/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-04-07T19:31:17+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+
+[ 2017-04-07T19:31:17+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-04-07T19:31:19+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0344s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `id`,`password`,`username` FROM `qiq_user` WHERE `phone` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-04-07T19:31:21+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-04-07T19:31:30+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0321s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `id`,`password`,`username` FROM `qiq_user` WHERE `phone` = '15818334685' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-04-07T19:31:30+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0619s ]
+SQL: SELECT * FROM `qiq_video` ORDER BY play_times desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qiq_video` ORDER BY vidup_time desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qiq_information` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `qiq_information` ORDER BY news_visit desc LIMIT 5   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `qiq_team` LIMIT 5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2017-04-07T19:31:30+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Index/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-07T19:31:34+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `qiq_information` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 ORDER BY news_visit desc LIMIT 10   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qiq_block` WHERE `blockname` = '权威人士专访' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_information` WHERE ( is_send=1 and blockid=4 ) LIMIT 10   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`news_title`,`news_summary`,`news_content`,`news_time`,`news_type`,`author`,`news_visit`,`news_source`,`is_send`,`news_keywords`,`blockid`,`news_img` FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5c4ed62d74554f8a63088a7040024e82.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2017-04-07T19:31:34+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-04-07T19:31:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index/block/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `qiq_information` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 ORDER BY news_visit desc LIMIT 10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qiq_block` WHERE `blockname` = '权威人士专访' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_information` WHERE ( is_send=1 and blockid=4 ) LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`news_title`,`news_summary`,`news_content`,`news_time`,`news_type`,`author`,`news_visit`,`news_source`,`is_send`,`news_keywords`,`blockid`,`news_img` FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 2 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5c4ed62d74554f8a63088a7040024e82.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002008s ]
+
+[ 2017-04-07T19:31:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index/block/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-04-07T19:31:40+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index/block/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `qiq_information` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 ORDER BY news_visit desc LIMIT 10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qiq_block` WHERE `blockname` = '权威人士专访' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_information` WHERE ( is_send=1 and blockid=4 ) LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`news_title`,`news_summary`,`news_content`,`news_time`,`news_type`,`author`,`news_visit`,`news_source`,`is_send`,`news_keywords`,`blockid`,`news_img` FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 4 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5c4ed62d74554f8a63088a7040024e82.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2017-04-07T19:31:40+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index/block/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-04-07T19:31:40+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index/block/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `qiq_information` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 ORDER BY news_visit desc LIMIT 10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qiq_block` WHERE `blockname` = '权威人士专访' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_information` WHERE ( is_send=1 and blockid=4 ) LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`news_title`,`news_summary`,`news_content`,`news_time`,`news_type`,`author`,`news_visit`,`news_source`,`is_send`,`news_keywords`,`blockid`,`news_img` FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 3 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5c4ed62d74554f8a63088a7040024e82.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-04-07T19:31:40+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index/block/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-04-07T19:31:41+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index/block/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `qiq_information` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 ORDER BY news_visit desc LIMIT 10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qiq_block` WHERE `blockname` = '权威人士专访' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qiq_information` WHERE ( is_send=1 and blockid=4 ) LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`news_title`,`news_summary`,`news_content`,`news_time`,`news_type`,`author`,`news_visit`,`news_source`,`is_send`,`news_keywords`,`blockid`,`news_img` FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 2 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5c4ed62d74554f8a63088a7040024e82.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2017-04-07T19:31:41+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index/block/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-04-07T19:31:41+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index/block/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `qiq_information` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 ORDER BY news_visit desc LIMIT 10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `qiq_block` WHERE `blockname` = '权威人士专访' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_information` WHERE ( is_send=1 and blockid=4 ) LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`news_title`,`news_summary`,`news_content`,`news_time`,`news_type`,`author`,`news_visit`,`news_source`,`is_send`,`news_keywords`,`blockid`,`news_img` FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5c4ed62d74554f8a63088a7040024e82.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-04-07T19:31:41+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index/block/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-04-07T19:31:43+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.1510s ]
+NOTIC: [8] Undefined variable: condition D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\VarietyController.class.php 第 36 行.
+SQL: SELECT * FROM qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid  ORDER BY v.vidup_time desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 75 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2017-04-07T19:31:43+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-04-07T19:32:34+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-04-07T19:32:34+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-04-07T19:32:36+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_team` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '导师'  [ RunTime:0.0165s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '成员'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2017-04-07T19:32:36+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-04-07T19:32:37+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2017-04-07T19:32:37+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-04-07T19:32:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_team` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '成员'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-04-07T19:32:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-04-07T19:32:39+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2017-04-07T19:32:39+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-04-07T19:32:47+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2017-04-07T19:32:47+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-04-07T19:33:00+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_team` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '成员'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2017-04-07T19:33:00+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-04-07T19:33:02+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2017-04-07T19:33:02+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-04-07T19:33:02+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `type` <> '其它'  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `qiq_video_block` WHERE `type` = '其它' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5e6b3ec239a0fa21f36dab032d9d0249.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-04-07T19:33:02+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-04-07T19:33:03+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-04-07T19:33:03+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-04-07T19:33:04+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `type` <> '其它'  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `qiq_video_block` WHERE `type` = '其它' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5e6b3ec239a0fa21f36dab032d9d0249.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-04-07T19:33:04+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-04-07T19:33:04+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-04-07T19:33:04+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-04-07T19:33:05+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-04-07T19:33:05+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-04-07T19:33:19+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_team` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2017-04-07T19:33:19+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-04-07T19:33:29+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-04-07T19:33:29+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-04-07T19:33:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\78a35f201f82fe022771453c384a0053.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\78a35f201f82fe022771453c384a0053.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\78a35f201f82fe022771453c384a0053.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-04-07T19:33:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+
+[ 2017-04-07T19:33:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-04-07T19:33:42+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\e30729b19953db779f021d558466b2c1.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\e30729b19953db779f021d558466b2c1.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\e30729b19953db779f021d558466b2c1.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2017-04-07T19:33:42+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-04-07T19:33:47+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = null AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = null AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-04-07T19:33:47+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-04-07T19:34:35+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = null AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = null AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-04-07T19:34:35+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2017-04-07T19:34:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = null AND `member_type` = '导师'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = null AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-04-07T19:34:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-04-07T19:35:20+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/updateTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `qiq_team` (`Uid`,`team_name`,`team_slogan`,`team_summary`) VALUES ('61','优秀团队','66666','66666') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2017-04-07T19:35:21+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '导师'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2017-04-07T19:35:22+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2017-04-07T19:35:22+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-04-07T19:35:35+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/addMember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0427s ]
+SQL: SELECT `id` FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `member_name` = '陈来了'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `qiq_teammember` (`member_type`,`member_name`,`member_summary`,`Tid`) VALUES ('导师','陈来了','哈哈哈哈','3') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002033s ]
+
+[ 2017-04-07T19:35:36+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '导师'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2017-04-07T19:35:36+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-04-07T19:35:49+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/addMember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `member_name` = '明明名'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `qiq_teammember` (`member_type`,`member_name`,`member_summary`,`Tid`) VALUES ('成员','明明名','明明名','3') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2017-04-07T19:35:50+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-04-07T19:35:50+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-04-07T19:37:55+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/updateTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `qiq_team` SET `Uid`='61',`team_name`='',`team_slogan`='66666',`team_summary`='66666' WHERE `Uid` = 61 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2017-04-07T19:37:57+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-04-07T19:37:57+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-04-07T19:38:09+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/updateTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\thinkphp3.2.3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `qiq_team` SET `Uid`='61',`team_name`='5845',`team_slogan`='66666',`team_summary`='66666' WHERE `Uid` = 61 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2017-04-07T19:38:10+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2017-04-07T19:38:10+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-04-07T19:38:32+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2017-04-07T19:38:32+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-04-07T19:38:41+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_team` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2017-04-07T19:38:41+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-04-07T19:40:21+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: condition D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\VarietyController.class.php 第 36 行.
+SQL: SELECT * FROM qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid  ORDER BY v.vidup_time desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 75 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-04-07T19:40:21+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-04-07T19:40:22+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2017-04-07T19:40:23+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-04-07T19:40:23+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2017-04-07T19:40:23+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-04-07T19:40:55+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qiq_video` ORDER BY play_times desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiq_video` ORDER BY vidup_time desc LIMIT 6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_information` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qiq_information` ORDER BY news_visit desc LIMIT 5   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qiq_team` LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 400 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 403 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-04-07T19:40:55+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Index/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-04-07T19:41:01+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2017-04-07T19:41:01+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-04-07T19:41:03+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/incubationDetail/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0028s ]
+SQL: UPDATE `qiq_plan` SET `plan_times`=plan_times+1 WHERE `id` = 24 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: reuser D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\IncubationController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\24ef6119cdd77ca21e287d803ca51bf7.php 第 75 行.
+NOTIC: [8] Undefined index: Tid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\24ef6119cdd77ca21e287d803ca51bf7.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-04-07T19:41:03+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/incubationDetail/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-04-07T19:41:07+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-04-07T19:41:07+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-04-07T19:41:09+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/incubationDetail/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0024s ]
+SQL: UPDATE `qiq_plan` SET `plan_times`=plan_times+1 WHERE `id` = 24 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: reuser D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\IncubationController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\24ef6119cdd77ca21e287d803ca51bf7.php 第 75 行.
+NOTIC: [8] Undefined index: Tid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\24ef6119cdd77ca21e287d803ca51bf7.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2017-04-07T19:41:09+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/incubationDetail/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-04-07T19:41:54+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2017-04-07T19:41:55+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-04-07T19:44:52+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/incubationDetail/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0021s ]
+SQL: UPDATE `qiq_plan` SET `plan_times`=plan_times+1 WHERE `id` = 24 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: reuser D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\IncubationController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\24ef6119cdd77ca21e287d803ca51bf7.php 第 75 行.
+NOTIC: [8] Undefined index: Tid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\24ef6119cdd77ca21e287d803ca51bf7.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-04-07T19:44:52+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/incubationDetail/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-04-07T19:45:28+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/incubationDetail/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0022s ]
+SQL: UPDATE `qiq_plan` SET `plan_times`=plan_times+1 WHERE `id` = 22 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: reuser D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\IncubationController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\24ef6119cdd77ca21e287d803ca51bf7.php 第 75 行.
+NOTIC: [8] Undefined index: Tid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\24ef6119cdd77ca21e287d803ca51bf7.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-04-07T19:45:28+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/incubationDetail/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-04-07T19:45:43+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2017-04-07T19:45:43+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-04-07T19:47:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `type` <> '其它'  [ RunTime:0.0153s ]
+SQL: SELECT `id` FROM `qiq_video_block` WHERE `type` = '其它' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5e6b3ec239a0fa21f36dab032d9d0249.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-04-07T19:47:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-04-07T19:47:39+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2017-04-07T19:47:39+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-04-07T19:48:16+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `type` <> '其它'  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `qiq_video_block` WHERE `type` = '其它' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5e6b3ec239a0fa21f36dab032d9d0249.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-04-07T19:48:16+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-04-07T19:48:24+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2017-04-07T19:48:24+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-04-07T19:48:25+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2017-04-07T19:48:25+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-04-07T19:48:26+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2017-04-07T19:48:26+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-04-07T19:48:26+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0379s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002024s ]
+
+[ 2017-04-07T19:48:26+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-04-07T19:48:26+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2017-04-07T19:48:26+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-04-07T19:48:27+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2017-04-07T19:48:27+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-04-07T19:48:27+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2017-04-07T19:48:27+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-04-07T19:48:28+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `type` <> '其它'  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `qiq_video_block` WHERE `type` = '其它' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5e6b3ec239a0fa21f36dab032d9d0249.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-04-07T19:48:28+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-04-07T19:48:29+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2017-04-07T19:48:29+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-04-07T19:48:29+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-04-07T19:48:30+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-04-07T19:48:30+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2017-04-07T19:48:30+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-04-07T19:48:32+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `type` <> '其它'  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `qiq_video_block` WHERE `type` = '其它' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5e6b3ec239a0fa21f36dab032d9d0249.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2017-04-07T19:48:32+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-04-07T19:48:32+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-04-07T19:48:32+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-04-07T19:48:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/incubationDetail/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0022s ]
+SQL: UPDATE `qiq_plan` SET `plan_times`=plan_times+1 WHERE `id` = 24 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: reuser D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\IncubationController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\24ef6119cdd77ca21e287d803ca51bf7.php 第 75 行.
+NOTIC: [8] Undefined index: Tid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\24ef6119cdd77ca21e287d803ca51bf7.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2017-04-07T19:48:38+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/incubationDetail/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-04-07T19:49:28+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2017-04-07T19:49:28+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-04-07T19:49:29+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `qiq_team` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '导师'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '成员'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2017-04-07T19:49:29+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-04-07T19:49:42+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `type` <> '其它'  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `qiq_video_block` WHERE `type` = '其它' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5e6b3ec239a0fa21f36dab032d9d0249.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2017-04-07T19:49:42+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-04-07T19:49:44+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_plan` WHERE ( plan_state=1 ) ORDER BY planup_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 75 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+NOTIC: [8] Undefined index: plan_teamname D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 227 行.
+NOTIC: [8] Undefined index: plan_team D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2628730880f2fb21027f8316f6358d44.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2017-04-07T19:49:44+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Incubation/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+
+[ 2017-04-07T19:49:44+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_video_block` WHERE `type` <> '其它'  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `qiq_video_block` WHERE `type` = '其它' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5e6b3ec239a0fa21f36dab032d9d0249.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-04-07T19:49:44+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Wisdom/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2017-04-07T19:49:46+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2017-04-07T19:49:46+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-04-07T19:49:50+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: condition D:\xampp\htdocs\thinkphp3.2.3\Application\Home\Controller\VarietyController.class.php 第 36 行.
+SQL: SELECT * FROM qiq_video v LEFT JOIN qiq_video_attributes a ON v.id=a.videoid  ORDER BY v.vidup_time desc  [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `qiq_video_block` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qiq_video_block`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 75 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+NOTIC: [8] Undefined index: Uid D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\3cbd4d464185b92d3cfa2d8f44c43aa7.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-04-07T19:49:50+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Variety/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-04-07T19:49:51+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `qiq_information` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qiq_information` WHERE `is_send` = 1 ORDER BY news_visit desc LIMIT 10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `qiq_block` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qiq_block` WHERE `blockname` = '权威人士专访' LIMIT 1   [ RunTime:0.0146s ]
+SQL: SELECT * FROM `qiq_information` WHERE ( is_send=1 and blockid=4 ) LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qiq_block`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`news_title`,`news_summary`,`news_content`,`news_time`,`news_type`,`author`,`news_visit`,`news_source`,`is_send`,`news_keywords`,`blockid`,`news_img` FROM `qiq_information` WHERE `is_send` = 1 AND `blockid` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\5c4ed62d74554f8a63088a7040024e82.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2017-04-07T19:49:51+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Information/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-04-07T19:49:51+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-04-07T19:49:52+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-04-07T19:49:58+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\78a35f201f82fe022771453c384a0053.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\78a35f201f82fe022771453c384a0053.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\78a35f201f82fe022771453c384a0053.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-04-07T19:49:58+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-04-07T19:49:59+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '成员'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2017-04-07T19:49:59+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-04-07T19:49:59+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-04-07T19:50:16+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myConcern
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `qiq_collection` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_collection` INNER JOIN qiq_video ON qiq_collection.vid = qiq_video.id  WHERE qiq_collection.uid = '61'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_collection` INNER JOIN qiq_plan ON qiq_collection.pid = qiq_plan.id  WHERE qiq_collection.uid = '61'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\bb32ed54a590cc4a5eb770aca5fa13ec.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\bb32ed54a590cc4a5eb770aca5fa13ec.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\bb32ed54a590cc4a5eb770aca5fa13ec.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-04-07T19:50:16+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-04-07T19:50:16+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-04-07T19:50:19+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 61 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-04-07T19:50:19+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-04-07T20:01:56+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-04-07T20:01:56+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-04-07T20:07:22+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_team` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 3 AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-04-07T20:07:22+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-04-07T22:55:09+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qiq_team`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\2fd0026c83b3cc36b646dc3acf375674.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-04-07T22:55:09+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-04-07T22:55:10+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_team` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '导师'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = 1 AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 8 行.
+NOTIC: [8] Undefined variable: session_id D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\76434e2737bad959fa6849c594017bc7.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2017-04-07T22:55:10+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Team/excellentTeam/id/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-04-07T23:59:31+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `qiq_plan` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `qiq_video` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_plan` WHERE `Uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_video` WHERE `Uid` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ab50fb11cfcd084aa747a8a5620b69f3.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ab50fb11cfcd084aa747a8a5620b69f3.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\ab50fb11cfcd084aa747a8a5620b69f3.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-04-07T23:59:31+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-04-07T23:59:33+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/myTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `qiq_team` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qiq_team` WHERE `Uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiq_teammember` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = null AND `member_type` = '导师'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qiq_teammember` WHERE `Tid` = null AND `member_type` = '成员'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [2] Illegal string offset 'username' D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 76 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 182 行.
+NOTIC: [8] Undefined variable: ucenter D:\xampp\htdocs\thinkphp3.2.3\Application\Runtime\Cache\Home\6635d493cc2efb0415e5cdffce935199.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-04-07T23:59:33+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/image/default.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-04-07T23:59:39+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-04-07T23:59:39+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2017-04-07T23:59:59+08:00 ] 127.0.0.1 /thinkphp3.2.3/index.php/Home/User/checkphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `qiq_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qiq_user` WHERE `phone` = '15818336954' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
